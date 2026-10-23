@@ -1,11 +1,11 @@
 {
-  "generatedAt": 1792774516714,
+  "generatedAt": 1792775419694,
   "season": "20262027",
   "board": {
     "league": "NHL",
     "etDate": "2026-10-23",
     "window": "trial",
-    "publishedAt": 1792774516714,
+    "publishedAt": 1792775419694,
     "status": "published",
     "summary": "Limited NHL trial · free data",
     "oddsProvider": "propline",
@@ -36,9 +36,9 @@
           "side": "under",
           "nhlPlayerId": "8476455",
           "overPayoutOdds": 135,
-          "overOddsAsOf": "2026-10-23T16:53:53.780Z",
+          "overOddsAsOf": "2026-10-23T17:08:49.044Z",
           "overSportsbook": "bovada",
-          "oddsAsOf": "2026-10-23T16:53:53.780Z",
+          "oddsAsOf": "2026-10-23T17:08:49.044Z",
           "sportsbook": "bovada",
           "projectedAvg": 1.3,
           "seasonAvg": 1.3,
@@ -203,7 +203,7 @@
           "nhlGameId": 2026020167,
           "trial": true,
           "isPickOfDay": true,
-          "oddsFreshUntil": 1792776103311,
+          "oddsFreshUntil": 1792776738208,
           "publishedSelection": true
         },
         "suggestedPairings": []
@@ -228,9 +228,9 @@
           "side": "under",
           "nhlPlayerId": "8470613",
           "overPayoutOdds": -155,
-          "overOddsAsOf": "2026-10-23T16:54:27.788Z",
+          "overOddsAsOf": "2026-10-23T17:09:26.809Z",
           "overSportsbook": "hardrock",
-          "oddsAsOf": "2026-10-23T16:54:27.788Z",
+          "oddsAsOf": "2026-10-23T17:09:26.809Z",
           "sportsbook": "hardrock",
           "projectedAvg": 1.1,
           "seasonAvg": 1.1,
@@ -395,7 +395,7 @@
           "nhlGameId": 2026020167,
           "trial": true,
           "isPickOfDay": false,
-          "oddsFreshUntil": 1792776103311,
+          "oddsFreshUntil": 1792776738208,
           "publishedSelection": true
         },
         "suggestedPairings": []
@@ -420,9 +420,9 @@
           "side": "under",
           "nhlPlayerId": "8475172",
           "overPayoutOdds": 185,
-          "overOddsAsOf": "2026-10-23T16:54:28.099Z",
+          "overOddsAsOf": "2026-10-23T17:09:27.028Z",
           "overSportsbook": "hardrock",
-          "oddsAsOf": "2026-10-23T16:54:45.537Z",
+          "oddsAsOf": "2026-10-23T17:09:13.677Z",
           "sportsbook": "thescorebet",
           "projectedAvg": 0,
           "seasonAvg": 0,
@@ -587,7 +587,7 @@
           "nhlGameId": 2026020167,
           "trial": true,
           "isPickOfDay": false,
-          "oddsFreshUntil": 1792776103311,
+          "oddsFreshUntil": 1792776738208,
           "publishedSelection": true
         },
         "suggestedPairings": []
@@ -612,9 +612,9 @@
       "side": "under",
       "nhlPlayerId": "8476455",
       "overPayoutOdds": 135,
-      "overOddsAsOf": "2026-10-23T16:53:53.780Z",
+      "overOddsAsOf": "2026-10-23T17:08:49.044Z",
       "overSportsbook": "bovada",
-      "oddsAsOf": "2026-10-23T16:53:53.780Z",
+      "oddsAsOf": "2026-10-23T17:08:49.044Z",
       "sportsbook": "bovada",
       "projectedAvg": 1.3,
       "seasonAvg": 1.3,
@@ -781,10 +781,10 @@
       "dailyHeroGrade": "pick",
       "trial": true,
       "publishedSelection": true,
-      "oddsFreshUntil": 1792776103311
+      "oddsFreshUntil": 1792776738208
     },
     "dailyHeroPickGrade": "pick",
-    "oddsFreshUntil": 1792776103311,
+    "oddsFreshUntil": 1792776738208,
     "publishedSelections": true,
     "validationSummary": {
       "mode": "shadow_only",
@@ -793,9 +793,9 @@
       "quotesRecorded": 50,
       "settled": 0
     },
-    "validUntil": 1792777216714,
-    "cutoffTime": 1792777216714,
-    "nextUpdateAt": 1792775340000,
+    "validUntil": 1792778119694,
+    "cutoffTime": 1792778119694,
+    "nextUpdateAt": 1792776240000,
     "automaticRefresh": true,
     "refreshIntervalMinutes": 15,
     "trial": true,
@@ -836,10 +836,10 @@
       "b2bTeamCount": 0,
       "b2bMatchupCount": 0,
       "b2bEventsScanned": 1,
-      "candidatePlayersScanned": 93,
+      "candidatePlayersScanned": 96,
       "playerOddsFound": 42,
       "playerStatsResolved": 42,
-      "skippedMissingStats": 51,
+      "skippedMissingStats": 54,
       "generatedPropsCount": 42,
       "strongEdgeCount": 3,
       "moderateEdgeCount": 2,
@@ -871,14 +871,14 @@
         }
       ],
       "rejected": {
-        "missingStats": 4,
-        "smallSample": 47,
+        "missingStats": 1,
+        "smallSample": 53,
         "insufficientBooks": 0,
         "lowConfidence": 0,
         "belowValueFloor": 39,
         "staleBookMarkets": 0
       },
-      "skippedSmallSample": 83,
+      "skippedSmallSample": 92,
       "dedupedByPlayer": 0,
       "cappedByLimit": 0,
       "scheduleCoverage": [
@@ -949,10 +949,10 @@
     "b2bTeamCount": 0,
     "b2bMatchupCount": 0,
     "b2bEventsScanned": 1,
-    "candidatePlayersScanned": 93,
+    "candidatePlayersScanned": 96,
     "playerOddsFound": 42,
     "playerStatsResolved": 42,
-    "skippedMissingStats": 51,
+    "skippedMissingStats": 54,
     "generatedPropsCount": 42,
     "strongEdgeCount": 3,
     "moderateEdgeCount": 2,
@@ -984,14 +984,14 @@
       }
     ],
     "rejected": {
-      "missingStats": 4,
-      "smallSample": 47,
+      "missingStats": 1,
+      "smallSample": 53,
       "insufficientBooks": 0,
       "lowConfidence": 0,
       "belowValueFloor": 39,
       "staleBookMarkets": 0
     },
-    "skippedSmallSample": 83,
+    "skippedSmallSample": 92,
     "dedupedByPlayer": 0,
     "cappedByLimit": 0,
     "scheduleCoverage": [
@@ -1058,22 +1058,22 @@
   },
   "providerUsage": {
     "provider": "propline",
-    "publicRequests": 92,
+    "publicRequests": 94,
     "cacheHits": 0,
     "oddsCalls": [
       {
         "provider": "propline",
         "endpoint": "/v1/sports",
         "limit": 1000,
-        "used": 28,
-        "remaining": 972
+        "used": 30,
+        "remaining": 970
       },
       {
         "provider": "propline",
         "endpoint": "/v1/sports/hockey_nhl/odds",
         "limit": 1000,
-        "used": 29,
-        "remaining": 971
+        "used": 31,
+        "remaining": 969
       }
     ],
     "coverage": [
@@ -1150,7 +1150,7 @@
             "twoBookLines": 1
           },
           "player_shots_on_goal": {
-            "twoBookLines": 23
+            "twoBookLines": 24
           },
           "player_points": {
             "twoBookLines": 18
@@ -1159,21 +1159,21 @@
             "twoBookLines": 18
           },
           "player_goals": {
-            "twoBookLines": 32
+            "twoBookLines": 34
           }
         }
       }
     ],
     "rejections": {
       "alternate_game_line": 236,
-      "unsupported_or_suspended_market": 635,
+      "unsupported_or_suspended_market": 640,
       "non_paired_prop_shape": 566,
       "non_two_way_game_market": 4,
       "unrecognized_game_side": 8,
       "conflicting_duplicate_pair": 7,
-      "player_identity_unverified": 26
+      "player_identity_unverified": 28
     },
-    "oldestOddsFetchedAt": 1792774303311,
+    "oldestOddsFetchedAt": 1792774938208,
     "reservedThisRun": 2,
     "dailyRequestLimit": 1000,
     "maximumRequestsPerRun": 4,
