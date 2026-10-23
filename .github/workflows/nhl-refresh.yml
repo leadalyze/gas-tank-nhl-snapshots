@@ -1,0 +1,63 @@
+name: NHL 15-minute free snapshot
+on:
+  schedule:
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: nhl-public-snapshot
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - name: Checkout public snapshots
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
+        with:
+          path: public-site
+      - name: Read private engine with a repository-only read key
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
+        with:
+          repository: leadalyze/gas-tank-nhl-trial
+          ref: main
+          path: private-source
+          ssh-key: ${{ secrets.NHL_SOURCE_READ_KEY }}
+          persist-credentials: false
+      - name: Set up Node
+        uses: actions/setup-node@a0853c24544627f65ddf259abe73b1d18a591444
+        with:
+          node-version: '24'
+          cache: npm
+          cache-dependency-path: private-source/package-lock.json
+      - name: Install locked dependencies without install scripts
+        working-directory: private-source
+        run: npm ci --ignore-scripts --no-audit --no-fund > "$RUNNER_TEMP/nhl-install.log" 2>&1
+      - name: Generate qualified snapshot within the free quota
+        working-directory: private-source
+        run: |
+          test -n "$PROPLINE_API_KEY"
+          if ! node scripts/build-nhl-trial.mjs --refresh > "$RUNNER_TEMP/nhl-refresh.log" 2>&1; then
+            echo 'NHL refresh failed. Last published snapshot was preserved; no paid fallback or automatic retry.'
+            exit 1
+          fi
+        env:
+          PROPLINE_API_KEY: ${{ secrets.PROPLINE_API_KEY }}
+          NHL_TRIAL_PUBLIC_RUN: '1'
+          NHL_TRIAL_STATE_ROOT: ${{ runner.temp }}/nhl-state
+          NHL_TRIAL_OUTPUT: ${{ github.workspace }}/public-site/snapshots/nhl.json
+      - name: Publish the public snapshot only
+        working-directory: public-site
+        run: |
+          git config user.name 'Gas Tank NHL snapshots'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add snapshots/nhl.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m 'Refresh qualified NHL snapshot'
+          git push origin HEAD:main
+      - name: Verify the same NHL screen can read the new snapshot
+        working-directory: private-source
+        run: node scripts/verify-nhl-publication.mjs --feed
+        env:
+          NHL_TRIAL_OUTPUT: ${{ github.workspace }}/public-site/snapshots/nhl.json
