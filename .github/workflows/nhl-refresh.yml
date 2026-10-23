@@ -1,7 +1,5 @@
 name: NHL 15-minute free snapshot
 on:
-  schedule:
-    - cron: '12,27,42,57 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
@@ -17,6 +15,7 @@ jobs:
         uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
         with:
           path: public-site
+          ref: main
       - name: Read private engine with a repository-only read key
         uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
         with:

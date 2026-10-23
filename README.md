@@ -7,3 +7,5 @@ The workflow is scheduled every 15 minutes, at UTC minutes 07, 22, 37 and 52. Gi
 Standard hosted Actions jobs in this public repository are free. A read-only, repository-scoped deploy key reads the private engine; the workflow token can write only this snapshot repository. No database is resumed and no paid fallback is configured.
 
 The website checks for new snapshots automatically. Prices are timestamped observations and can move between updates. Picks stop being actionable at game time or when the snapshot expires. These are analytical recommendations, not placed bets or guaranteed results.
+
+The 15-minute clock is provided by the existing Vercel project, which dispatches this workflow at UTC minutes 09/24/39/54. GitHub native scheduling is disabled to prevent duplicate scans. The first automatic Vercel-triggered publication succeeded on October 23, 2026 at 15:25 UTC.
