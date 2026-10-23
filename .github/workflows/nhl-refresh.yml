@@ -1,7 +1,7 @@
 name: NHL 15-minute free snapshot
 on:
   schedule:
-    - cron: '7,22,37,52 * * * *'
+    - cron: '12,27,42,57 * * * *'
   workflow_dispatch:
 permissions:
   contents: write
