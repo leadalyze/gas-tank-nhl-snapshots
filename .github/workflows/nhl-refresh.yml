@@ -53,7 +53,7 @@ jobs:
           test -n "$PROPLINE_API_KEY"
           if ! node scripts/build-nhl-trial.mjs --refresh > "$RUNNER_TEMP/nhl-refresh.log" 2>&1; then
             node scripts/report-nhl-refresh-failure.mjs "$RUNNER_TEMP/nhl-refresh.log"
-            echo 'NHL refresh failed. Last published snapshot was preserved; no paid fallback or automatic retry.'
+            echo 'NHL refresh could not recover within its limits. Last published snapshot preserved; no paid fallback.'
             exit 1
           fi
           node scripts/report-nhl-refresh-failure.mjs "$RUNNER_TEMP/nhl-refresh.log" --summary
