@@ -30,6 +30,12 @@ jobs:
           node-version: '24'
           cache: npm
           cache-dependency-path: private-source/package-lock.json
+      - name: Grade published picks from official final NHL stats
+        id: grading
+        working-directory: private-source
+        run: node scripts/grade-nhl-publications.mjs
+        env:
+          NHL_TRIAL_OUTPUT: ${{ github.workspace }}/public-site/snapshots/nhl.json
       - name: Install locked dependencies without install scripts
         working-directory: private-source
         run: npm ci --ignore-scripts --no-audit --no-fund > "$RUNNER_TEMP/nhl-install.log" 2>&1
@@ -47,6 +53,7 @@ jobs:
           NHL_TRIAL_STATE_ROOT: ${{ runner.temp }}/nhl-state
           NHL_TRIAL_OUTPUT: ${{ github.workspace }}/public-site/snapshots/nhl.json
       - name: Publish the public snapshot only
+        if: ${{ !cancelled() && steps.grading.outcome == 'success' }}
         working-directory: public-site
         run: |
           git config user.name 'Gas Tank NHL snapshots'
@@ -56,6 +63,7 @@ jobs:
           git commit -m 'Refresh qualified NHL snapshot'
           git push origin HEAD:main
       - name: Verify the same NHL screen can read the new snapshot
+        if: ${{ !cancelled() && steps.grading.outcome == 'success' }}
         working-directory: private-source
         run: node scripts/verify-nhl-publication.mjs --feed
         env:
