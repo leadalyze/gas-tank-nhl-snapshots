@@ -1,11 +1,11 @@
 {
-  "generatedAt": 1792824951614,
+  "generatedAt": 1792825910218,
   "season": "20262027",
   "board": {
     "league": "NHL",
     "etDate": "2026-10-24",
     "window": "trial",
-    "publishedAt": 1792824951614,
+    "publishedAt": 1792825910218,
     "status": "published",
     "summary": "Limited NHL trial · free data",
     "oddsProvider": "propline",
@@ -36,9 +36,9 @@
           "side": "under",
           "nhlPlayerId": "8482731",
           "overPayoutOdds": 115,
-          "overOddsAsOf": "2026-10-24T06:53:58.754Z",
+          "overOddsAsOf": "2026-10-24T07:08:44.469Z",
           "overSportsbook": "hardrock",
-          "oddsAsOf": "2026-10-24T06:53:36.802Z",
+          "oddsAsOf": "2026-10-24T07:08:15.394Z",
           "sportsbook": "draftkings",
           "projectedAvg": 0,
           "seasonAvg": 0,
@@ -203,7 +203,7 @@
           "nhlGameId": 2026020168,
           "trial": true,
           "isPickOfDay": true,
-          "oddsFreshUntil": 1792826446796,
+          "oddsFreshUntil": 1792827453969,
           "publishedSelection": true
         },
         "suggestedPairings": []
@@ -228,9 +228,9 @@
           "side": "under",
           "nhlPlayerId": "8482142",
           "overPayoutOdds": 120,
-          "overOddsAsOf": "2026-10-24T06:53:58.754Z",
+          "overOddsAsOf": "2026-10-24T07:08:44.469Z",
           "overSportsbook": "hardrock",
-          "oddsAsOf": "2026-10-24T06:53:58.754Z",
+          "oddsAsOf": "2026-10-24T07:08:44.469Z",
           "sportsbook": "hardrock",
           "projectedAvg": 0.1,
           "seasonAvg": 0.1,
@@ -395,7 +395,7 @@
           "nhlGameId": 2026020168,
           "trial": true,
           "isPickOfDay": false,
-          "oddsFreshUntil": 1792826446796,
+          "oddsFreshUntil": 1792827453969,
           "publishedSelection": true
         },
         "suggestedPairings": []
@@ -420,9 +420,9 @@
           "side": "under",
           "nhlPlayerId": "8484387",
           "overPayoutOdds": 135,
-          "overOddsAsOf": "2026-10-24T06:53:36.802Z",
+          "overOddsAsOf": "2026-10-24T07:08:15.394Z",
           "overSportsbook": "draftkings",
-          "oddsAsOf": "2026-10-24T06:53:36.802Z",
+          "oddsAsOf": "2026-10-24T07:08:15.394Z",
           "sportsbook": "draftkings",
           "projectedAvg": 1.3,
           "seasonAvg": 1.3,
@@ -587,199 +587,7 @@
           "nhlGameId": 2026020168,
           "trial": true,
           "isPickOfDay": false,
-          "oddsFreshUntil": 1792826446796,
-          "publishedSelection": true
-        },
-        "suggestedPairings": []
-      },
-      {
-        "pickSnapshot": {
-          "id": "nhl|333275|porter-martone|shots-on-goal|2_5|under",
-          "marketTrackingKey": "nhl|333275|porter-martone|shots-on-goal|under",
-          "league": "NHL",
-          "eventID": "333275",
-          "eventId": "333275",
-          "startTime": "2026-10-24T17:00:00Z",
-          "player": "Porter Martone",
-          "team": "Philadelphia Flyers",
-          "opponent": "Anaheim Ducks",
-          "teamAbbrev": "PHI",
-          "opponentAbbrev": "ANA",
-          "resolvedTeamAbbrev": "PHI",
-          "playerTeamVerified": true,
-          "b2bStatus": "Standard rest (no fatigue adjustment)",
-          "stat": "Shots on Goal",
-          "side": "under",
-          "nhlPlayerId": "8485406",
-          "overPayoutOdds": 135,
-          "overOddsAsOf": "2026-10-24T06:53:58.754Z",
-          "overSportsbook": "hardrock",
-          "oddsAsOf": "2026-10-24T06:53:58.754Z",
-          "sportsbook": "hardrock",
-          "projectedAvg": 1.1,
-          "seasonAvg": 1.1,
-          "longTermBaseline": 1.17,
-          "recentFormBaseline": 1.41,
-          "recentFormWeightPct": 15,
-          "longTermWeightPct": 85,
-          "blendedBaseline": 1.21,
-          "deploymentAdjustedAvg": 1.21,
-          "matchupAdjustedAvg": 1.13,
-          "fatigueAdjustedAvg": 1.13,
-          "marketProfileKey": "nhl_sog_v1",
-          "marketType": "Shots on Goal",
-          "reliabilityScore": 60,
-          "reliabilityTier": "medium",
-          "reliabilityReasons": [
-            "Moderate input confidence",
-            "Thin player history",
-            "Strong matchup certainty"
-          ],
-          "marketSpecificConfidenceApplied": true,
-          "marketProfileContext": {
-            "league": "NHL",
-            "market": "Shots on Goal",
-            "profileKey": "nhl_sog_v1",
-            "projectionWeights": {
-              "deployment": 1.2,
-              "matchup": 1.2,
-              "fatigue": 0.95
-            },
-            "confidenceWeights": {
-              "deploymentQuality": 1.1,
-              "matchupQuality": 1,
-              "volatility": 0.8,
-              "conflictingSignals": 0.9
-            },
-            "labels": {
-              "deployment": "SOG-weighted",
-              "matchup": "SOG environment"
-            }
-          },
-          "baselineBreakdown": [
-            {
-              "key": "longTermBaseline",
-              "label": "Long-Term Baseline",
-              "value": 1.17,
-              "delta": null
-            },
-            {
-              "key": "recentFormBaseline",
-              "label": "Recent Form Baseline",
-              "value": 1.41,
-              "delta": 0.24,
-              "sampleSize": 10,
-              "window": 10
-            },
-            {
-              "key": "blendedBaseline",
-              "label": "Blended Baseline",
-              "value": 1.21,
-              "delta": 0.04,
-              "recentFormWeightPct": 15,
-              "longTermWeightPct": 85
-            },
-            {
-              "key": "deploymentAdjustedAvg",
-              "label": "Deployment Adjustment",
-              "value": 1.21,
-              "delta": 0,
-              "adjustmentPct": 0
-            },
-            {
-              "key": "matchupAdjustedAvg",
-              "label": "Matchup Adjustment",
-              "value": 1.13,
-              "delta": -0.08,
-              "adjustmentPct": -7
-            },
-            {
-              "key": "fatigueAdjustedAvg",
-              "label": "Fatigue Adjustment",
-              "value": 1.13,
-              "delta": 0,
-              "adjustmentPct": 0
-            },
-            {
-              "key": "projectedAvg",
-              "label": "Projected Avg",
-              "value": 1.13,
-              "delta": 0
-            }
-          ],
-          "deploymentAdjustmentPct": 0,
-          "matchupAdjustmentPct": -6,
-          "opponentShotsAllowedPerGame": 26.5,
-          "opponentPointsAllowedPerGame": 3.1,
-          "playerTeamShotsForPerGame": 21.92,
-          "goalieSavePct": 0.881,
-          "playerHomeAwaySplitDelta": 0,
-          "roleTier": "secondary",
-          "powerPlayUnit": "pp2",
-          "expectedToiMinutes": 15.83,
-          "toiTrend": "flat",
-          "starterStatus": "unconfirmed",
-          "lineupConfidence": "medium",
-          "deploymentNotes": [
-            "player=Porter Martone",
-            "role=secondary",
-            "pp=pp2",
-            "trend=flat",
-            "Lineup inferred from recent usage; game-day participation is unconfirmed."
-          ],
-          "deploymentSourceQuality": "medium",
-          "opponentDefenseTier": "tough",
-          "paceEnvironment": "slow",
-          "goalieQuality": "weak",
-          "homeAwayEffect": "neutral",
-          "matchupConfidence": "high",
-          "matchupNotes": [
-            "opp=ANA",
-            "defense=tough",
-            "pace=slow",
-            "goalie=weak",
-            "homeAway=neutral"
-          ],
-          "matchupSource": "nhl_public_environment",
-          "matchupSourceQuality": "high",
-          "statsSource": "nhl_com_game_log",
-          "statsConfidence": "high",
-          "inputConfidenceTier": "medium",
-          "inputConfidenceMultiplier": 0.75,
-          "selectionEligible": true,
-          "statsProvider": "nhl_com",
-          "gamesPlayed": 12,
-          "last5Games": [
-            2,
-            1,
-            4,
-            1,
-            1
-          ],
-          "sportsbookLine": 2.5,
-          "edgeLabel": "Strong Under",
-          "opponentRestDays": null,
-          "underPayoutOdds": -180,
-          "fatiguePenaltyPct": 0,
-          "ev": 19.3,
-          "riskAdjustedEV": 12.52,
-          "modelProb": 76.7,
-          "calibratedModelProb": 82.2,
-          "rawModelProb": 84.7,
-          "marketImpliedProb": 60.2,
-          "consensusBookmakerCount": 4,
-          "marketBlendActive": true,
-          "marketDispersion": 1.63,
-          "distributionType": "normal",
-          "stdDev": 1.34,
-          "kellyStake": 0.5,
-          "baseKellyStake": 0.9,
-          "portfolioAdjustedStake": 0.5,
-          "oddsProvider": "propline",
-          "nhlGameId": 2026020168,
-          "trial": true,
-          "isPickOfDay": false,
-          "oddsFreshUntil": 1792826446796,
+          "oddsFreshUntil": 1792827453969,
           "publishedSelection": true
         },
         "suggestedPairings": []
@@ -804,9 +612,9 @@
           "side": "under",
           "nhlPlayerId": "8477989",
           "overPayoutOdds": -115,
-          "overOddsAsOf": "2026-10-24T06:53:36.802Z",
+          "overOddsAsOf": "2026-10-24T07:08:15.394Z",
           "overSportsbook": "draftkings",
-          "oddsAsOf": "2026-10-24T06:53:58.754Z",
+          "oddsAsOf": "2026-10-24T07:08:44.469Z",
           "sportsbook": "hardrock",
           "projectedAvg": 1.1,
           "seasonAvg": 1.1,
@@ -971,7 +779,199 @@
           "nhlGameId": 2026020168,
           "trial": true,
           "isPickOfDay": false,
-          "oddsFreshUntil": 1792826446796,
+          "oddsFreshUntil": 1792827453969,
+          "publishedSelection": true
+        },
+        "suggestedPairings": []
+      },
+      {
+        "pickSnapshot": {
+          "id": "nhl|333275|sean-couturier|points|0_5|under",
+          "marketTrackingKey": "nhl|333275|sean-couturier|points|under",
+          "league": "NHL",
+          "eventID": "333275",
+          "eventId": "333275",
+          "startTime": "2026-10-24T17:00:00Z",
+          "player": "Sean Couturier",
+          "team": "Philadelphia Flyers",
+          "opponent": "Anaheim Ducks",
+          "teamAbbrev": "PHI",
+          "opponentAbbrev": "ANA",
+          "resolvedTeamAbbrev": "PHI",
+          "playerTeamVerified": true,
+          "b2bStatus": "Standard rest (no fatigue adjustment)",
+          "stat": "Points",
+          "side": "under",
+          "nhlPlayerId": "8476461",
+          "overPayoutOdds": 135,
+          "overOddsAsOf": "2026-10-24T07:08:44.469Z",
+          "overSportsbook": "hardrock",
+          "oddsAsOf": "2026-10-24T07:08:44.469Z",
+          "sportsbook": "hardrock",
+          "projectedAvg": 0.3,
+          "seasonAvg": 0.3,
+          "longTermBaseline": 0.25,
+          "recentFormBaseline": 0.19,
+          "recentFormWeightPct": 15,
+          "longTermWeightPct": 85,
+          "blendedBaseline": 0.24,
+          "deploymentAdjustedAvg": 0.25,
+          "matchupAdjustedAvg": 0.25,
+          "fatigueAdjustedAvg": 0.25,
+          "marketProfileKey": "nhl_points_v1",
+          "marketType": "Points",
+          "reliabilityScore": 63,
+          "reliabilityTier": "medium",
+          "reliabilityReasons": [
+            "Moderate input confidence",
+            "Thin player history",
+            "Strong matchup certainty"
+          ],
+          "marketSpecificConfidenceApplied": true,
+          "marketProfileContext": {
+            "league": "NHL",
+            "market": "Points",
+            "profileKey": "nhl_points_v1",
+            "projectionWeights": {
+              "deployment": 1,
+              "matchup": 1.25,
+              "fatigue": 1
+            },
+            "confidenceWeights": {
+              "deploymentQuality": 0.95,
+              "matchupQuality": 1.15,
+              "volatility": 1.2,
+              "conflictingSignals": 1.15
+            },
+            "labels": {
+              "deployment": "Points-weighted",
+              "matchup": "Points environment"
+            }
+          },
+          "baselineBreakdown": [
+            {
+              "key": "longTermBaseline",
+              "label": "Long-Term Baseline",
+              "value": 0.25,
+              "delta": null
+            },
+            {
+              "key": "recentFormBaseline",
+              "label": "Recent Form Baseline",
+              "value": 0.19,
+              "delta": -0.06,
+              "sampleSize": 10,
+              "window": 10
+            },
+            {
+              "key": "blendedBaseline",
+              "label": "Blended Baseline",
+              "value": 0.24,
+              "delta": -0.01,
+              "recentFormWeightPct": 15,
+              "longTermWeightPct": 85
+            },
+            {
+              "key": "deploymentAdjustedAvg",
+              "label": "Deployment Adjustment",
+              "value": 0.25,
+              "delta": 0.01,
+              "adjustmentPct": 4
+            },
+            {
+              "key": "matchupAdjustedAvg",
+              "label": "Matchup Adjustment",
+              "value": 0.25,
+              "delta": 0,
+              "adjustmentPct": 0
+            },
+            {
+              "key": "fatigueAdjustedAvg",
+              "label": "Fatigue Adjustment",
+              "value": 0.25,
+              "delta": 0,
+              "adjustmentPct": 0
+            },
+            {
+              "key": "projectedAvg",
+              "label": "Projected Avg",
+              "value": 0.25,
+              "delta": 0
+            }
+          ],
+          "deploymentAdjustmentPct": 4,
+          "matchupAdjustmentPct": 0,
+          "opponentShotsAllowedPerGame": 26.5,
+          "opponentPointsAllowedPerGame": 3.1,
+          "playerTeamShotsForPerGame": 21.92,
+          "goalieSavePct": 0.881,
+          "playerHomeAwaySplitDelta": -0.17,
+          "roleTier": "middle",
+          "powerPlayUnit": "unknown",
+          "expectedToiMinutes": 17.57,
+          "toiTrend": "flat",
+          "starterStatus": "unconfirmed",
+          "lineupConfidence": "medium",
+          "deploymentNotes": [
+            "player=Sean Couturier",
+            "role=middle",
+            "pp=unknown",
+            "trend=flat",
+            "Lineup inferred from recent usage; game-day participation is unconfirmed."
+          ],
+          "deploymentSourceQuality": "medium",
+          "opponentDefenseTier": "neutral",
+          "paceEnvironment": "slow",
+          "goalieQuality": "weak",
+          "homeAwayEffect": "neutral",
+          "matchupConfidence": "high",
+          "matchupNotes": [
+            "opp=ANA",
+            "defense=neutral",
+            "pace=slow",
+            "goalie=weak",
+            "homeAway=neutral"
+          ],
+          "matchupSource": "nhl_public_environment",
+          "matchupSourceQuality": "high",
+          "statsSource": "nhl_com_game_log",
+          "statsConfidence": "high",
+          "inputConfidenceTier": "medium",
+          "inputConfidenceMultiplier": 0.75,
+          "selectionEligible": true,
+          "statsProvider": "nhl_com",
+          "gamesPlayed": 12,
+          "last5Games": [
+            0,
+            0,
+            1,
+            0,
+            0
+          ],
+          "sportsbookLine": 0.5,
+          "edgeLabel": "Strong Under",
+          "opponentRestDays": null,
+          "underPayoutOdds": -180,
+          "fatiguePenaltyPct": 0,
+          "ev": 8.9,
+          "riskAdjustedEV": 5.8,
+          "modelProb": 70,
+          "calibratedModelProb": 72.7,
+          "rawModelProb": 77.9,
+          "marketImpliedProb": 60.2,
+          "consensusBookmakerCount": 3,
+          "marketBlendActive": true,
+          "marketDispersion": 1.62,
+          "distributionType": "poisson",
+          "stdDev": 0.42,
+          "kellyStake": 0.5,
+          "baseKellyStake": 0.5,
+          "portfolioAdjustedStake": 0.5,
+          "oddsProvider": "propline",
+          "nhlGameId": 2026020168,
+          "trial": true,
+          "isPickOfDay": false,
+          "oddsFreshUntil": 1792827453969,
           "publishedSelection": true
         },
         "suggestedPairings": []
@@ -996,9 +996,9 @@
       "side": "under",
       "nhlPlayerId": "8482731",
       "overPayoutOdds": 115,
-      "overOddsAsOf": "2026-10-24T06:53:58.754Z",
+      "overOddsAsOf": "2026-10-24T07:08:44.469Z",
       "overSportsbook": "hardrock",
-      "oddsAsOf": "2026-10-24T06:53:36.802Z",
+      "oddsAsOf": "2026-10-24T07:08:15.394Z",
       "sportsbook": "draftkings",
       "projectedAvg": 0,
       "seasonAvg": 0,
@@ -1165,10 +1165,10 @@
       "dailyHeroGrade": "pick",
       "trial": true,
       "publishedSelection": true,
-      "oddsFreshUntil": 1792826446796
+      "oddsFreshUntil": 1792827453969
     },
     "dailyHeroPickGrade": "pick",
-    "oddsFreshUntil": 1792826446796,
+    "oddsFreshUntil": 1792827453969,
     "publishedSelections": true,
     "validationSummary": {
       "mode": "shadow_only",
@@ -1178,9 +1178,9 @@
       "quotesRecorded": 54,
       "settled": 0
     },
-    "validUntil": 1792827651614,
-    "cutoffTime": 1792827651614,
-    "nextUpdateAt": 1792825740000,
+    "validUntil": 1792828610218,
+    "cutoffTime": 1792828610218,
+    "nextUpdateAt": 1792826640000,
     "automaticRefresh": true,
     "refreshIntervalMinutes": 15,
     "trial": true,
@@ -1362,15 +1362,15 @@
       "b2bMatchupCount": 1,
       "b2bEventsScanned": 12,
       "candidatePlayersScanned": 988,
-      "playerOddsFound": 33,
-      "playerStatsResolved": 33,
-      "skippedMissingStats": 955,
-      "generatedPropsCount": 33,
-      "strongEdgeCount": 12,
+      "playerOddsFound": 25,
+      "playerStatsResolved": 25,
+      "skippedMissingStats": 963,
+      "generatedPropsCount": 25,
+      "strongEdgeCount": 9,
       "moderateEdgeCount": 4,
-      "avoidCount": 17,
-      "totalBeforeFilter": 33,
-      "filteredOut": 21,
+      "avoidCount": 12,
+      "totalBeforeFilter": 25,
+      "filteredOut": 16,
       "apiSportsFallbackUsedForStats": 0,
       "generatedPropsUsingDegradedStats": 0,
       "finalPropsUsingDegradedStats": 0,
@@ -1448,10 +1448,10 @@
             "player_goals"
           ],
           "returned": [
+            "player_shots_on_goal",
             "player_assists",
             "player_goals",
-            "player_points",
-            "player_shots_on_goal"
+            "player_points"
           ]
         },
         {
@@ -1463,10 +1463,10 @@
             "player_goals"
           ],
           "returned": [
+            "player_shots_on_goal",
             "player_assists",
             "player_goals",
-            "player_points",
-            "player_shots_on_goal"
+            "player_points"
           ]
         },
         {
@@ -1561,16 +1561,16 @@
         }
       ],
       "rejected": {
-        "missingStats": 948,
-        "smallSample": 7,
+        "missingStats": 955,
+        "smallSample": 8,
         "insufficientBooks": 0,
         "lowConfidence": 0,
-        "belowValueFloor": 21,
+        "belowValueFloor": 16,
         "staleBookMarkets": 0
       },
-      "skippedSmallSample": 14,
-      "dedupedByPlayer": 6,
-      "cappedByLimit": 1,
+      "skippedSmallSample": 12,
+      "dedupedByPlayer": 4,
+      "cappedByLimit": 0,
       "scheduleCoverage": [
         {
           "gameId": 2026020168,
@@ -1880,15 +1880,15 @@
     "b2bMatchupCount": 1,
     "b2bEventsScanned": 12,
     "candidatePlayersScanned": 988,
-    "playerOddsFound": 33,
-    "playerStatsResolved": 33,
-    "skippedMissingStats": 955,
-    "generatedPropsCount": 33,
-    "strongEdgeCount": 12,
+    "playerOddsFound": 25,
+    "playerStatsResolved": 25,
+    "skippedMissingStats": 963,
+    "generatedPropsCount": 25,
+    "strongEdgeCount": 9,
     "moderateEdgeCount": 4,
-    "avoidCount": 17,
-    "totalBeforeFilter": 33,
-    "filteredOut": 21,
+    "avoidCount": 12,
+    "totalBeforeFilter": 25,
+    "filteredOut": 16,
     "apiSportsFallbackUsedForStats": 0,
     "generatedPropsUsingDegradedStats": 0,
     "finalPropsUsingDegradedStats": 0,
@@ -1966,10 +1966,10 @@
           "player_goals"
         ],
         "returned": [
+          "player_shots_on_goal",
           "player_assists",
           "player_goals",
-          "player_points",
-          "player_shots_on_goal"
+          "player_points"
         ]
       },
       {
@@ -1981,10 +1981,10 @@
           "player_goals"
         ],
         "returned": [
+          "player_shots_on_goal",
           "player_assists",
           "player_goals",
-          "player_points",
-          "player_shots_on_goal"
+          "player_points"
         ]
       },
       {
@@ -2079,16 +2079,16 @@
       }
     ],
     "rejected": {
-      "missingStats": 948,
-      "smallSample": 7,
+      "missingStats": 955,
+      "smallSample": 8,
       "insufficientBooks": 0,
       "lowConfidence": 0,
-      "belowValueFloor": 21,
+      "belowValueFloor": 16,
       "staleBookMarkets": 0
     },
-    "skippedSmallSample": 14,
-    "dedupedByPlayer": 6,
-    "cappedByLimit": 1,
+    "skippedSmallSample": 12,
+    "dedupedByPlayer": 4,
+    "cappedByLimit": 0,
     "scheduleCoverage": [
       {
         "gameId": 2026020168,
@@ -2393,22 +2393,22 @@
   },
   "providerUsage": {
     "provider": "propline",
-    "publicRequests": 2384,
+    "publicRequests": 2399,
     "cacheHits": 0,
     "oddsCalls": [
       {
         "provider": "propline",
         "endpoint": "/v1/sports",
         "limit": 1000,
-        "used": 57,
-        "remaining": 943
+        "used": 59,
+        "remaining": 941
       },
       {
         "provider": "propline",
         "endpoint": "/v1/sports/hockey_nhl/odds",
         "limit": 1000,
-        "used": 57,
-        "remaining": 943
+        "used": 60,
+        "remaining": 940
       }
     ],
     "coverage": [
@@ -2928,13 +2928,13 @@
     ],
     "rejections": {
       "alternate_game_line": 875,
-      "non_paired_prop_shape": 2555,
+      "non_paired_prop_shape": 2558,
       "non_two_way_game_market": 33,
-      "unsupported_or_suspended_market": 2355,
+      "unsupported_or_suspended_market": 2354,
       "unrecognized_game_side": 44,
       "player_identity_unverified": 20
     },
-    "oldestOddsFetchedAt": 1792824646796,
+    "oldestOddsFetchedAt": 1792825653969,
     "reservedThisRun": 2,
     "dailyRequestLimit": 1000,
     "maximumRequestsPerRun": 4,
@@ -2971,12 +2971,12 @@
     "paidFallbacks": false
   },
   "historyGrading": {
-    "checkedAt": 1792824900217,
+    "checkedAt": 1792825828382,
     "source": "nhl.com",
     "checkedGames": 0,
     "unavailable": 0,
     "newlyGraded": 0,
-    "pending": 14,
+    "pending": 15,
     "unverified": 0
   },
   "history": [
@@ -3289,7 +3289,7 @@
       "firstPublishedOdds": -150,
       "sportsbook": "hardrock",
       "oddsAsOf": "2026-10-24T04:04:52.458Z",
-      "latestPublishedAt": 1792824951614,
+      "latestPublishedAt": 1792825910218,
       "latestPublishedOdds": -145,
       "featuredTier": "EOTD",
       "dashboardSurfaceRole": "pickFallback",
@@ -3449,7 +3449,7 @@
       "firstPublishedOdds": -165,
       "sportsbook": "hardrock",
       "oddsAsOf": "2026-10-24T05:23:39.319Z",
-      "latestPublishedAt": 1792824951614,
+      "latestPublishedAt": 1792825910218,
       "latestPublishedOdds": -165,
       "featuredTier": "EOTD",
       "dashboardSurfaceRole": "pickFallback",
@@ -3489,7 +3489,7 @@
       "firstPublishedOdds": -155,
       "sportsbook": "hardrock",
       "oddsAsOf": "2026-10-24T05:23:39.319Z",
-      "latestPublishedAt": 1792824951614,
+      "latestPublishedAt": 1792825910218,
       "latestPublishedOdds": -180,
       "featuredTier": null,
       "dashboardSurfaceRole": "board",
@@ -3649,7 +3649,7 @@
       "firstPublishedOdds": -115,
       "sportsbook": "hardrock",
       "oddsAsOf": "2026-10-24T05:54:09.925Z",
-      "latestPublishedAt": 1792824951614,
+      "latestPublishedAt": 1792825910218,
       "latestPublishedOdds": -115,
       "featuredTier": null,
       "dashboardSurfaceRole": "board",
@@ -3819,6 +3819,46 @@
       "fatiguePct": 0,
       "ev": 12.52,
       "reliabilityScore": 60,
+      "result": "PENDING",
+      "pl": null,
+      "resultReason": "Published selection logged; awaiting verified official result.",
+      "publicationSource": "gas-tank-nhl-snapshots"
+    },
+    {
+      "_id": "nhl-published|2026020168|8476461|Points|under|0.5",
+      "propId": "nhl-published|2026020168|8476461|Points|under|0.5",
+      "league": "NHL",
+      "date": "2026-10-24",
+      "historyLane": "official",
+      "recordType": "official_pick",
+      "isOfficialPick": true,
+      "publicationLog": true,
+      "player": "Sean Couturier",
+      "team": "Philadelphia Flyers",
+      "opponent": "Anaheim Ducks",
+      "teamAbbrev": "PHI",
+      "opponentAbbrev": "ANA",
+      "nhlGameId": 2026020168,
+      "nhlPlayerId": "8476461",
+      "startTime": "2026-10-24T17:00:00Z",
+      "stat": "Points",
+      "side": "under",
+      "closingLine": 0.5,
+      "underOdds": -180,
+      "firstPublishedAt": 1792825910218,
+      "firstPublishedOdds": -180,
+      "sportsbook": "hardrock",
+      "oddsAsOf": "2026-10-24T07:08:44.469Z",
+      "latestPublishedAt": 1792825910218,
+      "latestPublishedOdds": -180,
+      "featuredTier": null,
+      "dashboardSurfaceRole": "board",
+      "surfacedOnDashboard": true,
+      "edgeType": "EDGE",
+      "b2bContext": "Standard rest (no fatigue adjustment)",
+      "fatiguePct": 0,
+      "ev": 5.8,
+      "reliabilityScore": 63,
       "result": "PENDING",
       "pl": null,
       "resultReason": "Published selection logged; awaiting verified official result.",
