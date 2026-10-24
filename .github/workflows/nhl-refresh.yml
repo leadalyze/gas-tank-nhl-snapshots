@@ -79,6 +79,7 @@ jobs:
           git add snapshots/nhl.json
           if git diff --cached --quiet; then exit 0; fi
           git commit -m 'Refresh qualified NHL snapshot'
+          git pull --rebase origin main
           git push origin HEAD:main
       - name: Verify the same NHL screen can read the new snapshot
         if: ${{ !cancelled() && steps.grading.outcome == 'success' }}
