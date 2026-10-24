@@ -1,11 +1,11 @@
 {
-  "generatedAt": 1792800776732,
+  "generatedAt": 1792801524921,
   "season": "20262027",
   "board": {
     "league": "NHL",
     "etDate": "2026-10-23",
     "window": "trial",
-    "publishedAt": 1792800776732,
+    "publishedAt": 1792801524921,
     "status": "published",
     "summary": "Limited NHL trial · free data",
     "oddsProvider": "propline",
@@ -36,9 +36,9 @@
           "side": "under",
           "nhlPlayerId": "8476455",
           "overPayoutOdds": -188,
-          "overOddsAsOf": "2026-10-24T00:11:55.590Z",
+          "overOddsAsOf": "2026-10-24T00:23:46.812Z",
           "overSportsbook": "fanduel",
-          "oddsAsOf": "2026-10-24T00:09:22.675Z",
+          "oddsAsOf": "2026-10-24T00:22:10.334Z",
           "sportsbook": "thescorebet",
           "projectedAvg": 1.3,
           "seasonAvg": 1.3,
@@ -203,7 +203,7 @@
           "nhlGameId": 2026020167,
           "trial": true,
           "isPickOfDay": true,
-          "oddsFreshUntil": 1792801501242,
+          "oddsFreshUntil": 1792802726293,
           "publishedSelection": true
         },
         "suggestedPairings": []
@@ -228,9 +228,9 @@
           "side": "under",
           "nhlPlayerId": "8475172",
           "overPayoutOdds": 190,
-          "overOddsAsOf": "2026-10-24T00:10:51.116Z",
+          "overOddsAsOf": "2026-10-24T00:22:56.427Z",
           "overSportsbook": "hardrock",
-          "oddsAsOf": "2026-10-24T00:09:22.675Z",
+          "oddsAsOf": "2026-10-24T00:22:10.334Z",
           "sportsbook": "thescorebet",
           "projectedAvg": 0,
           "seasonAvg": 0,
@@ -395,7 +395,7 @@
           "nhlGameId": 2026020167,
           "trial": true,
           "isPickOfDay": false,
-          "oddsFreshUntil": 1792801501242,
+          "oddsFreshUntil": 1792802726293,
           "publishedSelection": true
         },
         "suggestedPairings": []
@@ -420,9 +420,9 @@
           "side": "under",
           "nhlPlayerId": "8470613",
           "overPayoutOdds": -120,
-          "overOddsAsOf": "2026-10-24T00:10:50.849Z",
+          "overOddsAsOf": "2026-10-24T00:22:56.040Z",
           "overSportsbook": "hardrock",
-          "oddsAsOf": "2026-10-24T00:10:50.849Z",
+          "oddsAsOf": "2026-10-24T00:22:56.040Z",
           "sportsbook": "hardrock",
           "projectedAvg": 1.1,
           "seasonAvg": 1.1,
@@ -587,7 +587,7 @@
           "nhlGameId": 2026020167,
           "trial": true,
           "isPickOfDay": false,
-          "oddsFreshUntil": 1792801501242,
+          "oddsFreshUntil": 1792802726293,
           "publishedSelection": true
         },
         "suggestedPairings": []
@@ -612,9 +612,9 @@
       "side": "under",
       "nhlPlayerId": "8476455",
       "overPayoutOdds": -188,
-      "overOddsAsOf": "2026-10-24T00:11:55.590Z",
+      "overOddsAsOf": "2026-10-24T00:23:46.812Z",
       "overSportsbook": "fanduel",
-      "oddsAsOf": "2026-10-24T00:09:22.675Z",
+      "oddsAsOf": "2026-10-24T00:22:10.334Z",
       "sportsbook": "thescorebet",
       "projectedAvg": 1.3,
       "seasonAvg": 1.3,
@@ -781,10 +781,10 @@
       "dailyHeroGrade": "pick",
       "trial": true,
       "publishedSelection": true,
-      "oddsFreshUntil": 1792801501242
+      "oddsFreshUntil": 1792802726293
     },
     "dailyHeroPickGrade": "pick",
-    "oddsFreshUntil": 1792801501242,
+    "oddsFreshUntil": 1792802726293,
     "publishedSelections": true,
     "validationSummary": {
       "mode": "shadow_only",
@@ -794,9 +794,9 @@
       "quotesRecorded": 54,
       "settled": 0
     },
-    "validUntil": 1792803476732,
-    "cutoffTime": 1792803476732,
-    "nextUpdateAt": 1792801440000,
+    "validUntil": 1792804224921,
+    "cutoffTime": 1792804224921,
+    "nextUpdateAt": 1792802340000,
     "automaticRefresh": true,
     "refreshIntervalMinutes": 15,
     "trial": true,
@@ -813,7 +813,7 @@
         "homeAbbrev": "CHI",
         "awayAbbrev": "MTL",
         "gameState": "LIVE",
-        "homeScore": 0,
+        "homeScore": 1,
         "awayScore": 0,
         "source": "nhl.com",
         "gameDate": "2026-10-23"
@@ -1011,22 +1011,22 @@
   },
   "providerUsage": {
     "provider": "propline",
-    "publicRequests": 94,
+    "publicRequests": 91,
     "cacheHits": 0,
     "oddsCalls": [
       {
         "provider": "propline",
         "endpoint": "/v1/sports",
         "limit": 1000,
-        "used": 3,
-        "remaining": 997
+        "used": 5,
+        "remaining": 995
       },
       {
         "provider": "propline",
         "endpoint": "/v1/sports/hockey_nhl/odds",
         "limit": 1000,
-        "used": 3,
-        "remaining": 997
+        "used": 5,
+        "remaining": 995
       }
     ],
     "coverage": [
@@ -1075,15 +1075,15 @@
       }
     ],
     "rejections": {
-      "alternate_game_line": 121,
-      "unsupported_or_suspended_market": 361,
+      "alternate_game_line": 120,
+      "unsupported_or_suspended_market": 360,
       "non_paired_prop_shape": 283,
       "non_two_way_game_market": 3,
       "unrecognized_game_side": 4,
       "player_identity_unverified": 14,
       "conflicting_duplicate_pair": 2
     },
-    "oldestOddsFetchedAt": 1792799701242,
+    "oldestOddsFetchedAt": 1792800926293,
     "reservedThisRun": 2,
     "dailyRequestLimit": 1000,
     "maximumRequestsPerRun": 4,
@@ -1145,7 +1145,7 @@
       "firstPublishedOdds": -115,
       "sportsbook": "hardrock",
       "oddsAsOf": "2026-10-23T13:50:11.004Z",
-      "latestPublishedAt": 1792800776732,
+      "latestPublishedAt": 1792801524921,
       "latestPublishedOdds": -150,
       "featuredTier": "EOTD",
       "dashboardSurfaceRole": "pickFallback",
@@ -1185,7 +1185,7 @@
       "firstPublishedOdds": -450,
       "sportsbook": "thescorebet",
       "oddsAsOf": "2026-10-23T13:48:55.414Z",
-      "latestPublishedAt": 1792800776732,
+      "latestPublishedAt": 1792801524921,
       "latestPublishedOdds": -425,
       "featuredTier": null,
       "dashboardSurfaceRole": "board",
@@ -1265,7 +1265,7 @@
       "firstPublishedOdds": 142,
       "sportsbook": "fanduel",
       "oddsAsOf": "2026-10-23T18:38:01.413Z",
-      "latestPublishedAt": 1792800776732,
+      "latestPublishedAt": 1792801524921,
       "latestPublishedOdds": 135,
       "featuredTier": "EOTD",
       "dashboardSurfaceRole": "pickFallback",
