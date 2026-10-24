@@ -1,24 +1,1174 @@
 {
-  "generatedAt": 1792814114130,
+  "generatedAt": 1792815125958,
   "season": "20262027",
   "board": {
     "league": "NHL",
-    "etDate": "2026-10-23",
+    "etDate": "2026-10-24",
     "window": "trial",
-    "publishedAt": 1792814114130,
+    "publishedAt": 1792815125958,
     "status": "published",
-    "summary": "No picks passed the NHL trial gates",
+    "summary": "Limited NHL trial · free data",
     "oddsProvider": "propline",
-    "pickCount": 0,
+    "pickCount": 5,
     "lockCount": 0,
-    "edgeCount": 0,
+    "edgeCount": 5,
     "accessLevel": "full",
     "secondaryMlbLeans": [],
     "matchupModelSignals": [],
-    "picks": [],
-    "dailyHeroPick": null,
-    "dailyHeroPickGrade": null,
-    "oddsFreshUntil": null,
+    "picks": [
+      {
+        "pickSnapshot": {
+          "id": "nhl|333275|tyson-foerster|points|0_5|under",
+          "marketTrackingKey": "nhl|333275|tyson-foerster|points|under",
+          "league": "NHL",
+          "eventID": "333275",
+          "eventId": "333275",
+          "startTime": "2026-10-24T17:00:00Z",
+          "player": "Tyson Foerster",
+          "team": "Anaheim Ducks",
+          "opponent": "Philadelphia Flyers",
+          "teamAbbrev": "ANA",
+          "opponentAbbrev": "PHI",
+          "resolvedTeamAbbrev": "ANA",
+          "playerTeamVerified": true,
+          "b2bStatus": "Standard rest (no fatigue adjustment)",
+          "stat": "Points",
+          "side": "under",
+          "nhlPlayerId": "8482731",
+          "overPayoutOdds": 115,
+          "overOddsAsOf": "2026-10-24T04:04:52.458Z",
+          "overSportsbook": "hardrock",
+          "oddsAsOf": "2026-10-24T04:04:52.458Z",
+          "sportsbook": "hardrock",
+          "projectedAvg": 0,
+          "seasonAvg": 0,
+          "longTermBaseline": 0,
+          "recentFormBaseline": 0,
+          "recentFormWeightPct": 17,
+          "longTermWeightPct": 83,
+          "blendedBaseline": 0,
+          "deploymentAdjustedAvg": 0,
+          "matchupAdjustedAvg": 0,
+          "fatigueAdjustedAvg": 0,
+          "marketProfileKey": "nhl_points_v1",
+          "marketType": "Points",
+          "reliabilityScore": 63,
+          "reliabilityTier": "medium",
+          "reliabilityReasons": [
+            "Moderate input confidence",
+            "Thin player history",
+            "Strong matchup certainty"
+          ],
+          "marketSpecificConfidenceApplied": true,
+          "marketProfileContext": {
+            "league": "NHL",
+            "market": "Points",
+            "profileKey": "nhl_points_v1",
+            "projectionWeights": {
+              "deployment": 1,
+              "matchup": 1.25,
+              "fatigue": 1
+            },
+            "confidenceWeights": {
+              "deploymentQuality": 0.95,
+              "matchupQuality": 1.15,
+              "volatility": 1.2,
+              "conflictingSignals": 1.15
+            },
+            "labels": {
+              "deployment": "Points-weighted",
+              "matchup": "Points environment"
+            }
+          },
+          "baselineBreakdown": [
+            {
+              "key": "longTermBaseline",
+              "label": "Long-Term Baseline",
+              "value": 0,
+              "delta": null
+            },
+            {
+              "key": "recentFormBaseline",
+              "label": "Recent Form Baseline",
+              "value": 0,
+              "delta": 0,
+              "sampleSize": 10,
+              "window": 10
+            },
+            {
+              "key": "blendedBaseline",
+              "label": "Blended Baseline",
+              "value": 0,
+              "delta": 0,
+              "recentFormWeightPct": 17,
+              "longTermWeightPct": 83
+            },
+            {
+              "key": "deploymentAdjustedAvg",
+              "label": "Deployment Adjustment",
+              "value": 0,
+              "delta": 0,
+              "adjustmentPct": 12
+            },
+            {
+              "key": "matchupAdjustedAvg",
+              "label": "Matchup Adjustment",
+              "value": 0,
+              "delta": 0,
+              "adjustmentPct": 0
+            },
+            {
+              "key": "fatigueAdjustedAvg",
+              "label": "Fatigue Adjustment",
+              "value": 0,
+              "delta": 0,
+              "adjustmentPct": null
+            },
+            {
+              "key": "projectedAvg",
+              "label": "Projected Avg",
+              "value": 0,
+              "delta": 0
+            }
+          ],
+          "deploymentAdjustmentPct": 12,
+          "matchupAdjustmentPct": 0,
+          "opponentShotsAllowedPerGame": 31.83,
+          "opponentPointsAllowedPerGame": 2.92,
+          "playerTeamShotsForPerGame": 23.3,
+          "goalieSavePct": 0.9,
+          "playerHomeAwaySplitDelta": 0,
+          "roleTier": "top",
+          "powerPlayUnit": "unknown",
+          "expectedToiMinutes": 22.25,
+          "toiTrend": "up",
+          "starterStatus": "unconfirmed",
+          "lineupConfidence": "medium",
+          "deploymentNotes": [
+            "player=Tyson Foerster",
+            "role=top",
+            "pp=unknown",
+            "trend=up",
+            "Lineup inferred from recent usage; game-day participation is unconfirmed."
+          ],
+          "deploymentSourceQuality": "medium",
+          "opponentDefenseTier": "neutral",
+          "paceEnvironment": "slow",
+          "goalieQuality": "weak",
+          "homeAwayEffect": "neutral",
+          "matchupConfidence": "high",
+          "matchupNotes": [
+            "opp=PHI",
+            "defense=neutral",
+            "pace=slow",
+            "goalie=weak",
+            "homeAway=neutral"
+          ],
+          "matchupSource": "nhl_public_environment",
+          "matchupSourceQuality": "high",
+          "statsSource": "nhl_com_game_log",
+          "statsConfidence": "high",
+          "inputConfidenceTier": "medium",
+          "inputConfidenceMultiplier": 0.75,
+          "selectionEligible": true,
+          "statsProvider": "nhl_com",
+          "gamesPlayed": 10,
+          "last5Games": [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          "sportsbookLine": 0.5,
+          "edgeLabel": "Strong Under",
+          "opponentRestDays": null,
+          "underPayoutOdds": -150,
+          "fatiguePenaltyPct": 0,
+          "ev": 49.9,
+          "riskAdjustedEV": 36.87,
+          "modelProb": 89.9,
+          "calibratedModelProb": 97.5,
+          "rawModelProb": 99,
+          "marketImpliedProb": 56.2,
+          "consensusBookmakerCount": 2,
+          "marketBlendActive": true,
+          "marketDispersion": 0.17,
+          "distributionType": "poisson",
+          "stdDev": 0.35,
+          "kellyStake": 1.5,
+          "baseKellyStake": 1.9,
+          "portfolioAdjustedStake": 1.5,
+          "oddsProvider": "propline",
+          "nhlGameId": 2026020168,
+          "trial": true,
+          "isPickOfDay": true,
+          "oddsFreshUntil": 1792816241594,
+          "publishedSelection": true
+        },
+        "suggestedPairings": []
+      },
+      {
+        "pickSnapshot": {
+          "id": "nhl|293680|bobby-mcmann|shots-on-goal|2_5|under",
+          "marketTrackingKey": "nhl|293680|bobby-mcmann|shots-on-goal|under",
+          "league": "NHL",
+          "eventID": "293680",
+          "eventId": "293680",
+          "startTime": "2026-10-25T02:00:00Z",
+          "player": "Bobby McMann",
+          "team": "Minnesota Wild",
+          "opponent": "Seattle Kraken",
+          "teamAbbrev": "MIN",
+          "opponentAbbrev": "SEA",
+          "resolvedTeamAbbrev": "MIN",
+          "playerTeamVerified": true,
+          "b2bStatus": "Standard rest (no fatigue adjustment)",
+          "stat": "Shots on Goal",
+          "side": "under",
+          "nhlPlayerId": "8481553",
+          "overPayoutOdds": -125,
+          "overOddsAsOf": "2026-10-24T04:04:50.409Z",
+          "overSportsbook": "hardrock",
+          "oddsAsOf": "2026-10-24T04:00:44.337Z",
+          "sportsbook": "thescorebet",
+          "projectedAvg": 1.4,
+          "seasonAvg": 1.4,
+          "longTermBaseline": 1.45,
+          "recentFormBaseline": 1.39,
+          "recentFormWeightPct": 15,
+          "longTermWeightPct": 85,
+          "blendedBaseline": 1.44,
+          "deploymentAdjustedAvg": 1.34,
+          "matchupAdjustedAvg": 1.42,
+          "fatigueAdjustedAvg": 1.42,
+          "marketProfileKey": "nhl_sog_v1",
+          "marketType": "Shots on Goal",
+          "reliabilityScore": 59,
+          "reliabilityTier": "medium",
+          "reliabilityReasons": [
+            "Moderate input confidence",
+            "Conflicting model signals",
+            "Strong matchup certainty"
+          ],
+          "marketSpecificConfidenceApplied": true,
+          "marketProfileContext": {
+            "league": "NHL",
+            "market": "Shots on Goal",
+            "profileKey": "nhl_sog_v1",
+            "projectionWeights": {
+              "deployment": 1.2,
+              "matchup": 1.2,
+              "fatigue": 0.95
+            },
+            "confidenceWeights": {
+              "deploymentQuality": 1.1,
+              "matchupQuality": 1,
+              "volatility": 0.8,
+              "conflictingSignals": 0.9
+            },
+            "labels": {
+              "deployment": "SOG-weighted",
+              "matchup": "SOG environment"
+            }
+          },
+          "baselineBreakdown": [
+            {
+              "key": "longTermBaseline",
+              "label": "Long-Term Baseline",
+              "value": 1.45,
+              "delta": null
+            },
+            {
+              "key": "recentFormBaseline",
+              "label": "Recent Form Baseline",
+              "value": 1.39,
+              "delta": -0.06,
+              "sampleSize": 10,
+              "window": 10
+            },
+            {
+              "key": "blendedBaseline",
+              "label": "Blended Baseline",
+              "value": 1.44,
+              "delta": -0.01,
+              "recentFormWeightPct": 15,
+              "longTermWeightPct": 85
+            },
+            {
+              "key": "deploymentAdjustedAvg",
+              "label": "Deployment Adjustment",
+              "value": 1.34,
+              "delta": -0.1,
+              "adjustmentPct": -7
+            },
+            {
+              "key": "matchupAdjustedAvg",
+              "label": "Matchup Adjustment",
+              "value": 1.42,
+              "delta": 0.08,
+              "adjustmentPct": 6
+            },
+            {
+              "key": "fatigueAdjustedAvg",
+              "label": "Fatigue Adjustment",
+              "value": 1.42,
+              "delta": 0,
+              "adjustmentPct": 0
+            },
+            {
+              "key": "projectedAvg",
+              "label": "Projected Avg",
+              "value": 1.42,
+              "delta": 0
+            }
+          ],
+          "deploymentAdjustmentPct": -6,
+          "matchupAdjustmentPct": 5,
+          "opponentShotsAllowedPerGame": 31.36,
+          "opponentPointsAllowedPerGame": 3.27,
+          "playerTeamShotsForPerGame": 30.64,
+          "goalieSavePct": 0.907,
+          "playerHomeAwaySplitDelta": 1.11,
+          "roleTier": "secondary",
+          "powerPlayUnit": "none",
+          "expectedToiMinutes": 13.95,
+          "toiTrend": "up",
+          "starterStatus": "unconfirmed",
+          "lineupConfidence": "medium",
+          "deploymentNotes": [
+            "player=Bobby McMann",
+            "role=secondary",
+            "pp=none",
+            "trend=up",
+            "Lineup inferred from recent usage; game-day participation is unconfirmed."
+          ],
+          "deploymentSourceQuality": "medium",
+          "opponentDefenseTier": "neutral",
+          "paceEnvironment": "neutral",
+          "goalieQuality": "average",
+          "homeAwayEffect": "positive",
+          "matchupConfidence": "high",
+          "matchupNotes": [
+            "opp=SEA",
+            "defense=neutral",
+            "pace=neutral",
+            "goalie=average",
+            "homeAway=positive"
+          ],
+          "matchupSource": "nhl_public_environment",
+          "matchupSourceQuality": "high",
+          "statsSource": "nhl_com_game_log",
+          "statsConfidence": "high",
+          "inputConfidenceTier": "medium",
+          "inputConfidenceMultiplier": 0.75,
+          "selectionEligible": true,
+          "statsProvider": "nhl_com",
+          "gamesPlayed": 11,
+          "last5Games": [
+            2,
+            1,
+            0,
+            2,
+            2
+          ],
+          "sportsbookLine": 2.5,
+          "edgeLabel": "Strong Under",
+          "opponentRestDays": null,
+          "underPayoutOdds": -110,
+          "fatiguePenaltyPct": 0,
+          "ev": 48.8,
+          "riskAdjustedEV": 35.06,
+          "modelProb": 78,
+          "calibratedModelProb": 84.3,
+          "rawModelProb": 86.7,
+          "marketImpliedProb": 48.5,
+          "consensusBookmakerCount": 2,
+          "marketBlendActive": true,
+          "marketDispersion": 0.51,
+          "distributionType": "normal",
+          "stdDev": 0.97,
+          "kellyStake": 1,
+          "baseKellyStake": 1.3,
+          "portfolioAdjustedStake": 1,
+          "oddsProvider": "propline",
+          "nhlGameId": 2026020179,
+          "trial": true,
+          "isPickOfDay": false,
+          "oddsFreshUntil": 1792816241594,
+          "publishedSelection": true
+        },
+        "suggestedPairings": []
+      },
+      {
+        "pickSnapshot": {
+          "id": "nhl|333275|leo-carlsson|shots-on-goal|2_5|under",
+          "marketTrackingKey": "nhl|333275|leo-carlsson|shots-on-goal|under",
+          "league": "NHL",
+          "eventID": "333275",
+          "eventId": "333275",
+          "startTime": "2026-10-24T17:00:00Z",
+          "player": "Leo Carlsson",
+          "team": "Anaheim Ducks",
+          "opponent": "Philadelphia Flyers",
+          "teamAbbrev": "ANA",
+          "opponentAbbrev": "PHI",
+          "resolvedTeamAbbrev": "ANA",
+          "playerTeamVerified": true,
+          "b2bStatus": "Standard rest (no fatigue adjustment)",
+          "stat": "Shots on Goal",
+          "side": "under",
+          "nhlPlayerId": "8484153",
+          "overPayoutOdds": -115,
+          "overOddsAsOf": "2026-10-24T04:04:52.458Z",
+          "overSportsbook": "hardrock",
+          "oddsAsOf": "2026-10-24T04:00:41.594Z",
+          "sportsbook": "thescorebet",
+          "projectedAvg": 1.3,
+          "seasonAvg": 1.3,
+          "longTermBaseline": 1.2,
+          "recentFormBaseline": 1.28,
+          "recentFormWeightPct": 15,
+          "longTermWeightPct": 85,
+          "blendedBaseline": 1.21,
+          "deploymentAdjustedAvg": 1.29,
+          "matchupAdjustedAvg": 1.32,
+          "fatigueAdjustedAvg": 1.32,
+          "marketProfileKey": "nhl_sog_v1",
+          "marketType": "Shots on Goal",
+          "reliabilityScore": 63,
+          "reliabilityTier": "medium",
+          "reliabilityReasons": [
+            "Moderate input confidence",
+            "Thin player history",
+            "Strong matchup certainty"
+          ],
+          "marketSpecificConfidenceApplied": true,
+          "marketProfileContext": {
+            "league": "NHL",
+            "market": "Shots on Goal",
+            "profileKey": "nhl_sog_v1",
+            "projectionWeights": {
+              "deployment": 1.2,
+              "matchup": 1.2,
+              "fatigue": 0.95
+            },
+            "confidenceWeights": {
+              "deploymentQuality": 1.1,
+              "matchupQuality": 1,
+              "volatility": 0.8,
+              "conflictingSignals": 0.9
+            },
+            "labels": {
+              "deployment": "SOG-weighted",
+              "matchup": "SOG environment"
+            }
+          },
+          "baselineBreakdown": [
+            {
+              "key": "longTermBaseline",
+              "label": "Long-Term Baseline",
+              "value": 1.2,
+              "delta": null
+            },
+            {
+              "key": "recentFormBaseline",
+              "label": "Recent Form Baseline",
+              "value": 1.28,
+              "delta": 0.08,
+              "sampleSize": 10,
+              "window": 10
+            },
+            {
+              "key": "blendedBaseline",
+              "label": "Blended Baseline",
+              "value": 1.21,
+              "delta": 0.01,
+              "recentFormWeightPct": 15,
+              "longTermWeightPct": 85
+            },
+            {
+              "key": "deploymentAdjustedAvg",
+              "label": "Deployment Adjustment",
+              "value": 1.29,
+              "delta": 0.08,
+              "adjustmentPct": 7
+            },
+            {
+              "key": "matchupAdjustedAvg",
+              "label": "Matchup Adjustment",
+              "value": 1.32,
+              "delta": 0.03,
+              "adjustmentPct": 2
+            },
+            {
+              "key": "fatigueAdjustedAvg",
+              "label": "Fatigue Adjustment",
+              "value": 1.32,
+              "delta": 0,
+              "adjustmentPct": 0
+            },
+            {
+              "key": "projectedAvg",
+              "label": "Projected Avg",
+              "value": 1.32,
+              "delta": 0
+            }
+          ],
+          "deploymentAdjustmentPct": 6,
+          "matchupAdjustmentPct": 2,
+          "opponentShotsAllowedPerGame": 31.83,
+          "opponentPointsAllowedPerGame": 2.92,
+          "playerTeamShotsForPerGame": 23.3,
+          "goalieSavePct": 0.9,
+          "playerHomeAwaySplitDelta": 0.75,
+          "roleTier": "middle",
+          "powerPlayUnit": "pp2",
+          "expectedToiMinutes": 19.22,
+          "toiTrend": "flat",
+          "starterStatus": "unconfirmed",
+          "lineupConfidence": "medium",
+          "deploymentNotes": [
+            "player=Leo Carlsson",
+            "role=middle",
+            "pp=pp2",
+            "trend=flat",
+            "Lineup inferred from recent usage; game-day participation is unconfirmed."
+          ],
+          "deploymentSourceQuality": "medium",
+          "opponentDefenseTier": "neutral",
+          "paceEnvironment": "slow",
+          "goalieQuality": "weak",
+          "homeAwayEffect": "positive",
+          "matchupConfidence": "high",
+          "matchupNotes": [
+            "opp=PHI",
+            "defense=neutral",
+            "pace=slow",
+            "goalie=weak",
+            "homeAway=positive"
+          ],
+          "matchupSource": "nhl_public_environment",
+          "matchupSourceQuality": "high",
+          "statsSource": "nhl_com_game_log",
+          "statsConfidence": "high",
+          "inputConfidenceTier": "medium",
+          "inputConfidenceMultiplier": 0.75,
+          "selectionEligible": true,
+          "statsProvider": "nhl_com",
+          "gamesPlayed": 10,
+          "last5Games": [
+            1,
+            2,
+            2,
+            1,
+            2
+          ],
+          "sportsbookLine": 2.5,
+          "edgeLabel": "Strong Under",
+          "opponentRestDays": null,
+          "underPayoutOdds": -125,
+          "fatiguePenaltyPct": 0,
+          "ev": 52.1,
+          "riskAdjustedEV": 35.78,
+          "modelProb": 84.5,
+          "calibratedModelProb": 91.3,
+          "rawModelProb": 93.2,
+          "marketImpliedProb": 51,
+          "consensusBookmakerCount": 2,
+          "marketBlendActive": true,
+          "marketDispersion": 1.02,
+          "distributionType": "normal",
+          "stdDev": 0.79,
+          "kellyStake": 0.6,
+          "baseKellyStake": 1.6,
+          "portfolioAdjustedStake": 0.6,
+          "oddsProvider": "propline",
+          "nhlGameId": 2026020168,
+          "trial": true,
+          "isPickOfDay": false,
+          "oddsFreshUntil": 1792816241594,
+          "publishedSelection": true
+        },
+        "suggestedPairings": []
+      },
+      {
+        "pickSnapshot": {
+          "id": "nhl|333275|jackson-lacombe|shots-on-goal|1_5|under",
+          "marketTrackingKey": "nhl|333275|jackson-lacombe|shots-on-goal|under",
+          "league": "NHL",
+          "eventID": "333275",
+          "eventId": "333275",
+          "startTime": "2026-10-24T17:00:00Z",
+          "player": "Jackson LaCombe",
+          "team": "Anaheim Ducks",
+          "opponent": "Philadelphia Flyers",
+          "teamAbbrev": "ANA",
+          "opponentAbbrev": "PHI",
+          "resolvedTeamAbbrev": "ANA",
+          "playerTeamVerified": true,
+          "b2bStatus": "Standard rest (no fatigue adjustment)",
+          "stat": "Shots on Goal",
+          "side": "under",
+          "nhlPlayerId": "8481605",
+          "overPayoutOdds": -110,
+          "overOddsAsOf": "2026-10-24T04:04:52.458Z",
+          "overSportsbook": "hardrock",
+          "oddsAsOf": "2026-10-24T04:00:41.594Z",
+          "sportsbook": "thescorebet",
+          "projectedAvg": 0.7,
+          "seasonAvg": 0.7,
+          "longTermBaseline": 0.6,
+          "recentFormBaseline": 0.55,
+          "recentFormWeightPct": 15,
+          "longTermWeightPct": 85,
+          "blendedBaseline": 0.59,
+          "deploymentAdjustedAvg": 0.67,
+          "matchupAdjustedAvg": 0.68,
+          "fatigueAdjustedAvg": 0.68,
+          "marketProfileKey": "nhl_sog_v1",
+          "marketType": "Shots on Goal",
+          "reliabilityScore": 60,
+          "reliabilityTier": "medium",
+          "reliabilityReasons": [
+            "Moderate input confidence",
+            "Thin player history",
+            "Strong matchup certainty"
+          ],
+          "marketSpecificConfidenceApplied": true,
+          "marketProfileContext": {
+            "league": "NHL",
+            "market": "Shots on Goal",
+            "profileKey": "nhl_sog_v1",
+            "projectionWeights": {
+              "deployment": 1.2,
+              "matchup": 1.2,
+              "fatigue": 0.95
+            },
+            "confidenceWeights": {
+              "deploymentQuality": 1.1,
+              "matchupQuality": 1,
+              "volatility": 0.8,
+              "conflictingSignals": 0.9
+            },
+            "labels": {
+              "deployment": "SOG-weighted",
+              "matchup": "SOG environment"
+            }
+          },
+          "baselineBreakdown": [
+            {
+              "key": "longTermBaseline",
+              "label": "Long-Term Baseline",
+              "value": 0.6,
+              "delta": null
+            },
+            {
+              "key": "recentFormBaseline",
+              "label": "Recent Form Baseline",
+              "value": 0.55,
+              "delta": -0.05,
+              "sampleSize": 10,
+              "window": 10
+            },
+            {
+              "key": "blendedBaseline",
+              "label": "Blended Baseline",
+              "value": 0.59,
+              "delta": -0.01,
+              "recentFormWeightPct": 15,
+              "longTermWeightPct": 85
+            },
+            {
+              "key": "deploymentAdjustedAvg",
+              "label": "Deployment Adjustment",
+              "value": 0.67,
+              "delta": 0.08,
+              "adjustmentPct": 14
+            },
+            {
+              "key": "matchupAdjustedAvg",
+              "label": "Matchup Adjustment",
+              "value": 0.68,
+              "delta": 0.01,
+              "adjustmentPct": 2
+            },
+            {
+              "key": "fatigueAdjustedAvg",
+              "label": "Fatigue Adjustment",
+              "value": 0.68,
+              "delta": 0,
+              "adjustmentPct": 0
+            },
+            {
+              "key": "projectedAvg",
+              "label": "Projected Avg",
+              "value": 0.68,
+              "delta": 0
+            }
+          ],
+          "deploymentAdjustmentPct": 12,
+          "matchupAdjustmentPct": 2,
+          "opponentShotsAllowedPerGame": 31.83,
+          "opponentPointsAllowedPerGame": 2.92,
+          "playerTeamShotsForPerGame": 23.3,
+          "goalieSavePct": 0.9,
+          "playerHomeAwaySplitDelta": 0.58,
+          "roleTier": "top",
+          "powerPlayUnit": "pp2",
+          "expectedToiMinutes": 27.88,
+          "toiTrend": "flat",
+          "starterStatus": "unconfirmed",
+          "lineupConfidence": "medium",
+          "deploymentNotes": [
+            "player=Jackson LaCombe",
+            "role=top",
+            "pp=pp2",
+            "trend=flat",
+            "Lineup inferred from recent usage; game-day participation is unconfirmed."
+          ],
+          "deploymentSourceQuality": "medium",
+          "opponentDefenseTier": "neutral",
+          "paceEnvironment": "slow",
+          "goalieQuality": "weak",
+          "homeAwayEffect": "positive",
+          "matchupConfidence": "high",
+          "matchupNotes": [
+            "opp=PHI",
+            "defense=neutral",
+            "pace=slow",
+            "goalie=weak",
+            "homeAway=positive"
+          ],
+          "matchupSource": "nhl_public_environment",
+          "matchupSourceQuality": "high",
+          "statsSource": "nhl_com_game_log",
+          "statsConfidence": "high",
+          "inputConfidenceTier": "medium",
+          "inputConfidenceMultiplier": 0.75,
+          "selectionEligible": true,
+          "statsProvider": "nhl_com",
+          "gamesPlayed": 10,
+          "last5Games": [
+            0,
+            0,
+            1,
+            1,
+            0
+          ],
+          "sportsbookLine": 1.5,
+          "edgeLabel": "Strong Under",
+          "opponentRestDays": null,
+          "underPayoutOdds": -125,
+          "fatiguePenaltyPct": 0,
+          "ev": 43.1,
+          "riskAdjustedEV": 30.98,
+          "modelProb": 79.5,
+          "calibratedModelProb": 85.5,
+          "rawModelProb": 87.9,
+          "marketImpliedProb": 51.5,
+          "consensusBookmakerCount": 2,
+          "marketBlendActive": true,
+          "marketDispersion": 0.51,
+          "distributionType": "normal",
+          "stdDev": 0.7,
+          "kellyStake": 0.5,
+          "baseKellyStake": 1.3,
+          "portfolioAdjustedStake": 0.5,
+          "oddsProvider": "propline",
+          "nhlGameId": 2026020168,
+          "trial": true,
+          "isPickOfDay": false,
+          "oddsFreshUntil": 1792816241594,
+          "publishedSelection": true
+        },
+        "suggestedPairings": []
+      },
+      {
+        "pickSnapshot": {
+          "id": "nhl|293680|ryan-hartman|shots-on-goal|1_5|under",
+          "marketTrackingKey": "nhl|293680|ryan-hartman|shots-on-goal|under",
+          "league": "NHL",
+          "eventID": "293680",
+          "eventId": "293680",
+          "startTime": "2026-10-25T02:00:00Z",
+          "player": "Ryan Hartman",
+          "team": "Minnesota Wild",
+          "opponent": "Seattle Kraken",
+          "teamAbbrev": "MIN",
+          "opponentAbbrev": "SEA",
+          "resolvedTeamAbbrev": "MIN",
+          "playerTeamVerified": true,
+          "b2bStatus": "Standard rest (no fatigue adjustment)",
+          "stat": "Shots on Goal",
+          "side": "under",
+          "nhlPlayerId": "8477451",
+          "overPayoutOdds": -155,
+          "overOddsAsOf": "2026-10-24T04:04:50.409Z",
+          "overSportsbook": "hardrock",
+          "oddsAsOf": "2026-10-24T04:00:44.337Z",
+          "sportsbook": "thescorebet",
+          "projectedAvg": 0.9,
+          "seasonAvg": 0.9,
+          "longTermBaseline": 0.91,
+          "recentFormBaseline": 1.03,
+          "recentFormWeightPct": 15,
+          "longTermWeightPct": 85,
+          "blendedBaseline": 0.93,
+          "deploymentAdjustedAvg": 0.84,
+          "matchupAdjustedAvg": 0.87,
+          "fatigueAdjustedAvg": 0.87,
+          "marketProfileKey": "nhl_sog_v1",
+          "marketType": "Shots on Goal",
+          "reliabilityScore": 55,
+          "reliabilityTier": "medium",
+          "reliabilityReasons": [
+            "Moderate input confidence",
+            "Conflicting model signals",
+            "Strong matchup certainty"
+          ],
+          "marketSpecificConfidenceApplied": true,
+          "marketProfileContext": {
+            "league": "NHL",
+            "market": "Shots on Goal",
+            "profileKey": "nhl_sog_v1",
+            "projectionWeights": {
+              "deployment": 1.2,
+              "matchup": 1.2,
+              "fatigue": 0.95
+            },
+            "confidenceWeights": {
+              "deploymentQuality": 1.1,
+              "matchupQuality": 1,
+              "volatility": 0.8,
+              "conflictingSignals": 0.9
+            },
+            "labels": {
+              "deployment": "SOG-weighted",
+              "matchup": "SOG environment"
+            }
+          },
+          "baselineBreakdown": [
+            {
+              "key": "longTermBaseline",
+              "label": "Long-Term Baseline",
+              "value": 0.91,
+              "delta": null
+            },
+            {
+              "key": "recentFormBaseline",
+              "label": "Recent Form Baseline",
+              "value": 1.03,
+              "delta": 0.12,
+              "sampleSize": 10,
+              "window": 10
+            },
+            {
+              "key": "blendedBaseline",
+              "label": "Blended Baseline",
+              "value": 0.93,
+              "delta": 0.02,
+              "recentFormWeightPct": 15,
+              "longTermWeightPct": 85
+            },
+            {
+              "key": "deploymentAdjustedAvg",
+              "label": "Deployment Adjustment",
+              "value": 0.84,
+              "delta": -0.09,
+              "adjustmentPct": -10
+            },
+            {
+              "key": "matchupAdjustedAvg",
+              "label": "Matchup Adjustment",
+              "value": 0.87,
+              "delta": 0.03,
+              "adjustmentPct": 4
+            },
+            {
+              "key": "fatigueAdjustedAvg",
+              "label": "Fatigue Adjustment",
+              "value": 0.87,
+              "delta": 0,
+              "adjustmentPct": 0
+            },
+            {
+              "key": "projectedAvg",
+              "label": "Projected Avg",
+              "value": 0.87,
+              "delta": 0
+            }
+          ],
+          "deploymentAdjustmentPct": -8,
+          "matchupAdjustmentPct": 3,
+          "opponentShotsAllowedPerGame": 31.36,
+          "opponentPointsAllowedPerGame": 3.27,
+          "playerTeamShotsForPerGame": 30.64,
+          "goalieSavePct": 0.907,
+          "playerHomeAwaySplitDelta": -0.14,
+          "roleTier": "secondary",
+          "powerPlayUnit": "none",
+          "expectedToiMinutes": 13.25,
+          "toiTrend": "flat",
+          "starterStatus": "unconfirmed",
+          "lineupConfidence": "medium",
+          "deploymentNotes": [
+            "player=Ryan Hartman",
+            "role=secondary",
+            "pp=none",
+            "trend=flat",
+            "Lineup inferred from recent usage; game-day participation is unconfirmed."
+          ],
+          "deploymentSourceQuality": "medium",
+          "opponentDefenseTier": "neutral",
+          "paceEnvironment": "neutral",
+          "goalieQuality": "average",
+          "homeAwayEffect": "neutral",
+          "matchupConfidence": "high",
+          "matchupNotes": [
+            "opp=SEA",
+            "defense=neutral",
+            "pace=neutral",
+            "goalie=average",
+            "homeAway=neutral"
+          ],
+          "matchupSource": "nhl_public_environment",
+          "matchupSourceQuality": "high",
+          "statsSource": "nhl_com_game_log",
+          "statsConfidence": "high",
+          "inputConfidenceTier": "medium",
+          "inputConfidenceMultiplier": 0.75,
+          "selectionEligible": true,
+          "statsProvider": "nhl_com",
+          "gamesPlayed": 11,
+          "last5Games": [
+            1,
+            1,
+            2,
+            0,
+            0
+          ],
+          "sportsbookLine": 1.5,
+          "edgeLabel": "Strong Under",
+          "opponentRestDays": null,
+          "underPayoutOdds": 115,
+          "fatiguePenaltyPct": 0,
+          "ev": 33.8,
+          "riskAdjustedEV": 24.38,
+          "modelProb": 62.2,
+          "calibratedModelProb": 66.3,
+          "rawModelProb": 68.2,
+          "marketImpliedProb": 43.2,
+          "consensusBookmakerCount": 2,
+          "marketBlendActive": true,
+          "marketDispersion": 0.44,
+          "distributionType": "normal",
+          "stdDev": 1.33,
+          "kellyStake": 0.5,
+          "baseKellyStake": 0.7,
+          "portfolioAdjustedStake": 0.5,
+          "oddsProvider": "propline",
+          "nhlGameId": 2026020179,
+          "trial": true,
+          "isPickOfDay": false,
+          "oddsFreshUntil": 1792816241594,
+          "publishedSelection": true
+        },
+        "suggestedPairings": []
+      }
+    ],
+    "dailyHeroPick": {
+      "id": "nhl|333275|tyson-foerster|points|0_5|under",
+      "marketTrackingKey": "nhl|333275|tyson-foerster|points|under",
+      "league": "NHL",
+      "eventID": "333275",
+      "eventId": "333275",
+      "startTime": "2026-10-24T17:00:00Z",
+      "player": "Tyson Foerster",
+      "team": "Anaheim Ducks",
+      "opponent": "Philadelphia Flyers",
+      "teamAbbrev": "ANA",
+      "opponentAbbrev": "PHI",
+      "resolvedTeamAbbrev": "ANA",
+      "playerTeamVerified": true,
+      "b2bStatus": "Standard rest (no fatigue adjustment)",
+      "stat": "Points",
+      "side": "under",
+      "nhlPlayerId": "8482731",
+      "overPayoutOdds": 115,
+      "overOddsAsOf": "2026-10-24T04:04:52.458Z",
+      "overSportsbook": "hardrock",
+      "oddsAsOf": "2026-10-24T04:04:52.458Z",
+      "sportsbook": "hardrock",
+      "projectedAvg": 0,
+      "seasonAvg": 0,
+      "longTermBaseline": 0,
+      "recentFormBaseline": 0,
+      "recentFormWeightPct": 17,
+      "longTermWeightPct": 83,
+      "blendedBaseline": 0,
+      "deploymentAdjustedAvg": 0,
+      "matchupAdjustedAvg": 0,
+      "fatigueAdjustedAvg": 0,
+      "marketProfileKey": "nhl_points_v1",
+      "marketType": "Points",
+      "reliabilityScore": 63,
+      "reliabilityTier": "medium",
+      "reliabilityReasons": [
+        "Moderate input confidence",
+        "Thin player history",
+        "Strong matchup certainty"
+      ],
+      "marketSpecificConfidenceApplied": true,
+      "marketProfileContext": {
+        "league": "NHL",
+        "market": "Points",
+        "profileKey": "nhl_points_v1",
+        "projectionWeights": {
+          "deployment": 1,
+          "matchup": 1.25,
+          "fatigue": 1
+        },
+        "confidenceWeights": {
+          "deploymentQuality": 0.95,
+          "matchupQuality": 1.15,
+          "volatility": 1.2,
+          "conflictingSignals": 1.15
+        },
+        "labels": {
+          "deployment": "Points-weighted",
+          "matchup": "Points environment"
+        }
+      },
+      "baselineBreakdown": [
+        {
+          "key": "longTermBaseline",
+          "label": "Long-Term Baseline",
+          "value": 0,
+          "delta": null
+        },
+        {
+          "key": "recentFormBaseline",
+          "label": "Recent Form Baseline",
+          "value": 0,
+          "delta": 0,
+          "sampleSize": 10,
+          "window": 10
+        },
+        {
+          "key": "blendedBaseline",
+          "label": "Blended Baseline",
+          "value": 0,
+          "delta": 0,
+          "recentFormWeightPct": 17,
+          "longTermWeightPct": 83
+        },
+        {
+          "key": "deploymentAdjustedAvg",
+          "label": "Deployment Adjustment",
+          "value": 0,
+          "delta": 0,
+          "adjustmentPct": 12
+        },
+        {
+          "key": "matchupAdjustedAvg",
+          "label": "Matchup Adjustment",
+          "value": 0,
+          "delta": 0,
+          "adjustmentPct": 0
+        },
+        {
+          "key": "fatigueAdjustedAvg",
+          "label": "Fatigue Adjustment",
+          "value": 0,
+          "delta": 0,
+          "adjustmentPct": null
+        },
+        {
+          "key": "projectedAvg",
+          "label": "Projected Avg",
+          "value": 0,
+          "delta": 0
+        }
+      ],
+      "deploymentAdjustmentPct": 12,
+      "matchupAdjustmentPct": 0,
+      "opponentShotsAllowedPerGame": 31.83,
+      "opponentPointsAllowedPerGame": 2.92,
+      "playerTeamShotsForPerGame": 23.3,
+      "goalieSavePct": 0.9,
+      "playerHomeAwaySplitDelta": 0,
+      "roleTier": "top",
+      "powerPlayUnit": "unknown",
+      "expectedToiMinutes": 22.25,
+      "toiTrend": "up",
+      "starterStatus": "unconfirmed",
+      "lineupConfidence": "medium",
+      "deploymentNotes": [
+        "player=Tyson Foerster",
+        "role=top",
+        "pp=unknown",
+        "trend=up",
+        "Lineup inferred from recent usage; game-day participation is unconfirmed."
+      ],
+      "deploymentSourceQuality": "medium",
+      "opponentDefenseTier": "neutral",
+      "paceEnvironment": "slow",
+      "goalieQuality": "weak",
+      "homeAwayEffect": "neutral",
+      "matchupConfidence": "high",
+      "matchupNotes": [
+        "opp=PHI",
+        "defense=neutral",
+        "pace=slow",
+        "goalie=weak",
+        "homeAway=neutral"
+      ],
+      "matchupSource": "nhl_public_environment",
+      "matchupSourceQuality": "high",
+      "statsSource": "nhl_com_game_log",
+      "statsConfidence": "high",
+      "inputConfidenceTier": "medium",
+      "inputConfidenceMultiplier": 0.75,
+      "selectionEligible": true,
+      "statsProvider": "nhl_com",
+      "gamesPlayed": 10,
+      "last5Games": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "sportsbookLine": 0.5,
+      "edgeLabel": "Strong Under",
+      "opponentRestDays": null,
+      "underPayoutOdds": -150,
+      "fatiguePenaltyPct": 0,
+      "ev": 49.9,
+      "riskAdjustedEV": 36.87,
+      "modelProb": 89.9,
+      "calibratedModelProb": 97.5,
+      "rawModelProb": 99,
+      "marketImpliedProb": 56.2,
+      "consensusBookmakerCount": 2,
+      "marketBlendActive": true,
+      "marketDispersion": 0.17,
+      "distributionType": "poisson",
+      "stdDev": 0.35,
+      "kellyStake": 1.5,
+      "baseKellyStake": 1.9,
+      "portfolioAdjustedStake": 1.5,
+      "oddsProvider": "propline",
+      "nhlGameId": 2026020168,
+      "isPickOfDay": true,
+      "dailyHeroGrade": "pick",
+      "trial": true,
+      "publishedSelection": true,
+      "oddsFreshUntil": 1792816241594
+    },
+    "dailyHeroPickGrade": "pick",
+    "oddsFreshUntil": 1792816241594,
     "publishedSelections": true,
     "validationSummary": {
       "mode": "shadow_only",
@@ -28,9 +1178,9 @@
       "quotesRecorded": 54,
       "settled": 0
     },
-    "validUntil": 1792816814130,
-    "cutoffTime": 1792816814130,
-    "nextUpdateAt": 1792814940000,
+    "validUntil": 1792817825958,
+    "cutoffTime": 1792817825958,
+    "nextUpdateAt": 1792815840000,
     "automaticRefresh": true,
     "refreshIntervalMinutes": 15,
     "trial": true,
@@ -39,68 +1189,675 @@
     "quality": "trial",
     "slate": [
       {
-        "id": "2026020166",
-        "nhlGameId": 2026020166,
-        "commence_time": "2026-10-24T00:00:00Z",
-        "home_team": "Chicago Blackhawks",
-        "away_team": "Montréal Canadiens",
-        "homeAbbrev": "CHI",
-        "awayAbbrev": "MTL",
-        "gameState": "OFF",
-        "homeScore": 1,
-        "awayScore": 4,
+        "id": "2026020168",
+        "nhlGameId": 2026020168,
+        "commence_time": "2026-10-24T17:00:00Z",
+        "home_team": "Philadelphia Flyers",
+        "away_team": "Anaheim Ducks",
+        "homeAbbrev": "PHI",
+        "awayAbbrev": "ANA",
+        "gameState": "FUT",
+        "homeScore": null,
+        "awayScore": null,
         "source": "nhl.com",
-        "gameDate": "2026-10-23"
+        "gameDate": "2026-10-24"
       },
       {
-        "id": "2026020167",
-        "nhlGameId": 2026020167,
-        "commence_time": "2026-10-24T01:00:00Z",
-        "home_team": "Colorado Avalanche",
-        "away_team": "Tampa Bay Lightning",
-        "homeAbbrev": "COL",
-        "awayAbbrev": "TBL",
-        "gameState": "CRIT",
-        "homeScore": 6,
-        "awayScore": 3,
+        "id": "2026020169",
+        "nhlGameId": 2026020169,
+        "commence_time": "2026-10-24T19:30:00Z",
+        "home_team": "New Jersey Devils",
+        "away_team": "Los Angeles Kings",
+        "homeAbbrev": "NJD",
+        "awayAbbrev": "LAK",
+        "gameState": "FUT",
+        "homeScore": null,
+        "awayScore": null,
         "source": "nhl.com",
-        "gameDate": "2026-10-23"
+        "gameDate": "2026-10-24"
+      },
+      {
+        "id": "2026020170",
+        "nhlGameId": 2026020170,
+        "commence_time": "2026-10-24T23:00:00Z",
+        "home_team": "Boston Bruins",
+        "away_team": "San Jose Sharks",
+        "homeAbbrev": "BOS",
+        "awayAbbrev": "SJS",
+        "gameState": "FUT",
+        "homeScore": null,
+        "awayScore": null,
+        "source": "nhl.com",
+        "gameDate": "2026-10-24"
+      },
+      {
+        "id": "2026020171",
+        "nhlGameId": 2026020171,
+        "commence_time": "2026-10-24T23:00:00Z",
+        "home_team": "Ottawa Senators",
+        "away_team": "New York Rangers",
+        "homeAbbrev": "OTT",
+        "awayAbbrev": "NYR",
+        "gameState": "FUT",
+        "homeScore": null,
+        "awayScore": null,
+        "source": "nhl.com",
+        "gameDate": "2026-10-24"
+      },
+      {
+        "id": "2026020172",
+        "nhlGameId": 2026020172,
+        "commence_time": "2026-10-24T23:00:00Z",
+        "home_team": "Pittsburgh Penguins",
+        "away_team": "Nashville Predators",
+        "homeAbbrev": "PIT",
+        "awayAbbrev": "NSH",
+        "gameState": "FUT",
+        "homeScore": null,
+        "awayScore": null,
+        "source": "nhl.com",
+        "gameDate": "2026-10-24"
+      },
+      {
+        "id": "2026020173",
+        "nhlGameId": 2026020173,
+        "commence_time": "2026-10-24T23:00:00Z",
+        "home_team": "Washington Capitals",
+        "away_team": "Buffalo Sabres",
+        "homeAbbrev": "WSH",
+        "awayAbbrev": "BUF",
+        "gameState": "FUT",
+        "homeScore": null,
+        "awayScore": null,
+        "source": "nhl.com",
+        "gameDate": "2026-10-24"
+      },
+      {
+        "id": "2026020174",
+        "nhlGameId": 2026020174,
+        "commence_time": "2026-10-24T23:00:00Z",
+        "home_team": "Columbus Blue Jackets",
+        "away_team": "Vegas Golden Knights",
+        "homeAbbrev": "CBJ",
+        "awayAbbrev": "VGK",
+        "gameState": "FUT",
+        "homeScore": null,
+        "awayScore": null,
+        "source": "nhl.com",
+        "gameDate": "2026-10-24"
+      },
+      {
+        "id": "2026020175",
+        "nhlGameId": 2026020175,
+        "commence_time": "2026-10-24T23:00:00Z",
+        "home_team": "St. Louis Blues",
+        "away_team": "Carolina Hurricanes",
+        "homeAbbrev": "STL",
+        "awayAbbrev": "CAR",
+        "gameState": "FUT",
+        "homeScore": null,
+        "awayScore": null,
+        "source": "nhl.com",
+        "gameDate": "2026-10-24"
+      },
+      {
+        "id": "2026020176",
+        "nhlGameId": 2026020176,
+        "commence_time": "2026-10-24T23:00:00Z",
+        "home_team": "Edmonton Oilers",
+        "away_team": "Toronto Maple Leafs",
+        "homeAbbrev": "EDM",
+        "awayAbbrev": "TOR",
+        "gameState": "FUT",
+        "homeScore": null,
+        "awayScore": null,
+        "source": "nhl.com",
+        "gameDate": "2026-10-24"
+      },
+      {
+        "id": "2026020177",
+        "nhlGameId": 2026020177,
+        "commence_time": "2026-10-25T01:00:00Z",
+        "home_team": "Utah Mammoth",
+        "away_team": "Tampa Bay Lightning",
+        "homeAbbrev": "UTA",
+        "awayAbbrev": "TBL",
+        "gameState": "FUT",
+        "homeScore": null,
+        "awayScore": null,
+        "source": "nhl.com",
+        "gameDate": "2026-10-24"
+      },
+      {
+        "id": "2026020178",
+        "nhlGameId": 2026020178,
+        "commence_time": "2026-10-25T02:00:00Z",
+        "home_team": "Calgary Flames",
+        "away_team": "Detroit Red Wings",
+        "homeAbbrev": "CGY",
+        "awayAbbrev": "DET",
+        "gameState": "FUT",
+        "homeScore": null,
+        "awayScore": null,
+        "source": "nhl.com",
+        "gameDate": "2026-10-24"
+      },
+      {
+        "id": "2026020179",
+        "nhlGameId": 2026020179,
+        "commence_time": "2026-10-25T02:00:00Z",
+        "home_team": "Seattle Kraken",
+        "away_team": "Minnesota Wild",
+        "homeAbbrev": "SEA",
+        "awayAbbrev": "MIN",
+        "gameState": "FUT",
+        "homeScore": null,
+        "awayScore": null,
+        "source": "nhl.com",
+        "gameDate": "2026-10-24"
       }
     ],
     "diagnostics": {
-      "b2bTeamCount": 0,
-      "b2bMatchupCount": 0,
-      "b2bEventsScanned": 0,
-      "candidatePlayersScanned": 0,
-      "playerOddsFound": 0,
-      "playerStatsResolved": 0,
-      "skippedMissingStats": 0,
-      "generatedPropsCount": 0,
-      "strongEdgeCount": 0,
-      "moderateEdgeCount": 0,
-      "avoidCount": 0,
-      "totalBeforeFilter": 0,
-      "filteredOut": 0,
+      "b2bTeamCount": 1,
+      "b2bMatchupCount": 1,
+      "b2bEventsScanned": 12,
+      "candidatePlayersScanned": 900,
+      "playerOddsFound": 253,
+      "playerStatsResolved": 253,
+      "skippedMissingStats": 647,
+      "generatedPropsCount": 253,
+      "strongEdgeCount": 31,
+      "moderateEdgeCount": 23,
+      "avoidCount": 199,
+      "totalBeforeFilter": 253,
+      "filteredOut": 221,
       "apiSportsFallbackUsedForStats": 0,
       "generatedPropsUsingDegradedStats": 0,
       "finalPropsUsingDegradedStats": 0,
       "finalPropsUsingDegradedStatsPct": 0,
-      "eligibleEvents": 0,
+      "eligibleEvents": 12,
       "eventsSkippedForBudget": 0,
       "scanScope": "all_matchups_both_teams",
-      "marketCoverage": [],
+      "marketCoverage": [
+        {
+          "eventId": "333275",
+          "requested": [
+            "player_shots_on_goal",
+            "player_points",
+            "player_assists",
+            "player_goals"
+          ],
+          "returned": [
+            "player_assists",
+            "player_goals",
+            "player_points",
+            "player_shots_on_goal"
+          ]
+        },
+        {
+          "eventId": "345122",
+          "requested": [
+            "player_shots_on_goal",
+            "player_points",
+            "player_assists",
+            "player_goals"
+          ],
+          "returned": [
+            "player_assists",
+            "player_goals",
+            "player_points",
+            "player_shots_on_goal"
+          ]
+        },
+        {
+          "eventId": "293679",
+          "requested": [
+            "player_shots_on_goal",
+            "player_points",
+            "player_assists",
+            "player_goals"
+          ],
+          "returned": [
+            "player_assists",
+            "player_goals",
+            "player_points",
+            "player_shots_on_goal"
+          ]
+        },
+        {
+          "eventId": "345123",
+          "requested": [
+            "player_shots_on_goal",
+            "player_points",
+            "player_assists",
+            "player_goals"
+          ],
+          "returned": [
+            "player_assists",
+            "player_goals",
+            "player_points",
+            "player_shots_on_goal"
+          ]
+        },
+        {
+          "eventId": "532649",
+          "requested": [
+            "player_shots_on_goal",
+            "player_points",
+            "player_assists",
+            "player_goals"
+          ],
+          "returned": [
+            "player_assists",
+            "player_goals",
+            "player_points",
+            "player_shots_on_goal"
+          ]
+        },
+        {
+          "eventId": "333153",
+          "requested": [
+            "player_shots_on_goal",
+            "player_points",
+            "player_assists",
+            "player_goals"
+          ],
+          "returned": [
+            "player_assists",
+            "player_goals",
+            "player_points",
+            "player_shots_on_goal"
+          ]
+        },
+        {
+          "eventId": "333252",
+          "requested": [
+            "player_shots_on_goal",
+            "player_points",
+            "player_assists",
+            "player_goals"
+          ],
+          "returned": [
+            "player_assists",
+            "player_goals",
+            "player_points",
+            "player_shots_on_goal"
+          ]
+        },
+        {
+          "eventId": "432054",
+          "requested": [
+            "player_shots_on_goal",
+            "player_points",
+            "player_assists",
+            "player_goals"
+          ],
+          "returned": [
+            "player_assists",
+            "player_goals",
+            "player_points",
+            "player_shots_on_goal"
+          ]
+        },
+        {
+          "eventId": "351263",
+          "requested": [
+            "player_shots_on_goal",
+            "player_points",
+            "player_assists",
+            "player_goals"
+          ],
+          "returned": [
+            "player_assists",
+            "player_goals",
+            "player_points",
+            "player_shots_on_goal"
+          ]
+        },
+        {
+          "eventId": "333196",
+          "requested": [
+            "player_shots_on_goal",
+            "player_points",
+            "player_assists",
+            "player_goals"
+          ],
+          "returned": []
+        },
+        {
+          "eventId": "528436",
+          "requested": [
+            "player_shots_on_goal",
+            "player_points",
+            "player_assists",
+            "player_goals"
+          ],
+          "returned": [
+            "player_assists",
+            "player_goals",
+            "player_points",
+            "player_shots_on_goal"
+          ]
+        },
+        {
+          "eventId": "293680",
+          "requested": [
+            "player_shots_on_goal",
+            "player_points",
+            "player_assists",
+            "player_goals"
+          ],
+          "returned": [
+            "player_assists",
+            "player_goals",
+            "player_points",
+            "player_shots_on_goal"
+          ]
+        }
+      ],
       "rejected": {
-        "missingStats": 0,
-        "smallSample": 0,
-        "insufficientBooks": 0,
+        "missingStats": 535,
+        "smallSample": 112,
+        "insufficientBooks": 4,
         "lowConfidence": 0,
-        "belowValueFloor": 0,
+        "belowValueFloor": 217,
         "staleBookMarkets": 0
       },
-      "dedupedByPlayer": 0,
-      "cappedByLimit": 0,
-      "scheduleCoverage": [],
-      "scanPlan": [],
+      "skippedSmallSample": 209,
+      "dedupedByPlayer": 8,
+      "cappedByLimit": 19,
+      "scheduleCoverage": [
+        {
+          "gameId": 2026020168,
+          "homeTeam": "Philadelphia Flyers",
+          "awayTeam": "Anaheim Ducks",
+          "status": "odds_event_found",
+          "homeSample": {
+            "skaters": 28,
+            "eligibleSkaters": 12,
+            "maxGames": 12
+          },
+          "awaySample": {
+            "skaters": 23,
+            "eligibleSkaters": 8,
+            "maxGames": 10
+          }
+        },
+        {
+          "gameId": 2026020169,
+          "homeTeam": "New Jersey Devils",
+          "awayTeam": "Los Angeles Kings",
+          "status": "odds_event_found",
+          "homeSample": {
+            "skaters": 21,
+            "eligibleSkaters": 14,
+            "maxGames": 10
+          },
+          "awaySample": {
+            "skaters": 21,
+            "eligibleSkaters": 0,
+            "maxGames": 8
+          }
+        },
+        {
+          "gameId": 2026020170,
+          "homeTeam": "Boston Bruins",
+          "awayTeam": "San Jose Sharks",
+          "status": "odds_event_found",
+          "homeSample": {
+            "skaters": 21,
+            "eligibleSkaters": 15,
+            "maxGames": 11
+          },
+          "awaySample": {
+            "skaters": 20,
+            "eligibleSkaters": 14,
+            "maxGames": 11
+          }
+        },
+        {
+          "gameId": 2026020171,
+          "homeTeam": "Ottawa Senators",
+          "awayTeam": "New York Rangers",
+          "status": "odds_event_found",
+          "homeSample": {
+            "skaters": 24,
+            "eligibleSkaters": 13,
+            "maxGames": 11
+          },
+          "awaySample": {
+            "skaters": 22,
+            "eligibleSkaters": 16,
+            "maxGames": 12
+          }
+        },
+        {
+          "gameId": 2026020172,
+          "homeTeam": "Pittsburgh Penguins",
+          "awayTeam": "Nashville Predators",
+          "status": "odds_event_found",
+          "homeSample": {
+            "skaters": 24,
+            "eligibleSkaters": 11,
+            "maxGames": 11
+          },
+          "awaySample": {
+            "skaters": 23,
+            "eligibleSkaters": 0,
+            "maxGames": 9
+          }
+        },
+        {
+          "gameId": 2026020173,
+          "homeTeam": "Washington Capitals",
+          "awayTeam": "Buffalo Sabres",
+          "status": "odds_event_found",
+          "homeSample": {
+            "skaters": 23,
+            "eligibleSkaters": 0,
+            "maxGames": 9
+          },
+          "awaySample": {
+            "skaters": 23,
+            "eligibleSkaters": 13,
+            "maxGames": 10
+          }
+        },
+        {
+          "gameId": 2026020174,
+          "homeTeam": "Columbus Blue Jackets",
+          "awayTeam": "Vegas Golden Knights",
+          "status": "odds_event_found",
+          "homeSample": {
+            "skaters": 20,
+            "eligibleSkaters": 0,
+            "maxGames": 8
+          },
+          "awaySample": {
+            "skaters": 21,
+            "eligibleSkaters": 16,
+            "maxGames": 12
+          }
+        },
+        {
+          "gameId": 2026020175,
+          "homeTeam": "St. Louis Blues",
+          "awayTeam": "Carolina Hurricanes",
+          "status": "odds_event_found",
+          "homeSample": {
+            "skaters": 24,
+            "eligibleSkaters": 14,
+            "maxGames": 10
+          },
+          "awaySample": {
+            "skaters": 25,
+            "eligibleSkaters": 14,
+            "maxGames": 12
+          }
+        },
+        {
+          "gameId": 2026020176,
+          "homeTeam": "Edmonton Oilers",
+          "awayTeam": "Toronto Maple Leafs",
+          "status": "odds_event_found",
+          "homeSample": {
+            "skaters": 23,
+            "eligibleSkaters": 13,
+            "maxGames": 10
+          },
+          "awaySample": {
+            "skaters": 22,
+            "eligibleSkaters": 15,
+            "maxGames": 12
+          }
+        },
+        {
+          "gameId": 2026020177,
+          "homeTeam": "Utah Mammoth",
+          "awayTeam": "Tampa Bay Lightning",
+          "status": "odds_event_found",
+          "homeSample": {
+            "skaters": 20,
+            "eligibleSkaters": 16,
+            "maxGames": 11
+          },
+          "awaySample": {
+            "skaters": 22,
+            "eligibleSkaters": 0,
+            "maxGames": 9
+          }
+        },
+        {
+          "gameId": 2026020178,
+          "homeTeam": "Calgary Flames",
+          "awayTeam": "Detroit Red Wings",
+          "status": "odds_event_found",
+          "homeSample": {
+            "skaters": 23,
+            "eligibleSkaters": 0,
+            "maxGames": 9
+          },
+          "awaySample": {
+            "skaters": 23,
+            "eligibleSkaters": 13,
+            "maxGames": 10
+          }
+        },
+        {
+          "gameId": 2026020179,
+          "homeTeam": "Seattle Kraken",
+          "awayTeam": "Minnesota Wild",
+          "status": "odds_event_found",
+          "homeSample": {
+            "skaters": 22,
+            "eligibleSkaters": 15,
+            "maxGames": 11
+          },
+          "awaySample": {
+            "skaters": 23,
+            "eligibleSkaters": 14,
+            "maxGames": 11
+          }
+        }
+      ],
+      "scanPlan": [
+        {
+          "eventId": "333275",
+          "homeTeam": "Philadelphia Flyers",
+          "awayTeam": "Anaheim Ducks",
+          "eligibleSkaters": 20,
+          "marketCount": 4,
+          "reason": "planned"
+        },
+        {
+          "eventId": "345122",
+          "homeTeam": "New Jersey Devils",
+          "awayTeam": "Los Angeles Kings",
+          "eligibleSkaters": 14,
+          "marketCount": 4,
+          "reason": "planned"
+        },
+        {
+          "eventId": "293679",
+          "homeTeam": "Boston Bruins",
+          "awayTeam": "San Jose Sharks",
+          "eligibleSkaters": 29,
+          "marketCount": 4,
+          "reason": "planned"
+        },
+        {
+          "eventId": "345123",
+          "homeTeam": "Ottawa Senators",
+          "awayTeam": "New York Rangers",
+          "eligibleSkaters": 29,
+          "marketCount": 4,
+          "reason": "planned"
+        },
+        {
+          "eventId": "532649",
+          "homeTeam": "Pittsburgh Penguins",
+          "awayTeam": "Nashville Predators",
+          "eligibleSkaters": 11,
+          "marketCount": 4,
+          "reason": "planned"
+        },
+        {
+          "eventId": "333153",
+          "homeTeam": "Washington Capitals",
+          "awayTeam": "Buffalo Sabres",
+          "eligibleSkaters": 13,
+          "marketCount": 4,
+          "reason": "planned"
+        },
+        {
+          "eventId": "333252",
+          "homeTeam": "Columbus Blue Jackets",
+          "awayTeam": "Vegas Golden Knights",
+          "eligibleSkaters": 16,
+          "marketCount": 4,
+          "reason": "planned"
+        },
+        {
+          "eventId": "432054",
+          "homeTeam": "St. Louis Blues",
+          "awayTeam": "Carolina Hurricanes",
+          "eligibleSkaters": 28,
+          "marketCount": 4,
+          "reason": "planned"
+        },
+        {
+          "eventId": "351263",
+          "homeTeam": "Edmonton Oilers",
+          "awayTeam": "Toronto Maple Leafs",
+          "eligibleSkaters": 28,
+          "marketCount": 4,
+          "reason": "planned"
+        },
+        {
+          "eventId": "333196",
+          "homeTeam": "Utah Mammoth",
+          "awayTeam": "Tampa Bay Lightning",
+          "eligibleSkaters": 16,
+          "marketCount": 4,
+          "reason": "planned"
+        },
+        {
+          "eventId": "528436",
+          "homeTeam": "Calgary Flames",
+          "awayTeam": "Detroit Red Wings",
+          "eligibleSkaters": 13,
+          "marketCount": 4,
+          "reason": "planned"
+        },
+        {
+          "eventId": "293680",
+          "homeTeam": "Seattle Kraken",
+          "awayTeam": "Minnesota Wild",
+          "eligibleSkaters": 29,
+          "marketCount": 4,
+          "reason": "planned"
+        }
+      ],
       "targetMinimum": 3,
       "targetMaximum": 5,
       "supportedMarkets": [
@@ -114,39 +1871,506 @@
     "trialEmptyReason": "no_qualified_edges"
   },
   "diagnostics": {
-    "b2bTeamCount": 0,
-    "b2bMatchupCount": 0,
-    "b2bEventsScanned": 0,
-    "candidatePlayersScanned": 0,
-    "playerOddsFound": 0,
-    "playerStatsResolved": 0,
-    "skippedMissingStats": 0,
-    "generatedPropsCount": 0,
-    "strongEdgeCount": 0,
-    "moderateEdgeCount": 0,
-    "avoidCount": 0,
-    "totalBeforeFilter": 0,
-    "filteredOut": 0,
+    "b2bTeamCount": 1,
+    "b2bMatchupCount": 1,
+    "b2bEventsScanned": 12,
+    "candidatePlayersScanned": 900,
+    "playerOddsFound": 253,
+    "playerStatsResolved": 253,
+    "skippedMissingStats": 647,
+    "generatedPropsCount": 253,
+    "strongEdgeCount": 31,
+    "moderateEdgeCount": 23,
+    "avoidCount": 199,
+    "totalBeforeFilter": 253,
+    "filteredOut": 221,
     "apiSportsFallbackUsedForStats": 0,
     "generatedPropsUsingDegradedStats": 0,
     "finalPropsUsingDegradedStats": 0,
     "finalPropsUsingDegradedStatsPct": 0,
-    "eligibleEvents": 0,
+    "eligibleEvents": 12,
     "eventsSkippedForBudget": 0,
     "scanScope": "all_matchups_both_teams",
-    "marketCoverage": [],
+    "marketCoverage": [
+      {
+        "eventId": "333275",
+        "requested": [
+          "player_shots_on_goal",
+          "player_points",
+          "player_assists",
+          "player_goals"
+        ],
+        "returned": [
+          "player_assists",
+          "player_goals",
+          "player_points",
+          "player_shots_on_goal"
+        ]
+      },
+      {
+        "eventId": "345122",
+        "requested": [
+          "player_shots_on_goal",
+          "player_points",
+          "player_assists",
+          "player_goals"
+        ],
+        "returned": [
+          "player_assists",
+          "player_goals",
+          "player_points",
+          "player_shots_on_goal"
+        ]
+      },
+      {
+        "eventId": "293679",
+        "requested": [
+          "player_shots_on_goal",
+          "player_points",
+          "player_assists",
+          "player_goals"
+        ],
+        "returned": [
+          "player_assists",
+          "player_goals",
+          "player_points",
+          "player_shots_on_goal"
+        ]
+      },
+      {
+        "eventId": "345123",
+        "requested": [
+          "player_shots_on_goal",
+          "player_points",
+          "player_assists",
+          "player_goals"
+        ],
+        "returned": [
+          "player_assists",
+          "player_goals",
+          "player_points",
+          "player_shots_on_goal"
+        ]
+      },
+      {
+        "eventId": "532649",
+        "requested": [
+          "player_shots_on_goal",
+          "player_points",
+          "player_assists",
+          "player_goals"
+        ],
+        "returned": [
+          "player_assists",
+          "player_goals",
+          "player_points",
+          "player_shots_on_goal"
+        ]
+      },
+      {
+        "eventId": "333153",
+        "requested": [
+          "player_shots_on_goal",
+          "player_points",
+          "player_assists",
+          "player_goals"
+        ],
+        "returned": [
+          "player_assists",
+          "player_goals",
+          "player_points",
+          "player_shots_on_goal"
+        ]
+      },
+      {
+        "eventId": "333252",
+        "requested": [
+          "player_shots_on_goal",
+          "player_points",
+          "player_assists",
+          "player_goals"
+        ],
+        "returned": [
+          "player_assists",
+          "player_goals",
+          "player_points",
+          "player_shots_on_goal"
+        ]
+      },
+      {
+        "eventId": "432054",
+        "requested": [
+          "player_shots_on_goal",
+          "player_points",
+          "player_assists",
+          "player_goals"
+        ],
+        "returned": [
+          "player_assists",
+          "player_goals",
+          "player_points",
+          "player_shots_on_goal"
+        ]
+      },
+      {
+        "eventId": "351263",
+        "requested": [
+          "player_shots_on_goal",
+          "player_points",
+          "player_assists",
+          "player_goals"
+        ],
+        "returned": [
+          "player_assists",
+          "player_goals",
+          "player_points",
+          "player_shots_on_goal"
+        ]
+      },
+      {
+        "eventId": "333196",
+        "requested": [
+          "player_shots_on_goal",
+          "player_points",
+          "player_assists",
+          "player_goals"
+        ],
+        "returned": []
+      },
+      {
+        "eventId": "528436",
+        "requested": [
+          "player_shots_on_goal",
+          "player_points",
+          "player_assists",
+          "player_goals"
+        ],
+        "returned": [
+          "player_assists",
+          "player_goals",
+          "player_points",
+          "player_shots_on_goal"
+        ]
+      },
+      {
+        "eventId": "293680",
+        "requested": [
+          "player_shots_on_goal",
+          "player_points",
+          "player_assists",
+          "player_goals"
+        ],
+        "returned": [
+          "player_assists",
+          "player_goals",
+          "player_points",
+          "player_shots_on_goal"
+        ]
+      }
+    ],
     "rejected": {
-      "missingStats": 0,
-      "smallSample": 0,
-      "insufficientBooks": 0,
+      "missingStats": 535,
+      "smallSample": 112,
+      "insufficientBooks": 4,
       "lowConfidence": 0,
-      "belowValueFloor": 0,
+      "belowValueFloor": 217,
       "staleBookMarkets": 0
     },
-    "dedupedByPlayer": 0,
-    "cappedByLimit": 0,
-    "scheduleCoverage": [],
-    "scanPlan": [],
+    "skippedSmallSample": 209,
+    "dedupedByPlayer": 8,
+    "cappedByLimit": 19,
+    "scheduleCoverage": [
+      {
+        "gameId": 2026020168,
+        "homeTeam": "Philadelphia Flyers",
+        "awayTeam": "Anaheim Ducks",
+        "status": "odds_event_found",
+        "homeSample": {
+          "skaters": 28,
+          "eligibleSkaters": 12,
+          "maxGames": 12
+        },
+        "awaySample": {
+          "skaters": 23,
+          "eligibleSkaters": 8,
+          "maxGames": 10
+        }
+      },
+      {
+        "gameId": 2026020169,
+        "homeTeam": "New Jersey Devils",
+        "awayTeam": "Los Angeles Kings",
+        "status": "odds_event_found",
+        "homeSample": {
+          "skaters": 21,
+          "eligibleSkaters": 14,
+          "maxGames": 10
+        },
+        "awaySample": {
+          "skaters": 21,
+          "eligibleSkaters": 0,
+          "maxGames": 8
+        }
+      },
+      {
+        "gameId": 2026020170,
+        "homeTeam": "Boston Bruins",
+        "awayTeam": "San Jose Sharks",
+        "status": "odds_event_found",
+        "homeSample": {
+          "skaters": 21,
+          "eligibleSkaters": 15,
+          "maxGames": 11
+        },
+        "awaySample": {
+          "skaters": 20,
+          "eligibleSkaters": 14,
+          "maxGames": 11
+        }
+      },
+      {
+        "gameId": 2026020171,
+        "homeTeam": "Ottawa Senators",
+        "awayTeam": "New York Rangers",
+        "status": "odds_event_found",
+        "homeSample": {
+          "skaters": 24,
+          "eligibleSkaters": 13,
+          "maxGames": 11
+        },
+        "awaySample": {
+          "skaters": 22,
+          "eligibleSkaters": 16,
+          "maxGames": 12
+        }
+      },
+      {
+        "gameId": 2026020172,
+        "homeTeam": "Pittsburgh Penguins",
+        "awayTeam": "Nashville Predators",
+        "status": "odds_event_found",
+        "homeSample": {
+          "skaters": 24,
+          "eligibleSkaters": 11,
+          "maxGames": 11
+        },
+        "awaySample": {
+          "skaters": 23,
+          "eligibleSkaters": 0,
+          "maxGames": 9
+        }
+      },
+      {
+        "gameId": 2026020173,
+        "homeTeam": "Washington Capitals",
+        "awayTeam": "Buffalo Sabres",
+        "status": "odds_event_found",
+        "homeSample": {
+          "skaters": 23,
+          "eligibleSkaters": 0,
+          "maxGames": 9
+        },
+        "awaySample": {
+          "skaters": 23,
+          "eligibleSkaters": 13,
+          "maxGames": 10
+        }
+      },
+      {
+        "gameId": 2026020174,
+        "homeTeam": "Columbus Blue Jackets",
+        "awayTeam": "Vegas Golden Knights",
+        "status": "odds_event_found",
+        "homeSample": {
+          "skaters": 20,
+          "eligibleSkaters": 0,
+          "maxGames": 8
+        },
+        "awaySample": {
+          "skaters": 21,
+          "eligibleSkaters": 16,
+          "maxGames": 12
+        }
+      },
+      {
+        "gameId": 2026020175,
+        "homeTeam": "St. Louis Blues",
+        "awayTeam": "Carolina Hurricanes",
+        "status": "odds_event_found",
+        "homeSample": {
+          "skaters": 24,
+          "eligibleSkaters": 14,
+          "maxGames": 10
+        },
+        "awaySample": {
+          "skaters": 25,
+          "eligibleSkaters": 14,
+          "maxGames": 12
+        }
+      },
+      {
+        "gameId": 2026020176,
+        "homeTeam": "Edmonton Oilers",
+        "awayTeam": "Toronto Maple Leafs",
+        "status": "odds_event_found",
+        "homeSample": {
+          "skaters": 23,
+          "eligibleSkaters": 13,
+          "maxGames": 10
+        },
+        "awaySample": {
+          "skaters": 22,
+          "eligibleSkaters": 15,
+          "maxGames": 12
+        }
+      },
+      {
+        "gameId": 2026020177,
+        "homeTeam": "Utah Mammoth",
+        "awayTeam": "Tampa Bay Lightning",
+        "status": "odds_event_found",
+        "homeSample": {
+          "skaters": 20,
+          "eligibleSkaters": 16,
+          "maxGames": 11
+        },
+        "awaySample": {
+          "skaters": 22,
+          "eligibleSkaters": 0,
+          "maxGames": 9
+        }
+      },
+      {
+        "gameId": 2026020178,
+        "homeTeam": "Calgary Flames",
+        "awayTeam": "Detroit Red Wings",
+        "status": "odds_event_found",
+        "homeSample": {
+          "skaters": 23,
+          "eligibleSkaters": 0,
+          "maxGames": 9
+        },
+        "awaySample": {
+          "skaters": 23,
+          "eligibleSkaters": 13,
+          "maxGames": 10
+        }
+      },
+      {
+        "gameId": 2026020179,
+        "homeTeam": "Seattle Kraken",
+        "awayTeam": "Minnesota Wild",
+        "status": "odds_event_found",
+        "homeSample": {
+          "skaters": 22,
+          "eligibleSkaters": 15,
+          "maxGames": 11
+        },
+        "awaySample": {
+          "skaters": 23,
+          "eligibleSkaters": 14,
+          "maxGames": 11
+        }
+      }
+    ],
+    "scanPlan": [
+      {
+        "eventId": "333275",
+        "homeTeam": "Philadelphia Flyers",
+        "awayTeam": "Anaheim Ducks",
+        "eligibleSkaters": 20,
+        "marketCount": 4,
+        "reason": "planned"
+      },
+      {
+        "eventId": "345122",
+        "homeTeam": "New Jersey Devils",
+        "awayTeam": "Los Angeles Kings",
+        "eligibleSkaters": 14,
+        "marketCount": 4,
+        "reason": "planned"
+      },
+      {
+        "eventId": "293679",
+        "homeTeam": "Boston Bruins",
+        "awayTeam": "San Jose Sharks",
+        "eligibleSkaters": 29,
+        "marketCount": 4,
+        "reason": "planned"
+      },
+      {
+        "eventId": "345123",
+        "homeTeam": "Ottawa Senators",
+        "awayTeam": "New York Rangers",
+        "eligibleSkaters": 29,
+        "marketCount": 4,
+        "reason": "planned"
+      },
+      {
+        "eventId": "532649",
+        "homeTeam": "Pittsburgh Penguins",
+        "awayTeam": "Nashville Predators",
+        "eligibleSkaters": 11,
+        "marketCount": 4,
+        "reason": "planned"
+      },
+      {
+        "eventId": "333153",
+        "homeTeam": "Washington Capitals",
+        "awayTeam": "Buffalo Sabres",
+        "eligibleSkaters": 13,
+        "marketCount": 4,
+        "reason": "planned"
+      },
+      {
+        "eventId": "333252",
+        "homeTeam": "Columbus Blue Jackets",
+        "awayTeam": "Vegas Golden Knights",
+        "eligibleSkaters": 16,
+        "marketCount": 4,
+        "reason": "planned"
+      },
+      {
+        "eventId": "432054",
+        "homeTeam": "St. Louis Blues",
+        "awayTeam": "Carolina Hurricanes",
+        "eligibleSkaters": 28,
+        "marketCount": 4,
+        "reason": "planned"
+      },
+      {
+        "eventId": "351263",
+        "homeTeam": "Edmonton Oilers",
+        "awayTeam": "Toronto Maple Leafs",
+        "eligibleSkaters": 28,
+        "marketCount": 4,
+        "reason": "planned"
+      },
+      {
+        "eventId": "333196",
+        "homeTeam": "Utah Mammoth",
+        "awayTeam": "Tampa Bay Lightning",
+        "eligibleSkaters": 16,
+        "marketCount": 4,
+        "reason": "planned"
+      },
+      {
+        "eventId": "528436",
+        "homeTeam": "Calgary Flames",
+        "awayTeam": "Detroit Red Wings",
+        "eligibleSkaters": 13,
+        "marketCount": 4,
+        "reason": "planned"
+      },
+      {
+        "eventId": "293680",
+        "homeTeam": "Seattle Kraken",
+        "awayTeam": "Minnesota Wild",
+        "eligibleSkaters": 29,
+        "marketCount": 4,
+        "reason": "planned"
+      }
+    ],
     "targetMinimum": 3,
     "targetMaximum": 5,
     "supportedMarkets": [
@@ -159,27 +2383,550 @@
   },
   "providerUsage": {
     "provider": "propline",
-    "publicRequests": 15,
+    "publicRequests": 1695,
     "cacheHits": 0,
     "oddsCalls": [
       {
         "provider": "propline",
         "endpoint": "/v1/sports",
         "limit": 1000,
-        "used": 33,
-        "remaining": 967
+        "used": 35,
+        "remaining": 965
       },
       {
         "provider": "propline",
         "endpoint": "/v1/sports/hockey_nhl/odds",
         "limit": 1000,
-        "used": 34,
-        "remaining": 966
+        "used": 36,
+        "remaining": 964
       }
     ],
-    "coverage": [],
-    "rejections": {},
-    "oldestOddsFetchedAt": null,
+    "coverage": [
+      {
+        "gameId": 2026020168,
+        "eventId": "333275",
+        "home": "Philadelphia Flyers",
+        "away": "Anaheim Ducks",
+        "startDeltaSeconds": 0,
+        "books": [
+          "betmgm",
+          "betonlineag",
+          "betrivers",
+          "bovada",
+          "draftkings",
+          "fanatics",
+          "fanduel",
+          "hardrock",
+          "pinnacle",
+          "thescorebet",
+          "unibet"
+        ],
+        "markets": {
+          "h2h": {
+            "twoBookLines": 1
+          },
+          "spreads": {
+            "twoBookLines": 2
+          },
+          "totals": {
+            "twoBookLines": 3
+          },
+          "player_shots_on_goal": {
+            "twoBookLines": 14
+          },
+          "player_points": {
+            "twoBookLines": 16
+          },
+          "player_assists": {
+            "twoBookLines": 16
+          },
+          "player_goals": {
+            "twoBookLines": 30
+          }
+        }
+      },
+      {
+        "gameId": 2026020169,
+        "eventId": "345122",
+        "home": "New Jersey Devils",
+        "away": "Los Angeles Kings",
+        "startDeltaSeconds": 0,
+        "books": [
+          "betmgm",
+          "betonlineag",
+          "betrivers",
+          "bovada",
+          "draftkings",
+          "fanatics",
+          "fanduel",
+          "hardrock",
+          "pinnacle",
+          "thescorebet",
+          "unibet"
+        ],
+        "markets": {
+          "h2h": {
+            "twoBookLines": 1
+          },
+          "spreads": {
+            "twoBookLines": 2
+          },
+          "totals": {
+            "twoBookLines": 2
+          },
+          "player_shots_on_goal": {
+            "twoBookLines": 16
+          },
+          "player_points": {
+            "twoBookLines": 16
+          },
+          "player_assists": {
+            "twoBookLines": 16
+          },
+          "player_goals": {
+            "twoBookLines": 36
+          }
+        }
+      },
+      {
+        "gameId": 2026020170,
+        "eventId": "293679",
+        "home": "Boston Bruins",
+        "away": "San Jose Sharks",
+        "startDeltaSeconds": 0,
+        "books": [
+          "betmgm",
+          "betonlineag",
+          "betrivers",
+          "bovada",
+          "draftkings",
+          "fanatics",
+          "fanduel",
+          "hardrock",
+          "pinnacle",
+          "thescorebet",
+          "unibet"
+        ],
+        "markets": {
+          "h2h": {
+            "twoBookLines": 1
+          },
+          "spreads": {
+            "twoBookLines": 2
+          },
+          "totals": {
+            "twoBookLines": 1
+          },
+          "player_shots_on_goal": {
+            "twoBookLines": 18
+          },
+          "player_points": {
+            "twoBookLines": 19
+          },
+          "player_assists": {
+            "twoBookLines": 19
+          },
+          "player_goals": {
+            "twoBookLines": 35
+          }
+        }
+      },
+      {
+        "gameId": 2026020171,
+        "eventId": "345123",
+        "home": "Ottawa Senators",
+        "away": "New York Rangers",
+        "startDeltaSeconds": 0,
+        "books": [
+          "betmgm",
+          "betonlineag",
+          "betrivers",
+          "bovada",
+          "draftkings",
+          "fanatics",
+          "fanduel",
+          "hardrock",
+          "pinnacle",
+          "thescorebet",
+          "unibet"
+        ],
+        "markets": {
+          "h2h": {
+            "twoBookLines": 1
+          },
+          "spreads": {
+            "twoBookLines": 2
+          },
+          "totals": {
+            "twoBookLines": 2
+          },
+          "player_shots_on_goal": {
+            "twoBookLines": 15
+          },
+          "player_points": {
+            "twoBookLines": 16
+          },
+          "player_assists": {
+            "twoBookLines": 17
+          },
+          "player_goals": {
+            "twoBookLines": 35
+          }
+        }
+      },
+      {
+        "gameId": 2026020172,
+        "eventId": "532649",
+        "home": "Pittsburgh Penguins",
+        "away": "Nashville Predators",
+        "startDeltaSeconds": 0,
+        "books": [
+          "betmgm",
+          "betonlineag",
+          "betrivers",
+          "bovada",
+          "draftkings",
+          "fanatics",
+          "fanduel",
+          "hardrock",
+          "pinnacle",
+          "thescorebet",
+          "unibet"
+        ],
+        "markets": {
+          "h2h": {
+            "twoBookLines": 1
+          },
+          "spreads": {
+            "twoBookLines": 2
+          },
+          "totals": {
+            "twoBookLines": 1
+          },
+          "player_shots_on_goal": {
+            "twoBookLines": 12
+          },
+          "player_points": {
+            "twoBookLines": 9
+          },
+          "player_assists": {
+            "twoBookLines": 9
+          },
+          "player_goals": {
+            "twoBookLines": 33
+          }
+        }
+      },
+      {
+        "gameId": 2026020173,
+        "eventId": "333153",
+        "home": "Washington Capitals",
+        "away": "Buffalo Sabres",
+        "startDeltaSeconds": 0,
+        "books": [
+          "betmgm",
+          "betonlineag",
+          "betrivers",
+          "bovada",
+          "draftkings",
+          "fanatics",
+          "fanduel",
+          "hardrock",
+          "pinnacle",
+          "thescorebet",
+          "unibet"
+        ],
+        "markets": {
+          "h2h": {
+            "twoBookLines": 1
+          },
+          "spreads": {
+            "twoBookLines": 2
+          },
+          "totals": {
+            "twoBookLines": 1
+          },
+          "player_shots_on_goal": {
+            "twoBookLines": 16
+          },
+          "player_points": {
+            "twoBookLines": 21
+          },
+          "player_assists": {
+            "twoBookLines": 21
+          },
+          "player_goals": {
+            "twoBookLines": 36
+          }
+        }
+      },
+      {
+        "gameId": 2026020174,
+        "eventId": "333252",
+        "home": "Columbus Blue Jackets",
+        "away": "Vegas Golden Knights",
+        "startDeltaSeconds": 0,
+        "books": [
+          "betmgm",
+          "betonlineag",
+          "betrivers",
+          "bovada",
+          "draftkings",
+          "fanatics",
+          "fanduel",
+          "hardrock",
+          "pinnacle",
+          "thescorebet",
+          "unibet"
+        ],
+        "markets": {
+          "h2h": {
+            "twoBookLines": 1
+          },
+          "spreads": {
+            "twoBookLines": 2
+          },
+          "totals": {
+            "twoBookLines": 2
+          },
+          "player_shots_on_goal": {
+            "twoBookLines": 12
+          },
+          "player_points": {
+            "twoBookLines": 15
+          },
+          "player_assists": {
+            "twoBookLines": 15
+          },
+          "player_goals": {
+            "twoBookLines": 36
+          }
+        }
+      },
+      {
+        "gameId": 2026020175,
+        "eventId": "432054",
+        "home": "St. Louis Blues",
+        "away": "Carolina Hurricanes",
+        "startDeltaSeconds": 0,
+        "books": [
+          "betmgm",
+          "betonlineag",
+          "betrivers",
+          "bovada",
+          "draftkings",
+          "fanatics",
+          "fanduel",
+          "hardrock",
+          "pinnacle",
+          "thescorebet",
+          "unibet"
+        ],
+        "markets": {
+          "h2h": {
+            "twoBookLines": 1
+          },
+          "spreads": {
+            "twoBookLines": 2
+          },
+          "totals": {
+            "twoBookLines": 2
+          },
+          "player_shots_on_goal": {
+            "twoBookLines": 13
+          },
+          "player_points": {
+            "twoBookLines": 15
+          },
+          "player_assists": {
+            "twoBookLines": 15
+          },
+          "player_goals": {
+            "twoBookLines": 36
+          }
+        }
+      },
+      {
+        "gameId": 2026020176,
+        "eventId": "351263",
+        "home": "Edmonton Oilers",
+        "away": "Toronto Maple Leafs",
+        "startDeltaSeconds": 0,
+        "books": [
+          "betmgm",
+          "betonlineag",
+          "betrivers",
+          "bovada",
+          "draftkings",
+          "fanatics",
+          "fanduel",
+          "hardrock",
+          "pinnacle",
+          "thescorebet",
+          "unibet"
+        ],
+        "markets": {
+          "h2h": {
+            "twoBookLines": 1
+          },
+          "spreads": {
+            "twoBookLines": 2
+          },
+          "totals": {
+            "twoBookLines": 2
+          },
+          "player_shots_on_goal": {
+            "twoBookLines": 11
+          },
+          "player_points": {
+            "twoBookLines": 14
+          },
+          "player_assists": {
+            "twoBookLines": 14
+          },
+          "player_goals": {
+            "twoBookLines": 32
+          }
+        }
+      },
+      {
+        "gameId": 2026020177,
+        "eventId": "333196",
+        "home": "Utah Mammoth",
+        "away": "Tampa Bay Lightning",
+        "startDeltaSeconds": 0,
+        "books": [
+          "betmgm",
+          "betrivers",
+          "bovada",
+          "draftkings",
+          "fanatics",
+          "fanduel",
+          "hardrock",
+          "thescorebet",
+          "unibet"
+        ],
+        "markets": {
+          "h2h": {
+            "twoBookLines": 1
+          },
+          "spreads": {
+            "twoBookLines": 2
+          },
+          "totals": {
+            "twoBookLines": 1
+          },
+          "player_shots_on_goal": {
+            "twoBookLines": 0
+          },
+          "player_points": {
+            "twoBookLines": 0
+          },
+          "player_assists": {
+            "twoBookLines": 0
+          },
+          "player_goals": {
+            "twoBookLines": 0
+          }
+        }
+      },
+      {
+        "gameId": 2026020178,
+        "eventId": "528436",
+        "home": "Calgary Flames",
+        "away": "Detroit Red Wings",
+        "startDeltaSeconds": 0,
+        "books": [
+          "betmgm",
+          "betonlineag",
+          "betrivers",
+          "bovada",
+          "draftkings",
+          "fanatics",
+          "fanduel",
+          "hardrock",
+          "pinnacle",
+          "thescorebet",
+          "unibet"
+        ],
+        "markets": {
+          "h2h": {
+            "twoBookLines": 1
+          },
+          "spreads": {
+            "twoBookLines": 2
+          },
+          "totals": {
+            "twoBookLines": 2
+          },
+          "player_shots_on_goal": {
+            "twoBookLines": 16
+          },
+          "player_points": {
+            "twoBookLines": 18
+          },
+          "player_assists": {
+            "twoBookLines": 20
+          },
+          "player_goals": {
+            "twoBookLines": 36
+          }
+        }
+      },
+      {
+        "gameId": 2026020179,
+        "eventId": "293680",
+        "home": "Seattle Kraken",
+        "away": "Minnesota Wild",
+        "startDeltaSeconds": 0,
+        "books": [
+          "betmgm",
+          "betonlineag",
+          "betrivers",
+          "bovada",
+          "draftkings",
+          "fanatics",
+          "fanduel",
+          "hardrock",
+          "pinnacle",
+          "thescorebet",
+          "unibet"
+        ],
+        "markets": {
+          "h2h": {
+            "twoBookLines": 1
+          },
+          "spreads": {
+            "twoBookLines": 2
+          },
+          "totals": {
+            "twoBookLines": 2
+          },
+          "player_shots_on_goal": {
+            "twoBookLines": 13
+          },
+          "player_points": {
+            "twoBookLines": 14
+          },
+          "player_assists": {
+            "twoBookLines": 14
+          },
+          "player_goals": {
+            "twoBookLines": 35
+          }
+        }
+      }
+    ],
+    "rejections": {
+      "alternate_game_line": 881,
+      "non_paired_prop_shape": 2314,
+      "non_two_way_game_market": 33,
+      "unsupported_or_suspended_market": 2169,
+      "unrecognized_game_side": 46,
+      "player_identity_unverified": 18,
+      "stale_market": 1
+    },
+    "oldestOddsFetchedAt": 1792814441594,
     "reservedThisRun": 2,
     "dailyRequestLimit": 1000,
     "maximumRequestsPerRun": 4,
@@ -216,12 +2963,12 @@
     "paidFallbacks": false
   },
   "historyGrading": {
-    "checkedAt": 1792814097517,
+    "checkedAt": 1792814996574,
     "source": "nhl.com",
     "checkedGames": 1,
     "unavailable": 0,
-    "newlyGraded": 0,
-    "pending": 4,
+    "newlyGraded": 4,
+    "pending": 0,
     "unverified": 0
   },
   "history": [
@@ -260,11 +3007,31 @@
       "fatiguePct": 0,
       "ev": 14.8,
       "reliabilityScore": 63,
-      "result": "PENDING",
-      "pl": null,
-      "resultReason": "Published selection logged; awaiting verified official result.",
+      "result": "WIN",
+      "pl": 0.87,
+      "resultReason": "Verified official NHL final box score; graded against the original published line and odds (one unit stake).",
       "publicationSource": "gas-tank-nhl-snapshots",
-      "lastGradingAttemptAt": 1792814097358
+      "lastGradingAttemptAt": 1792814996346,
+      "actualResult": 1,
+      "won": true,
+      "gameStatus": "FINAL",
+      "gradedAt": 1792814996346,
+      "settlementSource": "https://api-web.nhle.com/v1/gamecenter/2026020167/boxscore",
+      "gradingEvidence": {
+        "gameId": 2026020167,
+        "gameState": "FINAL",
+        "homeTeam": "COL",
+        "awayTeam": "TBL",
+        "homeScore": 6,
+        "awayScore": 3,
+        "playerId": 8470613,
+        "team": "COL",
+        "toi": "18:15",
+        "stat": "Shots on Goal",
+        "actual": 1,
+        "checkedAt": 1792814996346,
+        "source": "https://api-web.nhle.com/v1/gamecenter/2026020167/boxscore"
+      }
     },
     {
       "_id": "nhl-published|2026020167|8475172|Goals|under|0.5",
@@ -301,11 +3068,31 @@
       "fatiguePct": 0,
       "ev": 7.11,
       "reliabilityScore": 58,
-      "result": "PENDING",
-      "pl": null,
-      "resultReason": "Published selection logged; awaiting verified official result.",
+      "result": "LOSS",
+      "pl": -1,
+      "resultReason": "Verified official NHL final box score; graded against the original published line and odds (one unit stake).",
       "publicationSource": "gas-tank-nhl-snapshots",
-      "lastGradingAttemptAt": 1792814097358
+      "lastGradingAttemptAt": 1792814996346,
+      "actualResult": 1,
+      "won": false,
+      "gameStatus": "FINAL",
+      "gradedAt": 1792814996346,
+      "settlementSource": "https://api-web.nhle.com/v1/gamecenter/2026020167/boxscore",
+      "gradingEvidence": {
+        "gameId": 2026020167,
+        "gameState": "FINAL",
+        "homeTeam": "COL",
+        "awayTeam": "TBL",
+        "homeScore": 6,
+        "awayScore": 3,
+        "playerId": 8475172,
+        "team": "COL",
+        "toi": "15:03",
+        "stat": "Goals",
+        "actual": 1,
+        "checkedAt": 1792814996346,
+        "source": "https://api-web.nhle.com/v1/gamecenter/2026020167/boxscore"
+      }
     },
     {
       "_id": "nhl-published|2026020167|8476455|Shots on Goal|under|2.5",
@@ -342,11 +3129,31 @@
       "fatiguePct": 0,
       "ev": 15.96,
       "reliabilityScore": 63,
-      "result": "PENDING",
-      "pl": null,
-      "resultReason": "Published selection logged; awaiting verified official result.",
+      "result": "WIN",
+      "pl": 0.56,
+      "resultReason": "Verified official NHL final box score; graded against the original published line and odds (one unit stake).",
       "publicationSource": "gas-tank-nhl-snapshots",
-      "lastGradingAttemptAt": 1792814097358
+      "lastGradingAttemptAt": 1792814996346,
+      "actualResult": 1,
+      "won": true,
+      "gameStatus": "FINAL",
+      "gradedAt": 1792814996346,
+      "settlementSource": "https://api-web.nhle.com/v1/gamecenter/2026020167/boxscore",
+      "gradingEvidence": {
+        "gameId": 2026020167,
+        "gameState": "FINAL",
+        "homeTeam": "COL",
+        "awayTeam": "TBL",
+        "homeScore": 6,
+        "awayScore": 3,
+        "playerId": 8476455,
+        "team": "COL",
+        "toi": "11:51",
+        "stat": "Shots on Goal",
+        "actual": 1,
+        "checkedAt": 1792814996346,
+        "source": "https://api-web.nhle.com/v1/gamecenter/2026020167/boxscore"
+      }
     },
     {
       "_id": "nhl-published|2026020167|8476455|Shots on Goal|under|1.5",
@@ -383,11 +3190,231 @@
       "fatiguePct": 0,
       "ev": 16.74,
       "reliabilityScore": 63,
+      "result": "WIN",
+      "pl": 1.42,
+      "resultReason": "Verified official NHL final box score; graded against the original published line and odds (one unit stake).",
+      "publicationSource": "gas-tank-nhl-snapshots",
+      "lastGradingAttemptAt": 1792814996346,
+      "actualResult": 1,
+      "won": true,
+      "gameStatus": "FINAL",
+      "gradedAt": 1792814996346,
+      "settlementSource": "https://api-web.nhle.com/v1/gamecenter/2026020167/boxscore",
+      "gradingEvidence": {
+        "gameId": 2026020167,
+        "gameState": "FINAL",
+        "homeTeam": "COL",
+        "awayTeam": "TBL",
+        "homeScore": 6,
+        "awayScore": 3,
+        "playerId": 8476455,
+        "team": "COL",
+        "toi": "11:51",
+        "stat": "Shots on Goal",
+        "actual": 1,
+        "checkedAt": 1792814996346,
+        "source": "https://api-web.nhle.com/v1/gamecenter/2026020167/boxscore"
+      }
+    },
+    {
+      "_id": "nhl-published|2026020168|8481605|Shots on Goal|under|1.5",
+      "propId": "nhl-published|2026020168|8481605|Shots on Goal|under|1.5",
+      "league": "NHL",
+      "date": "2026-10-24",
+      "historyLane": "official",
+      "recordType": "official_pick",
+      "isOfficialPick": true,
+      "publicationLog": true,
+      "player": "Jackson LaCombe",
+      "team": "Anaheim Ducks",
+      "opponent": "Philadelphia Flyers",
+      "teamAbbrev": "ANA",
+      "opponentAbbrev": "PHI",
+      "nhlGameId": 2026020168,
+      "nhlPlayerId": "8481605",
+      "startTime": "2026-10-24T17:00:00Z",
+      "stat": "Shots on Goal",
+      "side": "under",
+      "closingLine": 1.5,
+      "underOdds": -125,
+      "firstPublishedAt": 1792815125958,
+      "firstPublishedOdds": -125,
+      "sportsbook": "thescorebet",
+      "oddsAsOf": "2026-10-24T04:00:41.594Z",
+      "latestPublishedAt": 1792815125958,
+      "latestPublishedOdds": -125,
+      "featuredTier": null,
+      "dashboardSurfaceRole": "board",
+      "surfacedOnDashboard": true,
+      "edgeType": "EDGE",
+      "b2bContext": "Standard rest (no fatigue adjustment)",
+      "fatiguePct": 0,
+      "ev": 30.98,
+      "reliabilityScore": 60,
       "result": "PENDING",
       "pl": null,
       "resultReason": "Published selection logged; awaiting verified official result.",
-      "publicationSource": "gas-tank-nhl-snapshots",
-      "lastGradingAttemptAt": 1792814097358
+      "publicationSource": "gas-tank-nhl-snapshots"
+    },
+    {
+      "_id": "nhl-published|2026020168|8482731|Points|under|0.5",
+      "propId": "nhl-published|2026020168|8482731|Points|under|0.5",
+      "league": "NHL",
+      "date": "2026-10-24",
+      "historyLane": "official",
+      "recordType": "official_pick",
+      "isOfficialPick": true,
+      "publicationLog": true,
+      "player": "Tyson Foerster",
+      "team": "Anaheim Ducks",
+      "opponent": "Philadelphia Flyers",
+      "teamAbbrev": "ANA",
+      "opponentAbbrev": "PHI",
+      "nhlGameId": 2026020168,
+      "nhlPlayerId": "8482731",
+      "startTime": "2026-10-24T17:00:00Z",
+      "stat": "Points",
+      "side": "under",
+      "closingLine": 0.5,
+      "underOdds": -150,
+      "firstPublishedAt": 1792815125958,
+      "firstPublishedOdds": -150,
+      "sportsbook": "hardrock",
+      "oddsAsOf": "2026-10-24T04:04:52.458Z",
+      "latestPublishedAt": 1792815125958,
+      "latestPublishedOdds": -150,
+      "featuredTier": "EOTD",
+      "dashboardSurfaceRole": "pickFallback",
+      "surfacedOnDashboard": true,
+      "edgeType": "EDGE",
+      "b2bContext": "Standard rest (no fatigue adjustment)",
+      "fatiguePct": 0,
+      "ev": 36.87,
+      "reliabilityScore": 63,
+      "result": "PENDING",
+      "pl": null,
+      "resultReason": "Published selection logged; awaiting verified official result.",
+      "publicationSource": "gas-tank-nhl-snapshots"
+    },
+    {
+      "_id": "nhl-published|2026020168|8484153|Shots on Goal|under|2.5",
+      "propId": "nhl-published|2026020168|8484153|Shots on Goal|under|2.5",
+      "league": "NHL",
+      "date": "2026-10-24",
+      "historyLane": "official",
+      "recordType": "official_pick",
+      "isOfficialPick": true,
+      "publicationLog": true,
+      "player": "Leo Carlsson",
+      "team": "Anaheim Ducks",
+      "opponent": "Philadelphia Flyers",
+      "teamAbbrev": "ANA",
+      "opponentAbbrev": "PHI",
+      "nhlGameId": 2026020168,
+      "nhlPlayerId": "8484153",
+      "startTime": "2026-10-24T17:00:00Z",
+      "stat": "Shots on Goal",
+      "side": "under",
+      "closingLine": 2.5,
+      "underOdds": -125,
+      "firstPublishedAt": 1792815125958,
+      "firstPublishedOdds": -125,
+      "sportsbook": "thescorebet",
+      "oddsAsOf": "2026-10-24T04:00:41.594Z",
+      "latestPublishedAt": 1792815125958,
+      "latestPublishedOdds": -125,
+      "featuredTier": null,
+      "dashboardSurfaceRole": "board",
+      "surfacedOnDashboard": true,
+      "edgeType": "EDGE",
+      "b2bContext": "Standard rest (no fatigue adjustment)",
+      "fatiguePct": 0,
+      "ev": 35.78,
+      "reliabilityScore": 63,
+      "result": "PENDING",
+      "pl": null,
+      "resultReason": "Published selection logged; awaiting verified official result.",
+      "publicationSource": "gas-tank-nhl-snapshots"
+    },
+    {
+      "_id": "nhl-published|2026020179|8477451|Shots on Goal|under|1.5",
+      "propId": "nhl-published|2026020179|8477451|Shots on Goal|under|1.5",
+      "league": "NHL",
+      "date": "2026-10-24",
+      "historyLane": "official",
+      "recordType": "official_pick",
+      "isOfficialPick": true,
+      "publicationLog": true,
+      "player": "Ryan Hartman",
+      "team": "Minnesota Wild",
+      "opponent": "Seattle Kraken",
+      "teamAbbrev": "MIN",
+      "opponentAbbrev": "SEA",
+      "nhlGameId": 2026020179,
+      "nhlPlayerId": "8477451",
+      "startTime": "2026-10-25T02:00:00Z",
+      "stat": "Shots on Goal",
+      "side": "under",
+      "closingLine": 1.5,
+      "underOdds": 115,
+      "firstPublishedAt": 1792815125958,
+      "firstPublishedOdds": 115,
+      "sportsbook": "thescorebet",
+      "oddsAsOf": "2026-10-24T04:00:44.337Z",
+      "latestPublishedAt": 1792815125958,
+      "latestPublishedOdds": 115,
+      "featuredTier": null,
+      "dashboardSurfaceRole": "board",
+      "surfacedOnDashboard": true,
+      "edgeType": "EDGE",
+      "b2bContext": "Standard rest (no fatigue adjustment)",
+      "fatiguePct": 0,
+      "ev": 24.38,
+      "reliabilityScore": 55,
+      "result": "PENDING",
+      "pl": null,
+      "resultReason": "Published selection logged; awaiting verified official result.",
+      "publicationSource": "gas-tank-nhl-snapshots"
+    },
+    {
+      "_id": "nhl-published|2026020179|8481553|Shots on Goal|under|2.5",
+      "propId": "nhl-published|2026020179|8481553|Shots on Goal|under|2.5",
+      "league": "NHL",
+      "date": "2026-10-24",
+      "historyLane": "official",
+      "recordType": "official_pick",
+      "isOfficialPick": true,
+      "publicationLog": true,
+      "player": "Bobby McMann",
+      "team": "Minnesota Wild",
+      "opponent": "Seattle Kraken",
+      "teamAbbrev": "MIN",
+      "opponentAbbrev": "SEA",
+      "nhlGameId": 2026020179,
+      "nhlPlayerId": "8481553",
+      "startTime": "2026-10-25T02:00:00Z",
+      "stat": "Shots on Goal",
+      "side": "under",
+      "closingLine": 2.5,
+      "underOdds": -110,
+      "firstPublishedAt": 1792815125958,
+      "firstPublishedOdds": -110,
+      "sportsbook": "thescorebet",
+      "oddsAsOf": "2026-10-24T04:00:44.337Z",
+      "latestPublishedAt": 1792815125958,
+      "latestPublishedOdds": -110,
+      "featuredTier": null,
+      "dashboardSurfaceRole": "board",
+      "surfacedOnDashboard": true,
+      "edgeType": "EDGE",
+      "b2bContext": "Standard rest (no fatigue adjustment)",
+      "fatiguePct": 0,
+      "ev": 35.06,
+      "reliabilityScore": 59,
+      "result": "PENDING",
+      "pl": null,
+      "resultReason": "Published selection logged; awaiting verified official result.",
+      "publicationSource": "gas-tank-nhl-snapshots"
     }
   ]
 }
