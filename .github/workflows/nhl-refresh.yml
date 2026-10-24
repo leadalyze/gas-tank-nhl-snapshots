@@ -71,6 +71,7 @@ jobs:
           path: ${{ runner.temp }}/nhl-official-json
           key: nhl-official-json-v1-${{ github.run_id }}-${{ github.run_attempt }}
       - name: Publish the public snapshot only
+        id: publication
         if: ${{ !cancelled() && steps.grading.outcome == 'success' }}
         working-directory: public-site
         run: |
@@ -82,7 +83,7 @@ jobs:
           git pull --rebase origin main
           git push origin HEAD:main
       - name: Verify the same NHL screen can read the new snapshot
-        if: ${{ !cancelled() && steps.grading.outcome == 'success' }}
+        if: ${{ !cancelled() && steps.publication.outcome == 'success' }}
         working-directory: private-source
         run: node scripts/verify-nhl-publication.mjs --feed
         env:
