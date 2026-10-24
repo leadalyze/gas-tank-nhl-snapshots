@@ -9,7 +9,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 12
     steps:
       - name: Checkout public snapshots
         uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09
@@ -39,6 +39,14 @@ jobs:
       - name: Install locked dependencies without install scripts
         working-directory: private-source
         run: npm ci --ignore-scripts --no-audit --no-fund > "$RUNNER_TEMP/nhl-install.log" 2>&1
+      - name: Restore keyless official NHL JSON cache
+        id: official_cache
+        continue-on-error: true
+        uses: actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830
+        with:
+          path: ${{ runner.temp }}/nhl-official-json
+          key: nhl-official-json-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: nhl-official-json-v1-
       - name: Generate qualified snapshot within the free quota
         working-directory: private-source
         run: |
@@ -53,7 +61,15 @@ jobs:
           PROPLINE_API_KEY: ${{ secrets.PROPLINE_API_KEY }}
           NHL_TRIAL_PUBLIC_RUN: '1'
           NHL_TRIAL_STATE_ROOT: ${{ runner.temp }}/nhl-state
+          NHL_TRIAL_PUBLIC_CACHE_ROOT: ${{ runner.temp }}/nhl-official-json
           NHL_TRIAL_OUTPUT: ${{ github.workspace }}/public-site/snapshots/nhl.json
+      - name: Save successful public NHL responses for the next refresh
+        if: ${{ !cancelled() && steps.official_cache.outcome == 'success' }}
+        continue-on-error: true
+        uses: actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830
+        with:
+          path: ${{ runner.temp }}/nhl-official-json
+          key: nhl-official-json-v1-${{ github.run_id }}-${{ github.run_attempt }}
       - name: Publish the public snapshot only
         if: ${{ !cancelled() && steps.grading.outcome == 'success' }}
         working-directory: public-site
