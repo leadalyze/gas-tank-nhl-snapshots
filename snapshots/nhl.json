@@ -1,790 +1,24 @@
 {
-  "generatedAt": 1792802359597,
+  "generatedAt": 1792804228898,
   "season": "20262027",
   "board": {
     "league": "NHL",
     "etDate": "2026-10-23",
     "window": "trial",
-    "publishedAt": 1792802359597,
+    "publishedAt": 1792804228898,
     "status": "published",
-    "summary": "Limited NHL trial · free data",
+    "summary": "No picks passed the NHL trial gates",
     "oddsProvider": "propline",
-    "pickCount": 3,
+    "pickCount": 0,
     "lockCount": 0,
-    "edgeCount": 3,
+    "edgeCount": 0,
     "accessLevel": "full",
     "secondaryMlbLeans": [],
     "matchupModelSignals": [],
-    "picks": [
-      {
-        "pickSnapshot": {
-          "id": "nhl|336929|gabriel-landeskog|shots-on-goal|1_5|under",
-          "marketTrackingKey": "nhl|336929|gabriel-landeskog|shots-on-goal|under",
-          "league": "NHL",
-          "eventID": "336929",
-          "eventId": "336929",
-          "startTime": "2026-10-24T01:00:00Z",
-          "player": "Gabriel Landeskog",
-          "team": "Colorado Avalanche",
-          "opponent": "Tampa Bay Lightning",
-          "teamAbbrev": "COL",
-          "opponentAbbrev": "TBL",
-          "resolvedTeamAbbrev": "COL",
-          "playerTeamVerified": true,
-          "b2bStatus": "Standard rest (no fatigue adjustment)",
-          "stat": "Shots on Goal",
-          "side": "under",
-          "nhlPlayerId": "8476455",
-          "overPayoutOdds": -184,
-          "overOddsAsOf": "2026-10-24T00:38:23.474Z",
-          "overSportsbook": "fanduel",
-          "oddsAsOf": "2026-10-24T00:38:24.777Z",
-          "sportsbook": "thescorebet",
-          "projectedAvg": 1.3,
-          "seasonAvg": 1.3,
-          "longTermBaseline": 1.4,
-          "recentFormBaseline": 1.44,
-          "recentFormWeightPct": 15,
-          "longTermWeightPct": 85,
-          "blendedBaseline": 1.41,
-          "deploymentAdjustedAvg": 1.42,
-          "matchupAdjustedAvg": 1.26,
-          "fatigueAdjustedAvg": 1.26,
-          "marketProfileKey": "nhl_sog_v1",
-          "marketType": "Shots on Goal",
-          "reliabilityScore": 63,
-          "reliabilityTier": "medium",
-          "reliabilityReasons": [
-            "Moderate input confidence",
-            "Thin player history",
-            "Strong matchup certainty"
-          ],
-          "marketSpecificConfidenceApplied": true,
-          "marketProfileContext": {
-            "league": "NHL",
-            "market": "Shots on Goal",
-            "profileKey": "nhl_sog_v1",
-            "projectionWeights": {
-              "deployment": 1.2,
-              "matchup": 1.2,
-              "fatigue": 0.95
-            },
-            "confidenceWeights": {
-              "deploymentQuality": 1.1,
-              "matchupQuality": 1,
-              "volatility": 0.8,
-              "conflictingSignals": 0.9
-            },
-            "labels": {
-              "deployment": "SOG-weighted",
-              "matchup": "SOG environment"
-            }
-          },
-          "baselineBreakdown": [
-            {
-              "key": "longTermBaseline",
-              "label": "Long-Term Baseline",
-              "value": 1.4,
-              "delta": null
-            },
-            {
-              "key": "recentFormBaseline",
-              "label": "Recent Form Baseline",
-              "value": 1.44,
-              "delta": 0.04,
-              "sampleSize": 10,
-              "window": 10
-            },
-            {
-              "key": "blendedBaseline",
-              "label": "Blended Baseline",
-              "value": 1.41,
-              "delta": 0.01,
-              "recentFormWeightPct": 15,
-              "longTermWeightPct": 85
-            },
-            {
-              "key": "deploymentAdjustedAvg",
-              "label": "Deployment Adjustment",
-              "value": 1.42,
-              "delta": 0.01,
-              "adjustmentPct": 1
-            },
-            {
-              "key": "matchupAdjustedAvg",
-              "label": "Matchup Adjustment",
-              "value": 1.26,
-              "delta": -0.16,
-              "adjustmentPct": -11
-            },
-            {
-              "key": "fatigueAdjustedAvg",
-              "label": "Fatigue Adjustment",
-              "value": 1.26,
-              "delta": 0,
-              "adjustmentPct": 0
-            },
-            {
-              "key": "projectedAvg",
-              "label": "Projected Avg",
-              "value": 1.26,
-              "delta": 0
-            }
-          ],
-          "deploymentAdjustmentPct": 1,
-          "matchupAdjustmentPct": -9,
-          "opponentShotsAllowedPerGame": 24,
-          "opponentPointsAllowedPerGame": 2.33,
-          "playerTeamShotsForPerGame": 30.6,
-          "goalieSavePct": 0.898,
-          "playerHomeAwaySplitDelta": -0.4,
-          "roleTier": "middle",
-          "powerPlayUnit": "none",
-          "expectedToiMinutes": 18.02,
-          "toiTrend": "flat",
-          "starterStatus": "unconfirmed",
-          "lineupConfidence": "medium",
-          "deploymentNotes": [
-            "player=Gabriel Landeskog",
-            "role=middle",
-            "pp=none",
-            "trend=flat",
-            "Lineup inferred from recent usage; game-day participation is unconfirmed."
-          ],
-          "deploymentSourceQuality": "medium",
-          "opponentDefenseTier": "tough",
-          "paceEnvironment": "slow",
-          "goalieQuality": "weak",
-          "homeAwayEffect": "negative",
-          "matchupConfidence": "high",
-          "matchupNotes": [
-            "opp=TBL",
-            "defense=tough",
-            "pace=slow",
-            "goalie=weak",
-            "homeAway=negative"
-          ],
-          "matchupSource": "nhl_public_environment",
-          "matchupSourceQuality": "high",
-          "statsSource": "nhl_com_game_log",
-          "statsConfidence": "high",
-          "inputConfidenceTier": "medium",
-          "inputConfidenceMultiplier": 0.75,
-          "selectionEligible": true,
-          "statsProvider": "nhl_com",
-          "gamesPlayed": 10,
-          "last5Games": [
-            3,
-            0,
-            1,
-            2,
-            1
-          ],
-          "sportsbookLine": 1.5,
-          "edgeLabel": "Strong Under",
-          "opponentRestDays": null,
-          "underPayoutOdds": 135,
-          "fatiguePenaltyPct": 0,
-          "ev": 22.6,
-          "riskAdjustedEV": 14.7,
-          "modelProb": 52.2,
-          "calibratedModelProb": 57.8,
-          "rawModelProb": 58.9,
-          "marketImpliedProb": 39.5,
-          "consensusBookmakerCount": 6,
-          "marketBlendActive": true,
-          "marketDispersion": 1.59,
-          "distributionType": "normal",
-          "stdDev": 1.07,
-          "kellyStake": 0.5,
-          "baseKellyStake": 0.5,
-          "portfolioAdjustedStake": 0.5,
-          "oddsProvider": "propline",
-          "nhlGameId": 2026020167,
-          "trial": true,
-          "isPickOfDay": true,
-          "oddsFreshUntil": 1792802726293,
-          "publishedSelection": true
-        },
-        "suggestedPairings": []
-      },
-      {
-        "pickSnapshot": {
-          "id": "nhl|336929|nazem-kadri|goals|0_5|under",
-          "marketTrackingKey": "nhl|336929|nazem-kadri|goals|under",
-          "league": "NHL",
-          "eventID": "336929",
-          "eventId": "336929",
-          "startTime": "2026-10-24T01:00:00Z",
-          "player": "Nazem Kadri",
-          "team": "Colorado Avalanche",
-          "opponent": "Tampa Bay Lightning",
-          "teamAbbrev": "COL",
-          "opponentAbbrev": "TBL",
-          "resolvedTeamAbbrev": "COL",
-          "playerTeamVerified": true,
-          "b2bStatus": "Standard rest (no fatigue adjustment)",
-          "stat": "Goals",
-          "side": "under",
-          "nhlPlayerId": "8475172",
-          "overPayoutOdds": 190,
-          "overOddsAsOf": "2026-10-24T00:35:47.555Z",
-          "overSportsbook": "hardrock",
-          "oddsAsOf": "2026-10-24T00:38:24.777Z",
-          "sportsbook": "thescorebet",
-          "projectedAvg": 0,
-          "seasonAvg": 0,
-          "longTermBaseline": 0,
-          "recentFormBaseline": 0,
-          "recentFormWeightPct": 17,
-          "longTermWeightPct": 83,
-          "blendedBaseline": 0,
-          "deploymentAdjustedAvg": 0,
-          "matchupAdjustedAvg": 0,
-          "fatigueAdjustedAvg": 0,
-          "marketProfileKey": "neutral_market_profile",
-          "marketType": "neutral",
-          "reliabilityScore": 58,
-          "reliabilityTier": "medium",
-          "reliabilityReasons": [
-            "Moderate input confidence",
-            "Conflicting model signals",
-            "Strong matchup certainty"
-          ],
-          "marketSpecificConfidenceApplied": false,
-          "marketProfileContext": {
-            "league": "shared",
-            "market": "neutral",
-            "profileKey": "neutral_market_profile",
-            "projectionWeights": {
-              "deployment": 1,
-              "matchup": 1,
-              "fatigue": 1
-            },
-            "confidenceWeights": {
-              "deploymentQuality": 1,
-              "matchupQuality": 1,
-              "volatility": 1,
-              "conflictingSignals": 1
-            },
-            "labels": {
-              "deployment": null,
-              "matchup": null
-            }
-          },
-          "baselineBreakdown": [
-            {
-              "key": "longTermBaseline",
-              "label": "Long-Term Baseline",
-              "value": 0,
-              "delta": null
-            },
-            {
-              "key": "recentFormBaseline",
-              "label": "Recent Form Baseline",
-              "value": 0,
-              "delta": 0,
-              "sampleSize": 10,
-              "window": 10
-            },
-            {
-              "key": "blendedBaseline",
-              "label": "Blended Baseline",
-              "value": 0,
-              "delta": 0,
-              "recentFormWeightPct": 17,
-              "longTermWeightPct": 83
-            },
-            {
-              "key": "deploymentAdjustedAvg",
-              "label": "Deployment Adjustment",
-              "value": 0,
-              "delta": 0,
-              "adjustmentPct": 12
-            },
-            {
-              "key": "matchupAdjustedAvg",
-              "label": "Matchup Adjustment",
-              "value": 0,
-              "delta": 0,
-              "adjustmentPct": -8
-            },
-            {
-              "key": "fatigueAdjustedAvg",
-              "label": "Fatigue Adjustment",
-              "value": 0,
-              "delta": 0,
-              "adjustmentPct": null
-            },
-            {
-              "key": "projectedAvg",
-              "label": "Projected Avg",
-              "value": 0,
-              "delta": 0
-            }
-          ],
-          "deploymentAdjustmentPct": 12,
-          "matchupAdjustmentPct": -8,
-          "opponentShotsAllowedPerGame": 24,
-          "opponentPointsAllowedPerGame": 2.33,
-          "playerTeamShotsForPerGame": 30.6,
-          "goalieSavePct": 0.898,
-          "playerHomeAwaySplitDelta": 0,
-          "roleTier": "top",
-          "powerPlayUnit": "none",
-          "expectedToiMinutes": 21.6,
-          "toiTrend": "up",
-          "starterStatus": "unconfirmed",
-          "lineupConfidence": "medium",
-          "deploymentNotes": [
-            "player=Nazem Kadri",
-            "role=top",
-            "pp=none",
-            "trend=up",
-            "Lineup inferred from recent usage; game-day participation is unconfirmed."
-          ],
-          "deploymentSourceQuality": "medium",
-          "opponentDefenseTier": "tough",
-          "paceEnvironment": "slow",
-          "goalieQuality": "weak",
-          "homeAwayEffect": "neutral",
-          "matchupConfidence": "high",
-          "matchupNotes": [
-            "opp=TBL",
-            "defense=tough",
-            "pace=slow",
-            "goalie=weak",
-            "homeAway=neutral"
-          ],
-          "matchupSource": "nhl_public_environment",
-          "matchupSourceQuality": "high",
-          "statsSource": "nhl_com_game_log",
-          "statsConfidence": "high",
-          "inputConfidenceTier": "medium",
-          "inputConfidenceMultiplier": 0.75,
-          "selectionEligible": true,
-          "statsProvider": "nhl_com",
-          "gamesPlayed": 10,
-          "last5Games": [
-            0,
-            0,
-            0,
-            0,
-            0
-          ],
-          "sportsbookLine": 0.5,
-          "edgeLabel": "Strong Under",
-          "opponentRestDays": null,
-          "underPayoutOdds": -425,
-          "fatiguePenaltyPct": 0,
-          "ev": 16.1,
-          "riskAdjustedEV": 8.55,
-          "modelProb": 94,
-          "calibratedModelProb": 97.5,
-          "rawModelProb": 99,
-          "marketImpliedProb": 72,
-          "consensusBookmakerCount": 2,
-          "marketBlendActive": true,
-          "marketDispersion": 3.48,
-          "distributionType": "poisson",
-          "stdDev": 0.35,
-          "kellyStake": 0.6,
-          "baseKellyStake": 1.7,
-          "portfolioAdjustedStake": 0.6,
-          "oddsProvider": "propline",
-          "nhlGameId": 2026020167,
-          "trial": true,
-          "isPickOfDay": false,
-          "oddsFreshUntil": 1792802726293,
-          "publishedSelection": true
-        },
-        "suggestedPairings": []
-      },
-      {
-        "pickSnapshot": {
-          "id": "nhl|336929|brent-burns|shots-on-goal|1_5|under",
-          "marketTrackingKey": "nhl|336929|brent-burns|shots-on-goal|under",
-          "league": "NHL",
-          "eventID": "336929",
-          "eventId": "336929",
-          "startTime": "2026-10-24T01:00:00Z",
-          "player": "Brent Burns",
-          "team": "Colorado Avalanche",
-          "opponent": "Tampa Bay Lightning",
-          "teamAbbrev": "COL",
-          "opponentAbbrev": "TBL",
-          "resolvedTeamAbbrev": "COL",
-          "playerTeamVerified": true,
-          "b2bStatus": "Standard rest (no fatigue adjustment)",
-          "stat": "Shots on Goal",
-          "side": "under",
-          "nhlPlayerId": "8470613",
-          "overPayoutOdds": -120,
-          "overOddsAsOf": "2026-10-24T00:35:46.169Z",
-          "overSportsbook": "hardrock",
-          "oddsAsOf": "2026-10-24T00:35:46.169Z",
-          "sportsbook": "hardrock",
-          "projectedAvg": 1.1,
-          "seasonAvg": 1.1,
-          "longTermBaseline": 1.3,
-          "recentFormBaseline": 1.3,
-          "recentFormWeightPct": 15,
-          "longTermWeightPct": 85,
-          "blendedBaseline": 1.3,
-          "deploymentAdjustedAvg": 1.22,
-          "matchupAdjustedAvg": 1.07,
-          "fatigueAdjustedAvg": 1.07,
-          "marketProfileKey": "nhl_sog_v1",
-          "marketType": "Shots on Goal",
-          "reliabilityScore": 63,
-          "reliabilityTier": "medium",
-          "reliabilityReasons": [
-            "Moderate input confidence",
-            "Thin player history",
-            "Strong matchup certainty"
-          ],
-          "marketSpecificConfidenceApplied": true,
-          "marketProfileContext": {
-            "league": "NHL",
-            "market": "Shots on Goal",
-            "profileKey": "nhl_sog_v1",
-            "projectionWeights": {
-              "deployment": 1.2,
-              "matchup": 1.2,
-              "fatigue": 0.95
-            },
-            "confidenceWeights": {
-              "deploymentQuality": 1.1,
-              "matchupQuality": 1,
-              "volatility": 0.8,
-              "conflictingSignals": 0.9
-            },
-            "labels": {
-              "deployment": "SOG-weighted",
-              "matchup": "SOG environment"
-            }
-          },
-          "baselineBreakdown": [
-            {
-              "key": "longTermBaseline",
-              "label": "Long-Term Baseline",
-              "value": 1.3,
-              "delta": null
-            },
-            {
-              "key": "recentFormBaseline",
-              "label": "Recent Form Baseline",
-              "value": 1.3,
-              "delta": 0,
-              "sampleSize": 10,
-              "window": 10
-            },
-            {
-              "key": "blendedBaseline",
-              "label": "Blended Baseline",
-              "value": 1.3,
-              "delta": 0,
-              "recentFormWeightPct": 15,
-              "longTermWeightPct": 85
-            },
-            {
-              "key": "deploymentAdjustedAvg",
-              "label": "Deployment Adjustment",
-              "value": 1.22,
-              "delta": -0.08,
-              "adjustmentPct": -6
-            },
-            {
-              "key": "matchupAdjustedAvg",
-              "label": "Matchup Adjustment",
-              "value": 1.07,
-              "delta": -0.15,
-              "adjustmentPct": -12
-            },
-            {
-              "key": "fatigueAdjustedAvg",
-              "label": "Fatigue Adjustment",
-              "value": 1.07,
-              "delta": 0,
-              "adjustmentPct": 0
-            },
-            {
-              "key": "projectedAvg",
-              "label": "Projected Avg",
-              "value": 1.07,
-              "delta": 0
-            }
-          ],
-          "deploymentAdjustmentPct": -5,
-          "matchupAdjustmentPct": -10,
-          "opponentShotsAllowedPerGame": 24,
-          "opponentPointsAllowedPerGame": 2.33,
-          "playerTeamShotsForPerGame": 30.6,
-          "goalieSavePct": 0.898,
-          "playerHomeAwaySplitDelta": -1,
-          "roleTier": "secondary",
-          "powerPlayUnit": "none",
-          "expectedToiMinutes": 15.78,
-          "toiTrend": "flat",
-          "starterStatus": "unconfirmed",
-          "lineupConfidence": "medium",
-          "deploymentNotes": [
-            "player=Brent Burns",
-            "role=secondary",
-            "pp=none",
-            "trend=flat",
-            "Lineup inferred from recent usage; game-day participation is unconfirmed."
-          ],
-          "deploymentSourceQuality": "medium",
-          "opponentDefenseTier": "tough",
-          "paceEnvironment": "slow",
-          "goalieQuality": "weak",
-          "homeAwayEffect": "negative",
-          "matchupConfidence": "high",
-          "matchupNotes": [
-            "opp=TBL",
-            "defense=tough",
-            "pace=slow",
-            "goalie=weak",
-            "homeAway=negative"
-          ],
-          "matchupSource": "nhl_public_environment",
-          "matchupSourceQuality": "high",
-          "statsSource": "nhl_com_game_log",
-          "statsConfidence": "high",
-          "inputConfidenceTier": "medium",
-          "inputConfidenceMultiplier": 0.75,
-          "selectionEligible": true,
-          "statsProvider": "nhl_com",
-          "gamesPlayed": 10,
-          "last5Games": [
-            2,
-            1,
-            0,
-            1,
-            2
-          ],
-          "sportsbookLine": 1.5,
-          "edgeLabel": "Strong Under",
-          "opponentRestDays": null,
-          "underPayoutOdds": -150,
-          "fatiguePenaltyPct": 0,
-          "ev": 8.5,
-          "riskAdjustedEV": 6.32,
-          "modelProb": 65.1,
-          "calibratedModelProb": 68,
-          "rawModelProb": 70,
-          "marketImpliedProb": 52.3,
-          "consensusBookmakerCount": 2,
-          "marketBlendActive": true,
-          "marketDispersion": 0.07,
-          "distributionType": "normal",
-          "stdDev": 0.82,
-          "kellyStake": 0.5,
-          "baseKellyStake": 0.5,
-          "portfolioAdjustedStake": 0.5,
-          "oddsProvider": "propline",
-          "nhlGameId": 2026020167,
-          "trial": true,
-          "isPickOfDay": false,
-          "oddsFreshUntil": 1792802726293,
-          "publishedSelection": true
-        },
-        "suggestedPairings": []
-      }
-    ],
-    "dailyHeroPick": {
-      "id": "nhl|336929|gabriel-landeskog|shots-on-goal|1_5|under",
-      "marketTrackingKey": "nhl|336929|gabriel-landeskog|shots-on-goal|under",
-      "league": "NHL",
-      "eventID": "336929",
-      "eventId": "336929",
-      "startTime": "2026-10-24T01:00:00Z",
-      "player": "Gabriel Landeskog",
-      "team": "Colorado Avalanche",
-      "opponent": "Tampa Bay Lightning",
-      "teamAbbrev": "COL",
-      "opponentAbbrev": "TBL",
-      "resolvedTeamAbbrev": "COL",
-      "playerTeamVerified": true,
-      "b2bStatus": "Standard rest (no fatigue adjustment)",
-      "stat": "Shots on Goal",
-      "side": "under",
-      "nhlPlayerId": "8476455",
-      "overPayoutOdds": -184,
-      "overOddsAsOf": "2026-10-24T00:38:23.474Z",
-      "overSportsbook": "fanduel",
-      "oddsAsOf": "2026-10-24T00:38:24.777Z",
-      "sportsbook": "thescorebet",
-      "projectedAvg": 1.3,
-      "seasonAvg": 1.3,
-      "longTermBaseline": 1.4,
-      "recentFormBaseline": 1.44,
-      "recentFormWeightPct": 15,
-      "longTermWeightPct": 85,
-      "blendedBaseline": 1.41,
-      "deploymentAdjustedAvg": 1.42,
-      "matchupAdjustedAvg": 1.26,
-      "fatigueAdjustedAvg": 1.26,
-      "marketProfileKey": "nhl_sog_v1",
-      "marketType": "Shots on Goal",
-      "reliabilityScore": 63,
-      "reliabilityTier": "medium",
-      "reliabilityReasons": [
-        "Moderate input confidence",
-        "Thin player history",
-        "Strong matchup certainty"
-      ],
-      "marketSpecificConfidenceApplied": true,
-      "marketProfileContext": {
-        "league": "NHL",
-        "market": "Shots on Goal",
-        "profileKey": "nhl_sog_v1",
-        "projectionWeights": {
-          "deployment": 1.2,
-          "matchup": 1.2,
-          "fatigue": 0.95
-        },
-        "confidenceWeights": {
-          "deploymentQuality": 1.1,
-          "matchupQuality": 1,
-          "volatility": 0.8,
-          "conflictingSignals": 0.9
-        },
-        "labels": {
-          "deployment": "SOG-weighted",
-          "matchup": "SOG environment"
-        }
-      },
-      "baselineBreakdown": [
-        {
-          "key": "longTermBaseline",
-          "label": "Long-Term Baseline",
-          "value": 1.4,
-          "delta": null
-        },
-        {
-          "key": "recentFormBaseline",
-          "label": "Recent Form Baseline",
-          "value": 1.44,
-          "delta": 0.04,
-          "sampleSize": 10,
-          "window": 10
-        },
-        {
-          "key": "blendedBaseline",
-          "label": "Blended Baseline",
-          "value": 1.41,
-          "delta": 0.01,
-          "recentFormWeightPct": 15,
-          "longTermWeightPct": 85
-        },
-        {
-          "key": "deploymentAdjustedAvg",
-          "label": "Deployment Adjustment",
-          "value": 1.42,
-          "delta": 0.01,
-          "adjustmentPct": 1
-        },
-        {
-          "key": "matchupAdjustedAvg",
-          "label": "Matchup Adjustment",
-          "value": 1.26,
-          "delta": -0.16,
-          "adjustmentPct": -11
-        },
-        {
-          "key": "fatigueAdjustedAvg",
-          "label": "Fatigue Adjustment",
-          "value": 1.26,
-          "delta": 0,
-          "adjustmentPct": 0
-        },
-        {
-          "key": "projectedAvg",
-          "label": "Projected Avg",
-          "value": 1.26,
-          "delta": 0
-        }
-      ],
-      "deploymentAdjustmentPct": 1,
-      "matchupAdjustmentPct": -9,
-      "opponentShotsAllowedPerGame": 24,
-      "opponentPointsAllowedPerGame": 2.33,
-      "playerTeamShotsForPerGame": 30.6,
-      "goalieSavePct": 0.898,
-      "playerHomeAwaySplitDelta": -0.4,
-      "roleTier": "middle",
-      "powerPlayUnit": "none",
-      "expectedToiMinutes": 18.02,
-      "toiTrend": "flat",
-      "starterStatus": "unconfirmed",
-      "lineupConfidence": "medium",
-      "deploymentNotes": [
-        "player=Gabriel Landeskog",
-        "role=middle",
-        "pp=none",
-        "trend=flat",
-        "Lineup inferred from recent usage; game-day participation is unconfirmed."
-      ],
-      "deploymentSourceQuality": "medium",
-      "opponentDefenseTier": "tough",
-      "paceEnvironment": "slow",
-      "goalieQuality": "weak",
-      "homeAwayEffect": "negative",
-      "matchupConfidence": "high",
-      "matchupNotes": [
-        "opp=TBL",
-        "defense=tough",
-        "pace=slow",
-        "goalie=weak",
-        "homeAway=negative"
-      ],
-      "matchupSource": "nhl_public_environment",
-      "matchupSourceQuality": "high",
-      "statsSource": "nhl_com_game_log",
-      "statsConfidence": "high",
-      "inputConfidenceTier": "medium",
-      "inputConfidenceMultiplier": 0.75,
-      "selectionEligible": true,
-      "statsProvider": "nhl_com",
-      "gamesPlayed": 10,
-      "last5Games": [
-        3,
-        0,
-        1,
-        2,
-        1
-      ],
-      "sportsbookLine": 1.5,
-      "edgeLabel": "Strong Under",
-      "opponentRestDays": null,
-      "underPayoutOdds": 135,
-      "fatiguePenaltyPct": 0,
-      "ev": 22.6,
-      "riskAdjustedEV": 14.7,
-      "modelProb": 52.2,
-      "calibratedModelProb": 57.8,
-      "rawModelProb": 58.9,
-      "marketImpliedProb": 39.5,
-      "consensusBookmakerCount": 6,
-      "marketBlendActive": true,
-      "marketDispersion": 1.59,
-      "distributionType": "normal",
-      "stdDev": 1.07,
-      "kellyStake": 0.5,
-      "baseKellyStake": 0.5,
-      "portfolioAdjustedStake": 0.5,
-      "oddsProvider": "propline",
-      "nhlGameId": 2026020167,
-      "isPickOfDay": true,
-      "dailyHeroGrade": "pick",
-      "trial": true,
-      "publishedSelection": true,
-      "oddsFreshUntil": 1792802726293
-    },
-    "dailyHeroPickGrade": "pick",
-    "oddsFreshUntil": 1792802726293,
+    "picks": [],
+    "dailyHeroPick": null,
+    "dailyHeroPickGrade": null,
+    "oddsFreshUntil": null,
     "publishedSelections": true,
     "validationSummary": {
       "mode": "shadow_only",
@@ -794,9 +28,9 @@
       "quotesRecorded": 54,
       "settled": 0
     },
-    "validUntil": 1792805059597,
-    "cutoffTime": 1792805059597,
-    "nextUpdateAt": 1792803240000,
+    "validUntil": 1792806928898,
+    "cutoffTime": 1792806928898,
+    "nextUpdateAt": 1792805040000,
     "automaticRefresh": true,
     "refreshIntervalMinutes": 15,
     "trial": true,
@@ -814,7 +48,7 @@
         "awayAbbrev": "MTL",
         "gameState": "LIVE",
         "homeScore": 1,
-        "awayScore": 0,
+        "awayScore": 1,
         "source": "nhl.com",
         "gameDate": "2026-10-23"
       },
@@ -826,9 +60,9 @@
         "away_team": "Tampa Bay Lightning",
         "homeAbbrev": "COL",
         "awayAbbrev": "TBL",
-        "gameState": "PRE",
-        "homeScore": null,
-        "awayScore": null,
+        "gameState": "LIVE",
+        "homeScore": 0,
+        "awayScore": 0,
         "source": "nhl.com",
         "gameDate": "2026-10-23"
       }
@@ -836,80 +70,37 @@
     "diagnostics": {
       "b2bTeamCount": 0,
       "b2bMatchupCount": 0,
-      "b2bEventsScanned": 1,
-      "candidatePlayersScanned": 101,
-      "playerOddsFound": 42,
-      "playerStatsResolved": 42,
-      "skippedMissingStats": 59,
-      "generatedPropsCount": 42,
-      "strongEdgeCount": 3,
+      "b2bEventsScanned": 0,
+      "candidatePlayersScanned": 0,
+      "playerOddsFound": 0,
+      "playerStatsResolved": 0,
+      "skippedMissingStats": 0,
+      "generatedPropsCount": 0,
+      "strongEdgeCount": 0,
       "moderateEdgeCount": 0,
-      "avoidCount": 39,
-      "totalBeforeFilter": 42,
-      "filteredOut": 39,
+      "avoidCount": 0,
+      "totalBeforeFilter": 0,
+      "filteredOut": 0,
       "apiSportsFallbackUsedForStats": 0,
       "generatedPropsUsingDegradedStats": 0,
       "finalPropsUsingDegradedStats": 0,
       "finalPropsUsingDegradedStatsPct": 0,
-      "eligibleEvents": 1,
+      "eligibleEvents": 0,
       "eventsSkippedForBudget": 0,
       "scanScope": "all_matchups_both_teams",
-      "marketCoverage": [
-        {
-          "eventId": "336929",
-          "requested": [
-            "player_shots_on_goal",
-            "player_points",
-            "player_assists",
-            "player_goals"
-          ],
-          "returned": [
-            "player_assists",
-            "player_points",
-            "player_shots_on_goal",
-            "player_goals"
-          ]
-        }
-      ],
+      "marketCoverage": [],
       "rejected": {
-        "missingStats": 1,
-        "smallSample": 58,
+        "missingStats": 0,
+        "smallSample": 0,
         "insufficientBooks": 0,
         "lowConfidence": 0,
-        "belowValueFloor": 39,
+        "belowValueFloor": 0,
         "staleBookMarkets": 0
       },
-      "skippedSmallSample": 101,
       "dedupedByPlayer": 0,
       "cappedByLimit": 0,
-      "scheduleCoverage": [
-        {
-          "gameId": 2026020167,
-          "homeTeam": "Colorado Avalanche",
-          "awayTeam": "Tampa Bay Lightning",
-          "status": "odds_event_found",
-          "homeSample": {
-            "skaters": 20,
-            "eligibleSkaters": 14,
-            "maxGames": 10
-          },
-          "awaySample": {
-            "skaters": 22,
-            "eligibleSkaters": 0,
-            "maxGames": 9
-          }
-        }
-      ],
-      "scanPlan": [
-        {
-          "eventId": "336929",
-          "homeTeam": "Colorado Avalanche",
-          "awayTeam": "Tampa Bay Lightning",
-          "eligibleSkaters": 14,
-          "marketCount": 4,
-          "reason": "planned"
-        }
-      ],
+      "scheduleCoverage": [],
+      "scanPlan": [],
       "targetMinimum": 3,
       "targetMaximum": 5,
       "supportedMarkets": [
@@ -925,80 +116,37 @@
   "diagnostics": {
     "b2bTeamCount": 0,
     "b2bMatchupCount": 0,
-    "b2bEventsScanned": 1,
-    "candidatePlayersScanned": 101,
-    "playerOddsFound": 42,
-    "playerStatsResolved": 42,
-    "skippedMissingStats": 59,
-    "generatedPropsCount": 42,
-    "strongEdgeCount": 3,
+    "b2bEventsScanned": 0,
+    "candidatePlayersScanned": 0,
+    "playerOddsFound": 0,
+    "playerStatsResolved": 0,
+    "skippedMissingStats": 0,
+    "generatedPropsCount": 0,
+    "strongEdgeCount": 0,
     "moderateEdgeCount": 0,
-    "avoidCount": 39,
-    "totalBeforeFilter": 42,
-    "filteredOut": 39,
+    "avoidCount": 0,
+    "totalBeforeFilter": 0,
+    "filteredOut": 0,
     "apiSportsFallbackUsedForStats": 0,
     "generatedPropsUsingDegradedStats": 0,
     "finalPropsUsingDegradedStats": 0,
     "finalPropsUsingDegradedStatsPct": 0,
-    "eligibleEvents": 1,
+    "eligibleEvents": 0,
     "eventsSkippedForBudget": 0,
     "scanScope": "all_matchups_both_teams",
-    "marketCoverage": [
-      {
-        "eventId": "336929",
-        "requested": [
-          "player_shots_on_goal",
-          "player_points",
-          "player_assists",
-          "player_goals"
-        ],
-        "returned": [
-          "player_assists",
-          "player_points",
-          "player_shots_on_goal",
-          "player_goals"
-        ]
-      }
-    ],
+    "marketCoverage": [],
     "rejected": {
-      "missingStats": 1,
-      "smallSample": 58,
+      "missingStats": 0,
+      "smallSample": 0,
       "insufficientBooks": 0,
       "lowConfidence": 0,
-      "belowValueFloor": 39,
+      "belowValueFloor": 0,
       "staleBookMarkets": 0
     },
-    "skippedSmallSample": 101,
     "dedupedByPlayer": 0,
     "cappedByLimit": 0,
-    "scheduleCoverage": [
-      {
-        "gameId": 2026020167,
-        "homeTeam": "Colorado Avalanche",
-        "awayTeam": "Tampa Bay Lightning",
-        "status": "odds_event_found",
-        "homeSample": {
-          "skaters": 20,
-          "eligibleSkaters": 14,
-          "maxGames": 10
-        },
-        "awaySample": {
-          "skaters": 22,
-          "eligibleSkaters": 0,
-          "maxGames": 9
-        }
-      }
-    ],
-    "scanPlan": [
-      {
-        "eventId": "336929",
-        "homeTeam": "Colorado Avalanche",
-        "awayTeam": "Tampa Bay Lightning",
-        "eligibleSkaters": 14,
-        "marketCount": 4,
-        "reason": "planned"
-      }
-    ],
+    "scheduleCoverage": [],
+    "scanPlan": [],
     "targetMinimum": 3,
     "targetMaximum": 5,
     "supportedMarkets": [
@@ -1011,79 +159,27 @@
   },
   "providerUsage": {
     "provider": "propline",
-    "publicRequests": 94,
+    "publicRequests": 15,
     "cacheHits": 0,
     "oddsCalls": [
       {
         "provider": "propline",
         "endpoint": "/v1/sports",
         "limit": 1000,
-        "used": 7,
-        "remaining": 993
+        "used": 11,
+        "remaining": 989
       },
       {
         "provider": "propline",
         "endpoint": "/v1/sports/hockey_nhl/odds",
         "limit": 1000,
-        "used": 7,
-        "remaining": 993
+        "used": 12,
+        "remaining": 988
       }
     ],
-    "coverage": [
-      {
-        "gameId": 2026020167,
-        "eventId": "336929",
-        "home": "Colorado Avalanche",
-        "away": "Tampa Bay Lightning",
-        "startDeltaSeconds": 0,
-        "books": [
-          "betmgm",
-          "betonlineag",
-          "betrivers",
-          "bovada",
-          "draftkings",
-          "fanatics",
-          "fanduel",
-          "hardrock",
-          "pinnacle",
-          "thescorebet",
-          "unibet"
-        ],
-        "markets": {
-          "h2h": {
-            "twoBookLines": 1
-          },
-          "spreads": {
-            "twoBookLines": 2
-          },
-          "totals": {
-            "twoBookLines": 1
-          },
-          "player_shots_on_goal": {
-            "twoBookLines": 25
-          },
-          "player_points": {
-            "twoBookLines": 20
-          },
-          "player_assists": {
-            "twoBookLines": 18
-          },
-          "player_goals": {
-            "twoBookLines": 34
-          }
-        }
-      }
-    ],
-    "rejections": {
-      "alternate_game_line": 120,
-      "unsupported_or_suspended_market": 367,
-      "non_paired_prop_shape": 284,
-      "non_two_way_game_market": 3,
-      "unrecognized_game_side": 4,
-      "player_identity_unverified": 14,
-      "conflicting_duplicate_pair": 2
-    },
-    "oldestOddsFetchedAt": 1792800926293,
+    "coverage": [],
+    "rejections": {},
+    "oldestOddsFetchedAt": null,
     "reservedThisRun": 2,
     "dailyRequestLimit": 1000,
     "maximumRequestsPerRun": 4,
@@ -1120,9 +216,9 @@
     "paidFallbacks": false
   },
   "historyGrading": {
-    "checkedAt": 1792803349418,
+    "checkedAt": 1792804198549,
     "source": "nhl.com",
-    "checkedGames": 0,
+    "checkedGames": 1,
     "unavailable": 0,
     "newlyGraded": 0,
     "pending": 4,
@@ -1167,7 +263,8 @@
       "result": "PENDING",
       "pl": null,
       "resultReason": "Published selection logged; awaiting verified official result.",
-      "publicationSource": "gas-tank-nhl-snapshots"
+      "publicationSource": "gas-tank-nhl-snapshots",
+      "lastGradingAttemptAt": 1792804198393
     },
     {
       "_id": "nhl-published|2026020167|8475172|Goals|under|0.5",
@@ -1207,7 +304,8 @@
       "result": "PENDING",
       "pl": null,
       "resultReason": "Published selection logged; awaiting verified official result.",
-      "publicationSource": "gas-tank-nhl-snapshots"
+      "publicationSource": "gas-tank-nhl-snapshots",
+      "lastGradingAttemptAt": 1792804198393
     },
     {
       "_id": "nhl-published|2026020167|8476455|Shots on Goal|under|2.5",
@@ -1247,7 +345,8 @@
       "result": "PENDING",
       "pl": null,
       "resultReason": "Published selection logged; awaiting verified official result.",
-      "publicationSource": "gas-tank-nhl-snapshots"
+      "publicationSource": "gas-tank-nhl-snapshots",
+      "lastGradingAttemptAt": 1792804198393
     },
     {
       "_id": "nhl-published|2026020167|8476455|Shots on Goal|under|1.5",
@@ -1287,7 +386,8 @@
       "result": "PENDING",
       "pl": null,
       "resultReason": "Published selection logged; awaiting verified official result.",
-      "publicationSource": "gas-tank-nhl-snapshots"
+      "publicationSource": "gas-tank-nhl-snapshots",
+      "lastGradingAttemptAt": 1792804198393
     }
   ]
 }
