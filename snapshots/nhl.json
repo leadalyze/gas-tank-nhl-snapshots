@@ -2780,13 +2780,13 @@
     "paidFallbacks": false
   },
   "historyGrading": {
-    "checkedAt": 1792834793470,
+    "checkedAt": 1792835222676,
     "source": "nhl.com",
     "checkedGames": 0,
     "unavailable": 0,
     "newlyGraded": 0,
-    "pending": 22,
-    "unverified": 0
+    "pending": 18,
+    "unverified": 4
   },
   "history": [
     {
@@ -3074,8 +3074,8 @@
       "publicationSource": "gas-tank-nhl-snapshots"
     },
     {
-      "_id": "nhl-published|2026020168|8482731|Points|under|0.5",
-      "propId": "nhl-published|2026020168|8482731|Points|under|0.5",
+      "_id": "nhl-published|2026020168|8482159|Points|under|0.5",
+      "propId": "nhl-published|2026020168|8482159|Points|under|0.5",
       "league": "NHL",
       "date": "2026-10-24",
       "historyLane": "official",
@@ -3083,12 +3083,12 @@
       "isOfficialPick": true,
       "publicationLog": true,
       "player": "Tyson Foerster",
-      "team": "Anaheim Ducks",
-      "opponent": "Philadelphia Flyers",
-      "teamAbbrev": "ANA",
-      "opponentAbbrev": "PHI",
+      "team": "Philadelphia Flyers",
+      "opponent": "Anaheim Ducks",
+      "teamAbbrev": "PHI",
+      "opponentAbbrev": "ANA",
       "nhlGameId": 2026020168,
-      "nhlPlayerId": "8482731",
+      "nhlPlayerId": "8482159",
       "startTime": "2026-10-24T17:00:00Z",
       "stat": "Points",
       "side": "under",
@@ -3108,10 +3108,22 @@
       "fatiguePct": 0,
       "ev": 36.87,
       "reliabilityScore": 63,
-      "result": "PENDING",
+      "result": "UNVERIFIED",
       "pl": null,
-      "resultReason": "Published selection logged; awaiting verified official result.",
-      "publicationSource": "gas-tank-nhl-snapshots"
+      "resultReason": "Player identity corrected; awaiting official final statistics for the named player.",
+      "publicationSource": "gas-tank-nhl-snapshots",
+      "resolvedTeamAbbrev": "PHI",
+      "resolvedOpponentAbbrev": "ANA",
+      "identityCorrection": {
+        "originalRecordId": "nhl-published|2026020168|8482731|Points|under|0.5",
+        "originalPlayerId": "8482731",
+        "originalTeam": "ANA",
+        "reason": "Fuzzy NHL search selected another player. Identity corrected by exact full name in official slate rosters.",
+        "source": "https://api-web.nhle.com/v1/roster/PHI/20262027",
+        "verifiedOn": "2026-10-24"
+      },
+      "actualResult": null,
+      "won": null
     },
     {
       "_id": "nhl-published|2026020168|8484153|Shots on Goal|under|2.5",
@@ -3194,8 +3206,8 @@
       "publicationSource": "gas-tank-nhl-snapshots"
     },
     {
-      "_id": "nhl-published|2026020179|8481553|Shots on Goal|under|2.5",
-      "propId": "nhl-published|2026020179|8481553|Shots on Goal|under|2.5",
+      "_id": "nhl-published|2026020179|8482259|Shots on Goal|under|2.5",
+      "propId": "nhl-published|2026020179|8482259|Shots on Goal|under|2.5",
       "league": "NHL",
       "date": "2026-10-24",
       "historyLane": "official",
@@ -3203,12 +3215,12 @@
       "isOfficialPick": true,
       "publicationLog": true,
       "player": "Bobby McMann",
-      "team": "Minnesota Wild",
-      "opponent": "Seattle Kraken",
-      "teamAbbrev": "MIN",
-      "opponentAbbrev": "SEA",
+      "team": "Seattle Kraken",
+      "opponent": "Minnesota Wild",
+      "teamAbbrev": "SEA",
+      "opponentAbbrev": "MIN",
       "nhlGameId": 2026020179,
-      "nhlPlayerId": "8481553",
+      "nhlPlayerId": "8482259",
       "startTime": "2026-10-25T02:00:00Z",
       "stat": "Shots on Goal",
       "side": "under",
@@ -3228,10 +3240,22 @@
       "fatiguePct": 0,
       "ev": 35.06,
       "reliabilityScore": 59,
-      "result": "PENDING",
+      "result": "UNVERIFIED",
       "pl": null,
-      "resultReason": "Published selection logged; awaiting verified official result.",
-      "publicationSource": "gas-tank-nhl-snapshots"
+      "resultReason": "Player identity corrected; awaiting official final statistics for the named player.",
+      "publicationSource": "gas-tank-nhl-snapshots",
+      "resolvedTeamAbbrev": "SEA",
+      "resolvedOpponentAbbrev": "MIN",
+      "identityCorrection": {
+        "originalRecordId": "nhl-published|2026020179|8481553|Shots on Goal|under|2.5",
+        "originalPlayerId": "8481553",
+        "originalTeam": "MIN",
+        "reason": "Fuzzy NHL search selected another player. Identity corrected by exact full name in official slate rosters.",
+        "source": "https://api-web.nhle.com/v1/roster/SEA/20262027",
+        "verifiedOn": "2026-10-24"
+      },
+      "actualResult": null,
+      "won": null
     },
     {
       "_id": "nhl-published|2026020168|8482142|Points|under|0.5",
@@ -3554,8 +3578,8 @@
       "publicationSource": "gas-tank-nhl-snapshots"
     },
     {
-      "_id": "nhl-published|2026020173|8480802|Shots on Goal|under|1.5",
-      "propId": "nhl-published|2026020173|8480802|Shots on Goal|under|1.5",
+      "_id": "nhl-published|2026020173|8484186|Shots on Goal|under|1.5",
+      "propId": "nhl-published|2026020173|8484186|Shots on Goal|under|1.5",
       "league": "NHL",
       "date": "2026-10-24",
       "historyLane": "official",
@@ -3563,12 +3587,12 @@
       "isOfficialPick": true,
       "publicationLog": true,
       "player": "Ryan Leonard",
-      "team": "Buffalo Sabres",
-      "opponent": "Washington Capitals",
-      "teamAbbrev": "BUF",
-      "opponentAbbrev": "WSH",
+      "team": "Washington Capitals",
+      "opponent": "Buffalo Sabres",
+      "teamAbbrev": "WSH",
+      "opponentAbbrev": "BUF",
       "nhlGameId": 2026020173,
-      "nhlPlayerId": "8480802",
+      "nhlPlayerId": "8484186",
       "startTime": "2026-10-24T23:00:00Z",
       "stat": "Shots on Goal",
       "side": "under",
@@ -3588,10 +3612,22 @@
       "fatiguePct": 0,
       "ev": 52.6,
       "reliabilityScore": 60,
-      "result": "PENDING",
+      "result": "UNVERIFIED",
       "pl": null,
-      "resultReason": "Published selection logged; awaiting verified official result.",
-      "publicationSource": "gas-tank-nhl-snapshots"
+      "resultReason": "Player identity corrected; awaiting official final statistics for the named player.",
+      "publicationSource": "gas-tank-nhl-snapshots",
+      "resolvedTeamAbbrev": "WSH",
+      "resolvedOpponentAbbrev": "BUF",
+      "identityCorrection": {
+        "originalRecordId": "nhl-published|2026020173|8480802|Shots on Goal|under|1.5",
+        "originalPlayerId": "8480802",
+        "originalTeam": "BUF",
+        "reason": "Fuzzy NHL search selected another player. Identity corrected by exact full name in official slate rosters.",
+        "source": "https://api-web.nhle.com/v1/roster/WSH/20262027",
+        "verifiedOn": "2026-10-24"
+      },
+      "actualResult": null,
+      "won": null
     },
     {
       "_id": "nhl-published|2026020168|8485406|Shots on Goal|under|2.5",
@@ -3714,8 +3750,8 @@
       "publicationSource": "gas-tank-nhl-snapshots"
     },
     {
-      "_id": "nhl-published|2026020176|8476931|Points|under|0.5",
-      "propId": "nhl-published|2026020176|8476931|Points|under|0.5",
+      "_id": "nhl-published|2026020176|8478013|Points|under|0.5",
+      "propId": "nhl-published|2026020176|8478013|Points|under|0.5",
       "league": "NHL",
       "date": "2026-10-24",
       "historyLane": "official",
@@ -3723,12 +3759,12 @@
       "isOfficialPick": true,
       "publicationLog": true,
       "player": "Jake Walman",
-      "team": "Toronto Maple Leafs",
-      "opponent": "Edmonton Oilers",
-      "teamAbbrev": "TOR",
-      "opponentAbbrev": "EDM",
+      "team": "Edmonton Oilers",
+      "opponent": "Toronto Maple Leafs",
+      "teamAbbrev": "EDM",
+      "opponentAbbrev": "TOR",
       "nhlGameId": 2026020176,
-      "nhlPlayerId": "8476931",
+      "nhlPlayerId": "8478013",
       "startTime": "2026-10-24T23:00:00Z",
       "stat": "Points",
       "side": "under",
@@ -3748,10 +3784,22 @@
       "fatiguePct": 0,
       "ev": 11,
       "reliabilityScore": 63,
-      "result": "PENDING",
+      "result": "UNVERIFIED",
       "pl": null,
-      "resultReason": "Published selection logged; awaiting verified official result.",
-      "publicationSource": "gas-tank-nhl-snapshots"
+      "resultReason": "Player identity corrected; awaiting official final statistics for the named player.",
+      "publicationSource": "gas-tank-nhl-snapshots",
+      "resolvedTeamAbbrev": "EDM",
+      "resolvedOpponentAbbrev": "TOR",
+      "identityCorrection": {
+        "originalRecordId": "nhl-published|2026020176|8476931|Points|under|0.5",
+        "originalPlayerId": "8476931",
+        "originalTeam": "TOR",
+        "reason": "Fuzzy NHL search selected another player. Identity corrected by exact full name in official slate rosters.",
+        "source": "https://api-web.nhle.com/v1/roster/EDM/20262027",
+        "verifiedOn": "2026-10-24"
+      },
+      "actualResult": null,
+      "won": null
     },
     {
       "_id": "nhl-published|2026020177|8477346|Assists|under|0.5",
