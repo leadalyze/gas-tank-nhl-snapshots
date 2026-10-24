@@ -2961,12 +2961,12 @@
     "paidFallbacks": false
   },
   "historyGrading": {
-    "checkedAt": 1792823102335,
+    "checkedAt": 1792823995088,
     "source": "nhl.com",
     "checkedGames": 0,
     "unavailable": 0,
     "newlyGraded": 0,
-    "pending": 11,
+    "pending": 14,
     "unverified": 0
   },
   "history": [
