@@ -1,11 +1,11 @@
 {
-  "generatedAt": 1792809648952,
+  "generatedAt": 1792810521237,
   "season": "20262027",
   "board": {
     "league": "NHL",
     "etDate": "2026-10-23",
     "window": "trial",
-    "publishedAt": 1792809648952,
+    "publishedAt": 1792810521237,
     "status": "published",
     "summary": "No picks passed the NHL trial gates",
     "oddsProvider": "propline",
@@ -28,9 +28,9 @@
       "quotesRecorded": 54,
       "settled": 0
     },
-    "validUntil": 1792812348952,
-    "cutoffTime": 1792812348952,
-    "nextUpdateAt": 1792810440000,
+    "validUntil": 1792813221237,
+    "cutoffTime": 1792813221237,
+    "nextUpdateAt": 1792811340000,
     "automaticRefresh": true,
     "refreshIntervalMinutes": 15,
     "trial": true,
@@ -46,9 +46,9 @@
         "away_team": "Montréal Canadiens",
         "homeAbbrev": "CHI",
         "awayAbbrev": "MTL",
-        "gameState": "CRIT",
+        "gameState": "FINAL",
         "homeScore": 1,
-        "awayScore": 3,
+        "awayScore": 4,
         "source": "nhl.com",
         "gameDate": "2026-10-23"
       },
@@ -61,8 +61,8 @@
         "homeAbbrev": "COL",
         "awayAbbrev": "TBL",
         "gameState": "LIVE",
-        "homeScore": 3,
-        "awayScore": 1,
+        "homeScore": 4,
+        "awayScore": 2,
         "source": "nhl.com",
         "gameDate": "2026-10-23"
       }
@@ -166,15 +166,15 @@
         "provider": "propline",
         "endpoint": "/v1/sports",
         "limit": 1000,
-        "used": 23,
-        "remaining": 977
+        "used": 25,
+        "remaining": 975
       },
       {
         "provider": "propline",
         "endpoint": "/v1/sports/hockey_nhl/odds",
         "limit": 1000,
-        "used": 24,
-        "remaining": 976
+        "used": 25,
+        "remaining": 975
       }
     ],
     "coverage": [],
@@ -216,7 +216,7 @@
     "paidFallbacks": false
   },
   "historyGrading": {
-    "checkedAt": 1792809616677,
+    "checkedAt": 1792810492980,
     "source": "nhl.com",
     "checkedGames": 1,
     "unavailable": 0,
@@ -264,7 +264,7 @@
       "pl": null,
       "resultReason": "Published selection logged; awaiting verified official result.",
       "publicationSource": "gas-tank-nhl-snapshots",
-      "lastGradingAttemptAt": 1792809615369
+      "lastGradingAttemptAt": 1792810492837
     },
     {
       "_id": "nhl-published|2026020167|8475172|Goals|under|0.5",
@@ -305,7 +305,7 @@
       "pl": null,
       "resultReason": "Published selection logged; awaiting verified official result.",
       "publicationSource": "gas-tank-nhl-snapshots",
-      "lastGradingAttemptAt": 1792809615369
+      "lastGradingAttemptAt": 1792810492837
     },
     {
       "_id": "nhl-published|2026020167|8476455|Shots on Goal|under|2.5",
@@ -346,7 +346,7 @@
       "pl": null,
       "resultReason": "Published selection logged; awaiting verified official result.",
       "publicationSource": "gas-tank-nhl-snapshots",
-      "lastGradingAttemptAt": 1792809615369
+      "lastGradingAttemptAt": 1792810492837
     },
     {
       "_id": "nhl-published|2026020167|8476455|Shots on Goal|under|1.5",
@@ -387,7 +387,7 @@
       "pl": null,
       "resultReason": "Published selection logged; awaiting verified official result.",
       "publicationSource": "gas-tank-nhl-snapshots",
-      "lastGradingAttemptAt": 1792809615369
+      "lastGradingAttemptAt": 1792810492837
     }
   ]
 }
