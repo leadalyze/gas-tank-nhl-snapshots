@@ -1,11 +1,11 @@
 {
-  "generatedAt": 1792798822436,
+  "generatedAt": 1792800669977,
   "season": "20262027",
   "board": {
     "league": "NHL",
     "etDate": "2026-10-23",
     "window": "trial",
-    "publishedAt": 1792798822436,
+    "publishedAt": 1792800669977,
     "status": "published",
     "summary": "Limited NHL trial · free data",
     "oddsProvider": "propline",
@@ -36,9 +36,9 @@
           "side": "under",
           "nhlPlayerId": "8476455",
           "overPayoutOdds": -188,
-          "overOddsAsOf": "2026-10-23T23:39:34.164Z",
+          "overOddsAsOf": "2026-10-24T00:10:24.597Z",
           "overSportsbook": "fanduel",
-          "oddsAsOf": "2026-10-23T23:37:50.242Z",
+          "oddsAsOf": "2026-10-24T00:09:22.675Z",
           "sportsbook": "thescorebet",
           "projectedAvg": 1.3,
           "seasonAvg": 1.3,
@@ -203,7 +203,7 @@
           "nhlGameId": 2026020167,
           "trial": true,
           "isPickOfDay": true,
-          "oddsFreshUntil": 1792800445867,
+          "oddsFreshUntil": 1792801501242,
           "publishedSelection": true
         },
         "suggestedPairings": []
@@ -228,9 +228,9 @@
           "side": "under",
           "nhlPlayerId": "8475172",
           "overPayoutOdds": 190,
-          "overOddsAsOf": "2026-10-23T23:37:26.121Z",
+          "overOddsAsOf": "2026-10-24T00:08:03.867Z",
           "overSportsbook": "hardrock",
-          "oddsAsOf": "2026-10-23T23:37:50.242Z",
+          "oddsAsOf": "2026-10-24T00:09:22.675Z",
           "sportsbook": "thescorebet",
           "projectedAvg": 0,
           "seasonAvg": 0,
@@ -375,17 +375,17 @@
           "sportsbookLine": 0.5,
           "edgeLabel": "Strong Under",
           "opponentRestDays": null,
-          "underPayoutOdds": -450,
+          "underPayoutOdds": -425,
           "fatiguePenaltyPct": 0,
-          "ev": 15,
-          "riskAdjustedEV": 7.66,
-          "modelProb": 94.1,
+          "ev": 16.1,
+          "riskAdjustedEV": 8.55,
+          "modelProb": 94,
           "calibratedModelProb": 97.5,
           "rawModelProb": 99,
-          "marketImpliedProb": 72.3,
+          "marketImpliedProb": 72,
           "consensusBookmakerCount": 2,
           "marketBlendActive": true,
-          "marketDispersion": 3.82,
+          "marketDispersion": 3.48,
           "distributionType": "poisson",
           "stdDev": 0.35,
           "kellyStake": 0.6,
@@ -395,7 +395,7 @@
           "nhlGameId": 2026020167,
           "trial": true,
           "isPickOfDay": false,
-          "oddsFreshUntil": 1792800445867,
+          "oddsFreshUntil": 1792801501242,
           "publishedSelection": true
         },
         "suggestedPairings": []
@@ -420,9 +420,9 @@
           "side": "under",
           "nhlPlayerId": "8470613",
           "overPayoutOdds": -120,
-          "overOddsAsOf": "2026-10-23T23:37:25.867Z",
+          "overOddsAsOf": "2026-10-24T00:08:03.550Z",
           "overSportsbook": "hardrock",
-          "oddsAsOf": "2026-10-23T23:37:25.867Z",
+          "oddsAsOf": "2026-10-24T00:08:03.550Z",
           "sportsbook": "hardrock",
           "projectedAvg": 1.1,
           "seasonAvg": 1.1,
@@ -587,7 +587,7 @@
           "nhlGameId": 2026020167,
           "trial": true,
           "isPickOfDay": false,
-          "oddsFreshUntil": 1792800445867,
+          "oddsFreshUntil": 1792801501242,
           "publishedSelection": true
         },
         "suggestedPairings": []
@@ -612,9 +612,9 @@
       "side": "under",
       "nhlPlayerId": "8476455",
       "overPayoutOdds": -188,
-      "overOddsAsOf": "2026-10-23T23:39:34.164Z",
+      "overOddsAsOf": "2026-10-24T00:10:24.597Z",
       "overSportsbook": "fanduel",
-      "oddsAsOf": "2026-10-23T23:37:50.242Z",
+      "oddsAsOf": "2026-10-24T00:09:22.675Z",
       "sportsbook": "thescorebet",
       "projectedAvg": 1.3,
       "seasonAvg": 1.3,
@@ -781,10 +781,10 @@
       "dailyHeroGrade": "pick",
       "trial": true,
       "publishedSelection": true,
-      "oddsFreshUntil": 1792800445867
+      "oddsFreshUntil": 1792801501242
     },
     "dailyHeroPickGrade": "pick",
-    "oddsFreshUntil": 1792800445867,
+    "oddsFreshUntil": 1792801501242,
     "publishedSelections": true,
     "validationSummary": {
       "mode": "shadow_only",
@@ -794,9 +794,9 @@
       "quotesRecorded": 54,
       "settled": 0
     },
-    "validUntil": 1792801522436,
-    "cutoffTime": 1792801522436,
-    "nextUpdateAt": 1792799640000,
+    "validUntil": 1792803369977,
+    "cutoffTime": 1792803369977,
+    "nextUpdateAt": 1792801440000,
     "automaticRefresh": true,
     "refreshIntervalMinutes": 15,
     "trial": true,
@@ -812,9 +812,9 @@
         "away_team": "Montréal Canadiens",
         "homeAbbrev": "CHI",
         "awayAbbrev": "MTL",
-        "gameState": "PRE",
-        "homeScore": null,
-        "awayScore": null,
+        "gameState": "LIVE",
+        "homeScore": 0,
+        "awayScore": 0,
         "source": "nhl.com",
         "gameDate": "2026-10-23"
       },
@@ -884,22 +884,6 @@
       "cappedByLimit": 0,
       "scheduleCoverage": [
         {
-          "gameId": 2026020166,
-          "homeTeam": "Chicago Blackhawks",
-          "awayTeam": "Montréal Canadiens",
-          "status": "odds_event_found",
-          "homeSample": {
-            "skaters": 23,
-            "eligibleSkaters": 0,
-            "maxGames": 9
-          },
-          "awaySample": {
-            "skaters": 24,
-            "eligibleSkaters": 0,
-            "maxGames": 9
-          }
-        },
-        {
           "gameId": 2026020167,
           "homeTeam": "Colorado Avalanche",
           "awayTeam": "Tampa Bay Lightning",
@@ -917,14 +901,6 @@
         }
       ],
       "scanPlan": [
-        {
-          "eventId": "283080",
-          "homeTeam": "Chicago Blackhawks",
-          "awayTeam": "Montréal Canadiens",
-          "eligibleSkaters": 0,
-          "marketCount": 0,
-          "reason": "insufficient_current_season_games"
-        },
         {
           "eventId": "336929",
           "homeTeam": "Colorado Avalanche",
@@ -997,22 +973,6 @@
     "cappedByLimit": 0,
     "scheduleCoverage": [
       {
-        "gameId": 2026020166,
-        "homeTeam": "Chicago Blackhawks",
-        "awayTeam": "Montréal Canadiens",
-        "status": "odds_event_found",
-        "homeSample": {
-          "skaters": 23,
-          "eligibleSkaters": 0,
-          "maxGames": 9
-        },
-        "awaySample": {
-          "skaters": 24,
-          "eligibleSkaters": 0,
-          "maxGames": 9
-        }
-      },
-      {
         "gameId": 2026020167,
         "homeTeam": "Colorado Avalanche",
         "awayTeam": "Tampa Bay Lightning",
@@ -1030,14 +990,6 @@
       }
     ],
     "scanPlan": [
-      {
-        "eventId": "283080",
-        "homeTeam": "Chicago Blackhawks",
-        "awayTeam": "Montréal Canadiens",
-        "eligibleSkaters": 0,
-        "marketCount": 0,
-        "reason": "insufficient_current_season_games"
-      },
       {
         "eventId": "336929",
         "homeTeam": "Colorado Avalanche",
@@ -1066,61 +1018,18 @@
         "provider": "propline",
         "endpoint": "/v1/sports",
         "limit": 1000,
-        "used": 84,
-        "remaining": 916
+        "used": 1,
+        "remaining": 999
       },
       {
         "provider": "propline",
         "endpoint": "/v1/sports/hockey_nhl/odds",
         "limit": 1000,
-        "used": 84,
-        "remaining": 916
+        "used": 2,
+        "remaining": 998
       }
     ],
     "coverage": [
-      {
-        "gameId": 2026020166,
-        "eventId": "283080",
-        "home": "Chicago Blackhawks",
-        "away": "Montréal Canadiens",
-        "startDeltaSeconds": 0,
-        "books": [
-          "betmgm",
-          "betonlineag",
-          "betrivers",
-          "bovada",
-          "draftkings",
-          "fanatics",
-          "fanduel",
-          "hardrock",
-          "pinnacle",
-          "thescorebet",
-          "unibet"
-        ],
-        "markets": {
-          "h2h": {
-            "twoBookLines": 1
-          },
-          "spreads": {
-            "twoBookLines": 2
-          },
-          "totals": {
-            "twoBookLines": 1
-          },
-          "player_shots_on_goal": {
-            "twoBookLines": 22
-          },
-          "player_points": {
-            "twoBookLines": 19
-          },
-          "player_assists": {
-            "twoBookLines": 17
-          },
-          "player_goals": {
-            "twoBookLines": 34
-          }
-        }
-      },
       {
         "gameId": 2026020167,
         "eventId": "336929",
@@ -1166,15 +1075,15 @@
       }
     ],
     "rejections": {
-      "alternate_game_line": 243,
-      "unsupported_or_suspended_market": 700,
-      "non_paired_prop_shape": 574,
-      "non_two_way_game_market": 6,
-      "unrecognized_game_side": 8,
-      "conflicting_duplicate_pair": 7,
-      "player_identity_unverified": 30
+      "alternate_game_line": 121,
+      "unsupported_or_suspended_market": 361,
+      "non_paired_prop_shape": 283,
+      "non_two_way_game_market": 3,
+      "unrecognized_game_side": 4,
+      "player_identity_unverified": 14,
+      "conflicting_duplicate_pair": 2
     },
-    "oldestOddsFetchedAt": 1792798645867,
+    "oldestOddsFetchedAt": 1792799701242,
     "reservedThisRun": 2,
     "dailyRequestLimit": 1000,
     "maximumRequestsPerRun": 4,
