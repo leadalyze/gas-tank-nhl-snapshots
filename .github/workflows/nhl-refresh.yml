@@ -48,6 +48,7 @@ jobs:
             echo 'NHL refresh failed. Last published snapshot was preserved; no paid fallback or automatic retry.'
             exit 1
           fi
+          node scripts/report-nhl-refresh-failure.mjs "$RUNNER_TEMP/nhl-refresh.log" --summary
         env:
           PROPLINE_API_KEY: ${{ secrets.PROPLINE_API_KEY }}
           NHL_TRIAL_PUBLIC_RUN: '1'
